@@ -9,6 +9,8 @@ import {
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
 import TermCard from '../component/card/TermCard';
+import Section1 from './AboutPage/Section1';
+import Section2 from './AboutPage/Section2';
 
 
 const About = () => {
@@ -16,13 +18,15 @@ const About = () => {
 
 
     return (
-        <div className='py-24'>
-            <h1 className="text-4xl lg:text-5xl text-center font-serif">PRIVACY POLICY</h1>
+        <div className='py-1'>
+            <div>
+                <Section1></Section1>
+            </div>
+            <h1 className="text-4xl lg:text-5xl text-center font-serif pt-12">PRIVACY POLICY</h1>
 
-            <div className="grid lg:grid-cols-2 mt-12 gap-5 px-2 max-w-7xl mx-auto">
+            <div className="grid lg:grid-cols-2 mt-12 gap-5 px-2 max-w-6xl mx-auto">
                 <div>
                     <div className="">
-
                         <Accordion allowZeroExpanded={true} >
                             <AccordionItem className='font-sans border'>
                                 <AccordionItemHeading >
@@ -148,9 +152,13 @@ const About = () => {
             </div>
 
             <h1 className="text-4xl lg:text-5xl text-center font-serif mt-16">TERMS & CONDITIONS</h1>
-            <div className='grid lg:grid-cols-3 max-w-7xl mx-auto mt-16'>
+            <div className=''>
                 <TermCard></TermCard>
             </div>
+            <div>
+                <Section2></Section2>
+            </div>
+
         </div>
     );
 };
