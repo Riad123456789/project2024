@@ -11,6 +11,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 import TermCard from '../component/card/TermCard';
 import Section1 from './AboutPage/Section1';
 import Section2 from './AboutPage/Section2';
+import Section3 from './AboutPage/Section3';
 
 
 const About = () => {
@@ -157,6 +158,9 @@ const About = () => {
             </div>
             <div>
                 <Section2></Section2>
+            </div>
+            <div>
+                <Section3></Section3>
             </div>
 
         </div>
