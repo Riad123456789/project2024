@@ -13,8 +13,12 @@ const Navber = () => {
             <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>ABOUT US </a></li>
         </NavLink>
         <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>SPICES & HERBS </a></li>
-        <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>GALLERY </a></li>
-        <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>CONTACT US </a></li>
+        <NavLink to={"/gallery"}>
+            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>GALLERY </a></li>
+        </NavLink>
+        <NavLink to={"/contact"}>
+            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>CONTACT US </a></li>
+        </NavLink>
     </>
 
 

@@ -4,7 +4,7 @@ const Section3 = () => {
     return (
         <div className="my-16">
             <div style={{
-                backgroundImage: `url("../../public/ri.jpeg")`,
+                backgroundImage: `url("https://i.ibb.co/1RsvcB3/riad.jpg")`,
                 backgroundRepeat: "no-repeat"
                 , backgroundSize: "cover",
                 backgroundPosition: "center"

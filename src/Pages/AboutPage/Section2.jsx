@@ -5,7 +5,7 @@ const Section2 = () => {
     return (
         <div className="my-16 overflow-hidden">
             <div style={{
-                backgroundImage: `url("../../public/qqq.jpeg")`,
+                backgroundImage: `url("https://i.ibb.co/NWN5SH8/riad1.jpg")`,
                 backgroundRepeat: "no-repeat",
                  backgroundSize: "cover",
                 backgroundPosition: "center",

@@ -4,6 +4,7 @@ import { IoHome } from "react-icons/io5";
 
 const TermCard = () => {
     return (
+        
         <div className="grid  lg:grid-cols-3 max-w-6xl mx-auto mt-16 gap-6 md:gap-7 lg:gap-24 px-8 lg:ml-[155px] pb-10">
             <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-lg  shadow-gray-700 ">
                 <figure className="pt-10   ">
@@ -18,6 +19,8 @@ const TermCard = () => {
                     </div>
                 </div>
             </div>
+
+
             <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-lg  shadow-gray-700 ">
                 <figure className="pt-10   ">
                     <div className=" border-4 border-green-600 flex justify-center items-center rounded-full px-2 py-[16px] w-[90px] mx-auto ">
@@ -31,6 +34,8 @@ const TermCard = () => {
                     </div>
                 </div>
             </div>
+
+
             <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-lg  shadow-gray-700 ">
                 <figure className="pt-10   ">
                     <div className=" border-4 border-green-600 flex justify-center items-center rounded-full px-2 py-[16px] w-[90px] mx-auto ">
