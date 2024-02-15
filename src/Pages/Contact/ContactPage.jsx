@@ -1,12 +1,37 @@
 import { IoMdMailUnread } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdPhoneInTalk } from "react-icons/md";
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+
+
+const containerStyle = {
+    width: '1130px',
+    height: '400px'
+};
+
+const center = {
+    lat: 23.6850,
+    lng: 90.3563
+};
+
+
 const ContactPage = () => {
+
+    const { isLoaded } = useJsApiLoader({
+        id: 'google-map-script',
+        googleMapsApiKey: "AIzaSyDNHJcARxRRUgIlglIDmPaS2fOseBSKdFs"
+    })
+
+    if (!isLoaded) {
+        return <p>hhhh</p>
+    }
+
+
     return (
-        <div className="py-20">
+        <div className="py-20 ">
 
 
-            <div className="grid grid-cols-3 max-w-6xl mx-auto pt-7">
+            <div className="grid  lg:grid-cols-3 gap-5 max-w-6xl mx-auto pt-7 md:px-6 lg:px-0">
 
                 <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-md  shadow-gray-700 ">
                     <figure className="pt-10   ">
@@ -56,6 +81,20 @@ const ContactPage = () => {
             </div>
 
             <h1 className="text-4xl font-serif  py-16 text-center">CONTACT US</h1>
+
+
+            <div className=" max-w-6xl mx-auto  overflow-hidden px-2 ">
+                <GoogleMap
+                    mapContainerStyle={containerStyle}
+                    center={center}
+
+                    zoom={5}
+                >
+                    <Marker position={center}></Marker>
+                    <Marker position={center}></Marker>
+                  
+                </GoogleMap>
+            </div>
         </div>
     );
 };
