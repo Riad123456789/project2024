@@ -2,6 +2,7 @@ import { IoMdMailUnread } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdPhoneInTalk } from "react-icons/md";
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+import Form from "./Form";
 
 
 const containerStyle = {
@@ -19,11 +20,11 @@ const ContactPage = () => {
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyDNHJcARxRRUgIlglIDmPaS2fOseBSKdFs"
+        googleMapsApiKey:  "AIzaSyDNHJcARxRRUgIlglIDmPaS2fOseBSKdFs"
     })
 
     if (!isLoaded) {
-        return <p>hhhh</p>
+        return <span className="my-64 mx-96 loading loading-bars loading-lg"></span>
     }
 
 
@@ -81,18 +82,18 @@ const ContactPage = () => {
             </div>
 
             <h1 className="text-4xl font-serif  py-16 text-center">CONTACT US</h1>
-
+            <div className="">
+                <Form></Form>
+            </div>
 
             <div className=" max-w-6xl mx-auto  overflow-hidden px-2 ">
                 <GoogleMap
                     mapContainerStyle={containerStyle}
                     center={center}
-
                     zoom={5}
                 >
                     <Marker position={center}></Marker>
                     <Marker position={center}></Marker>
-                  
                 </GoogleMap>
             </div>
         </div>
