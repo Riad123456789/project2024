@@ -6,6 +6,7 @@ import HomePage from "../HomePage/HomePage";
 import About from "../Pages/About";
 import ContactPage from "../Pages/Contact/ContactPage";
 import GalleryPage from "../Pages/Gallery/GalleryPage";
+import AllProducts from "../Pages/AllProducts/AllProducts";
 
 
 const Router = createBrowserRouter([
@@ -28,6 +29,10 @@ const Router = createBrowserRouter([
             {
                 path: '/gallery',
                 element: <GalleryPage></GalleryPage>,
+            },
+            {
+                path: '/allProducts',
+                element:<AllProducts></AllProducts> ,
             },
         ]
     },
