@@ -6,7 +6,7 @@ import Form from "./Form";
 
 
 const containerStyle = {
-    width: '1130px',
+    width: '100%',
     height: '400px'
 };
 
@@ -86,7 +86,7 @@ const ContactPage = () => {
                 <Form></Form>
             </div>
 
-            <div className=" max-w-6xl mx-auto  overflow-hidden px-2 ">
+            <div className=" lg:max-w-6xl mx-auto  overflow-hidden px-2 ">
                 <GoogleMap
                     mapContainerStyle={containerStyle}
                     center={center}

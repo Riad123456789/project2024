@@ -7,6 +7,8 @@ import About from "../Pages/About";
 import ContactPage from "../Pages/Contact/ContactPage";
 import GalleryPage from "../Pages/Gallery/GalleryPage";
 import AllProducts from "../Pages/AllProducts/AllProducts";
+import Login from "../LoginPage/Login";
+import Register from "../RegisterPage/Register";
 
 
 const Router = createBrowserRouter([
@@ -32,7 +34,15 @@ const Router = createBrowserRouter([
             },
             {
                 path: '/allProducts',
-                element:<AllProducts></AllProducts> ,
+                element: <AllProducts></AllProducts>,
+            },
+            {
+                path: '/login',
+                element: <Login></Login>,
+            },
+            {
+                path: '/register',
+                element: <Register></Register>,
             },
         ]
     },

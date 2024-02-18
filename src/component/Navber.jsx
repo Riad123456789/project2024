@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import img from "../../public/395030218_354819416996869_7748260630163794940_n.jpg"
 
 const Navber = () => {
@@ -57,7 +57,7 @@ const Navber = () => {
                                 <img className="rounded-full" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                             </div>
                         </div>
-                        <button className="btn btn-outline  text-white btn-sm text-xs font-sans">SING IN</button>
+                        <Link to={"/login"}> <button className="btn btn-outline  text-white btn-sm text-xs font-sans">LOGIN</button></Link>
                     </div>
                 </div>
             </div>

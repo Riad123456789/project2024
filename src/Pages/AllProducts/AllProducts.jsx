@@ -15,14 +15,16 @@ const AllProducts = () => {
 
                     <div className=" lg:flex justify-between items-center">
                         <p className="font-sans text-sm  text-center py-4">Showing all 14 results</p>
-                        <div>
-                            <form className=" ml-28 lg:max-w-sm mx-auto">
+                        <div className="flex justify-center ">
+                            <form className=" lg:max-w-sm mx-auto">
                                 <select id="countries" className="font-sans  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm block w-52 p-2.5 ">
                                     <option selected>Choose a Products</option>
-                                    <option value="US">United States</option>
-                                    <option value="CA">Canada</option>
-                                    <option value="FR">France</option>
-                                    <option value="DE">Germany</option>
+                                    <option value="US">Split Cinnamon</option>
+                                    <option value="CA">Cloves</option>
+                                    <option value="FR">Turmeric Finger</option>
+                                    <option value="DE">Teja Dry Red Chilli</option>
+                                    <option value="DE">cumin seeds</option>
+                                    <option value="DE">Black Pepper</option>
                                 </select>
                             </form>
                         </div>
@@ -31,9 +33,12 @@ const AllProducts = () => {
 
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-9 lg:gap-16 pt-12">
 
+
                         <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                            <figure className="px-5 pt-6">
-                                <img src={img} alt="Shoes" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                            <figure className="px-5 pt-6 ">
+                                <div className="h-[130px]">
+                                    <img src="https://i.ibb.co/FYTK1NH/4a138584-3cac-4341-88b5-b05057948e85.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                                </div>
                             </figure>
                             <div className="card-body items-center text-center  ">
                                 <div
@@ -52,16 +57,20 @@ const AllProducts = () => {
                                     className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
                                     <PiShoppingCart size={10} color="white"></PiShoppingCart>
                                 </div>
-                                <h2 className="card-title ">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <h2 className="card-title font-sans ">Split Cinnamon</h2>
+                                <p className="font-serif text-xs">Cinnamon is one of the world's most important and popular spices</p>
                                 <div className="card-actions">
                                     190$ - 255$
                                 </div>
                             </div>
                         </div>
+
+
                         <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                            <figure className="px-5 pt-6">
-                                <img src={img} alt="Shoes" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                            <figure className="px-5 pt-6 ">
+                                <div className="h-[130px] object-center">
+                                    <img src="https://i.ibb.co/10s02rV/f5e9cb80-3fbe-486a-8288-d77b29f151dc.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                                </div>
                             </figure>
                             <div className="card-body items-center text-center  ">
                                 <div
@@ -80,16 +89,20 @@ const AllProducts = () => {
                                     className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
                                     <PiShoppingCart size={10} color="white"></PiShoppingCart>
                                 </div>
-                                <h2 className="card-title ">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <h2 className="card-title font-sans ">Cloves</h2>
+                                <p className="font-serif text-xs">Cloves are the unopened flower buds of the clove tree. </p>
                                 <div className="card-actions">
-                                    190$ - 255$
+                                    60$ - 90$
                                 </div>
                             </div>
                         </div>
+
+
                         <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                            <figure className="px-5 pt-6">
-                                <img src={img} alt="Shoes" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                            <figure className="px-5 pt-6 ">
+                                <div className="h-[130px] object-center">
+                                    <img src="https://i.ibb.co/qJLhyt2/455f0dde-4f3f-4367-a957-5d346022fa52.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                                </div>
                             </figure>
                             <div className="card-body items-center text-center  ">
                                 <div
@@ -108,16 +121,20 @@ const AllProducts = () => {
                                     className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
                                     <PiShoppingCart size={10} color="white"></PiShoppingCart>
                                 </div>
-                                <h2 className="card-title ">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <h2 className="card-title font-sans ">Turmeric Finger</h2>
+                                <p className="font-serif text-xs"> turmeric  offer a wide range of health benefits due to their  called curcumin.</p>
                                 <div className="card-actions">
-                                    190$ - 255$
+                                    160$ - 190$
                                 </div>
                             </div>
                         </div>
+
+
                         <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                            <figure className="px-5 pt-6">
-                                <img src={img} alt="Shoes" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                            <figure className="px-5 pt-6 ">
+                                <div className="h-[130px] object-center">
+                                    <img src="https://i.ibb.co/1KGGzhC/c67f6053-1347-4099-b479-d0353d959967.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                                </div>
                             </figure>
                             <div className="card-body items-center text-center  ">
                                 <div
@@ -136,16 +153,20 @@ const AllProducts = () => {
                                     className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
                                     <PiShoppingCart size={10} color="white"></PiShoppingCart>
                                 </div>
-                                <h2 className="card-title ">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <h2 className="card-title font-sans ">Teja Dry Red Chilli</h2>
+                                <p className="font-serif text-xs">Guntur Teja Dry Red Chilli is most commonly used in Indian Culinary to add hot & spicy .</p>
                                 <div className="card-actions">
-                                    190$ - 255$
+                                    160$ - 190$
                                 </div>
                             </div>
                         </div>
+
+
                         <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                            <figure className="px-5 pt-6">
-                                <img src={img} alt="Shoes" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                            <figure className="px-5 pt-6 ">
+                                <div className="h-[130px] object-center ">
+                                    <img src="https://i.ibb.co/RNWmJzL/e9d892a7-0f5d-4dfa-af47-24846a57b24f.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000 " />
+                                </div>
                             </figure>
                             <div className="card-body items-center text-center  ">
                                 <div
@@ -164,16 +185,20 @@ const AllProducts = () => {
                                     className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
                                     <PiShoppingCart size={10} color="white"></PiShoppingCart>
                                 </div>
-                                <h2 className="card-title ">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <h2 className="card-title font-sans ">cumin seeds</h2>
+                                <p className="font-serif text-xs">Ah, cumin! Called jeera  these are the seeds that my childhood food memories were built upon.</p>
                                 <div className="card-actions">
-                                    190$ - 255$
+                                    160$ - 190$
                                 </div>
                             </div>
                         </div>
+
+
                         <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                            <figure className="px-5 pt-6">
-                                <img src={img} alt="Shoes" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
+                            <figure className="px-5 pt-6 ">
+                                <div className="h-[130px] object-center ">
+                                    <img src="https://i.ibb.co/ch0fw3w/ee635573-6d93-4aab-bd87-cbf8ad4e551d-1.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000 " />
+                                </div>
                             </figure>
                             <div className="card-body items-center text-center  ">
                                 <div
@@ -192,13 +217,14 @@ const AllProducts = () => {
                                     className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
                                     <PiShoppingCart size={10} color="white"></PiShoppingCart>
                                 </div>
-                                <h2 className="card-title ">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <h2 className="card-title font-sans ">Black Pepper</h2>
+                                <p className="font-serif text-xs"> A vigorous subtropical vine from India, black pepper is one of the most popular spices.</p>
                                 <div className="card-actions">
-                                    190$ - 255$
+                                    160$ - 190$
                                 </div>
                             </div>
                         </div>
+
 
 
                     </div>
