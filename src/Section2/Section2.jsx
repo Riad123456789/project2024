@@ -1,6 +1,4 @@
-import img from "../../public/WhatsApp Image 2024-02-11 at 1.58.26 PM.jpeg"
-import img2 from "../../public/WhatsApp Image 2024-02-11 at 1.58.38 PM.jpeg"
-import img3 from "../../public/WhatsApp Image 2024-02-11 at 1.58.40 PM.jpeg"
+
 import { PiShoppingCart } from "react-icons/pi";
 import { GiSelfLove } from "react-icons/gi";
 import { RiSearch2Line } from "react-icons/ri";

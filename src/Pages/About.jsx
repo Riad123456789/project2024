@@ -12,6 +12,8 @@ import TermCard from '../component/card/TermCard';
 import Section1 from './AboutPage/Section1';
 import Section2 from './AboutPage/Section2';
 import Section3 from './AboutPage/Section3';
+import Section4 from './AboutPage/Section4';
+
 
 
 const About = () => {
@@ -19,7 +21,13 @@ const About = () => {
 
 
     return (
-        <div className='py-1'>
+        <div className=''>
+
+            <div className=''>
+                <Section4></Section4>
+            </div>
+
+
             <div>
                 <Section1></Section1>
             </div>
