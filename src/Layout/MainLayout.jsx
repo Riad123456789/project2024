@@ -6,9 +6,10 @@ import Navber from "../component/Navber";
 const MainLayout = () => {
     return (
         <div>
-            <Navber></Navber>
-            <Outlet></Outlet>
-            <Foother></Foother>
+            <Navber>
+                <Outlet></Outlet>
+                <Foother></Foother>
+            </Navber>
         </div>
     );
 };

@@ -1,32 +1,33 @@
 import { Link, NavLink } from "react-router-dom";
 import img from "../../public/395030218_354819416996869_7748260630163794940_n.jpg"
+import { Children } from "react";
 
-const Navber = () => {
+const Navber = ({ children }) => {
 
 
     const Navlink = <>
 
         <NavLink to={"/"}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>HOME</a></li>
+            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs'><a>HOME</a></li>
         </NavLink>
         <NavLink to={'/about'}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>ABOUT US </a></li>
+            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs'><a>ABOUT US </a></li>
         </NavLink>
         <NavLink to={'/allProducts'}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>SPICES & HERBS </a></li>
+            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs'><a>SPICES & HERBS </a></li>
         </NavLink>
         <NavLink to={"/gallery"}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>GALLERY </a></li>
+            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs'><a>GALLERY </a></li>
         </NavLink>
         <NavLink to={"/contact"}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs border-b-2 md:border-none'><a>CONTACT US </a></li>
+            <li className='sm:text-black lg:text-white font-serif hover:text-red-700 text-xs'><a>CONTACT US </a></li>
         </NavLink>
     </>
 
 
     return (
         <div>
-            <div className="navbar fixed z-10 rounded-md px-5  bg-gray-800 bg-opacity-80 ">
+            {/* <div className="navbar fixed z-10 rounded-md px-5  bg-gray-800 bg-opacity-80 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden text-white">
@@ -60,7 +61,49 @@ const Navber = () => {
                         <Link to={"/login"}> <button className="btn btn-outline  text-white btn-sm text-xs font-sans">LOGIN</button></Link>
                     </div>
                 </div>
+            </div> */}
+
+
+            <div className="drawer">
+                <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+                <div className="drawer-content flex flex-col">
+                    {/* Navbar */}
+                    <div className="w-full navbar lg:fixed lg:z-10 lg:rounded-md px-5  bg-gray-800 md:bg-opacity-80">
+                        <div className="flex-none lg:hidden">
+                            <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="text-white inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                            </label>
+                        </div>
+                        <div className="flex-1 px-2 mx-2 ">
+                            <div className=' p-1'>
+                                <img className='w-10  rounded-full ' src={img} alt="" />
+                            </div>
+                            <p
+                                style={{ textTransform: "uppercase", color: "transparent", WebkitBackgroundClip: "text" }}
+                                className="bg-gradient-to-r from-red-800 to-red-300 text-lg font-bold md:text-2xl normal-case text-white ml-2  ">
+                                RK  TRADING
+                            </p>
+
+                        </div>
+                        <div className="flex-1 hidden lg:block ">
+                            <ul className="menu menu-horizontal">
+                                {/* Navbar menu content here */}
+                                {Navlink}
+                            </ul>
+                        </div>
+                    </div>
+                    {/* Page content here */}
+                    {children}
+                </div>
+                <div className="drawer-side ">
+                    <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay " ></label>
+                    <ul className="menu pt-7 p-4 w-52 min-h-full bg-base-200 ">
+                        {/* Sidebar content here */}
+                        {Navlink}
+                    </ul>
+                </div>
             </div>
+
         </div>
     );
 };
