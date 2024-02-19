@@ -42,7 +42,7 @@ const ContactPage = () => {
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-serif">ADDRESS</h2>
-                        <p className="font-sans">Urban Area, Hoang Mai District</p>
+                        <p className="font-sans">Dakhshin Mollartek,Uttara Dhaka-1230</p>
                         <div className="card-actions">
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const ContactPage = () => {
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-serif">PHONE</h2>
-                        <p className="font-sans">034 334 4433</p>
+                        <p className="font-sans">+8801919509903</p>
                         <div className="card-actions">
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const ContactPage = () => {
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-serif">E-MAIL</h2>
-                        <p className="font-sans">Contact.7uptheme@gmail.com</p>
+                        <p className="font-sans">rktradingbd777@gmail.com</p>
                         <div className="card-actions">
                         </div>
                     </div>

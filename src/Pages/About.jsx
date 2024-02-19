@@ -160,10 +160,7 @@ const About = () => {
                 </div>
             </div>
 
-            <h1 className="text-4xl lg:text-5xl text-center font-serif mt-16">TERMS & CONDITIONS</h1>
-            <div className=''>
-                <TermCard></TermCard>
-            </div>
+         
             <div>
                 <Section2></Section2>
             </div>

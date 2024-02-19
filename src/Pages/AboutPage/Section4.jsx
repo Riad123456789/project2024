@@ -1,17 +1,25 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+import TermCard from '../../component/card/TermCard';
+// ..
+AOS.init();
 
 const Section4 = () => {
     return (
         <div >
-            <div className=" bg h-36 lg:h-72">
+            <div className=" bg h-36 lg:h-72 shadow-2xl">
                 <h1 className="text-center font-serif text-2xl lg:text-4xl flex  justify-center pt-20 lg:pt-36">ABOUT US</h1>
             </div>
 
+            <h1 className="text-4xl lg:text-5xl text-center font-serif mt-16">TERMS & CONDITIONS</h1>
+            <div className=''>
+                <TermCard></TermCard>
+            </div>
 
-            <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-20 lg:gap-5 pt-10">
+            <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 lg:gap-5 pt-10 overflow-hidden" >
 
                 <div className="  flex-1 p-10 lg:p-16 relative ">
-                    <img src="https://i.ibb.co/zP7DhsY/423422654-6984580211654130-6927551126586771729-n-1.jpg" alt="" />
+                    <img className="border shadow-2xl" src="https://i.ibb.co/zP7DhsY/423422654-6984580211654130-6927551126586771729-n-1.jpg" alt="" />
                     <div className=" bg-red-700 absolute bottom-10 lg:bottom-16 opacity-60  border h-16 lg:h-20   w-[347px] lg:w-[503px] ">
                     </div>
                     <div className="absolute px-5 py-2 bottom-10 lg:bottom-16">
@@ -23,14 +31,19 @@ const Section4 = () => {
 
 
 
-                <div className="flex-1 pt-14 ">
-                    <div className="space-y-5 pb-10">
+                <div className="flex-1 lg:pt-14 ">
+
+                    <div data-aos="fade-left"
+                        data-aos-duration="1500"
+                        className="space-y-5 pb-10 px-5 ">
                         <h1 className="font-sans text-2xl  ">OUR MISSION </h1>
                         <p className="border-b-2 border-red-600 w-40"></p>
                         <p className="font-sans">To become the first choice of customer for dates, dry fruits, nuts and other precious items in fruits and vegetables along with imported drinks and wines by bringing the freshest and highest quality to maximum number of customers through our own shops across India. Our priority lies with consistently keeping up our customers by serving them the products without compromising the level of quality.</p>
                     </div>
 
-                    <div className="space-y-5">
+                    <div data-aos="fade-left"
+                        data-aos-duration="1500"
+                        className="space-y-5 px-5">
                         <h1 className="font-sans text-2xl">OUR VISION</h1>
                         <p className="border-b-2 border-red-600 w-40"></p>
                         <p className="font-sans">We endeavour to achieve our vision by following international standards of quality, right from selection till after sales service. For that we have our own dates farm in the Middle East and we cultivate and sale pure organic dates in 40 + varieties. On the other hand we import fine quality Nuts, dry fruits, exotic fruits, vegetables and drinks from the source from which they are available at their best.</p>

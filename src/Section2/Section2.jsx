@@ -11,7 +11,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px]">
+                        <div className="h-[180px] lg:h-[130px]">
                             <img src="https://i.ibb.co/FYTK1NH/4a138584-3cac-4341-88b5-b05057948e85.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
@@ -43,7 +43,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center">
+                        <div className="h-[180px] lg:h-[130px] object-center">
                             <img src="https://i.ibb.co/10s02rV/f5e9cb80-3fbe-486a-8288-d77b29f151dc.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
@@ -75,7 +75,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center">
+                        <div className="h-[180px] lg:h-[130px]  object-center">
                             <img src="https://i.ibb.co/qJLhyt2/455f0dde-4f3f-4367-a957-5d346022fa52.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
@@ -107,7 +107,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center">
+                        <div className="h-[180px] lg:h-[130px] object-center">
                             <img src="https://i.ibb.co/1KGGzhC/c67f6053-1347-4099-b479-d0353d959967.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
@@ -139,7 +139,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center ">
+                        <div className="h-[180px] lg:h-[130px] object-center ">
                             <img src="https://i.ibb.co/RNWmJzL/e9d892a7-0f5d-4dfa-af47-24846a57b24f.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000 " />
                         </div>
                     </figure>
@@ -171,7 +171,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center ">
+                        <div className="h-[180px] lg:h-[130px] object-center ">
                             <img src="https://i.ibb.co/ch0fw3w/ee635573-6d93-4aab-bd87-cbf8ad4e551d-1.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000 " />
                         </div>
                     </figure>
@@ -202,7 +202,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center ">
+                        <div className="h-[180px] lg:h-[130px] object-center ">
                             <img src="https://i.ibb.co/8mv9344/d1afbfcead46c28068bdee0955cfc5f5.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000 " />
                         </div>
                     </figure>
@@ -234,7 +234,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px]">
+                        <div className="h-[180px] lg:h-[130px]">
                             <img src="https://i.ibb.co/FYTK1NH/4a138584-3cac-4341-88b5-b05057948e85.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
@@ -266,7 +266,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px]">
+                        <div className="h-[180px] lg:h-[130px]">
                             <img src="https://i.ibb.co/FYTK1NH/4a138584-3cac-4341-88b5-b05057948e85.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
@@ -298,7 +298,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center">
+                        <div className="h-[180px] lg:h-[130px] object-center">
                             <img src="https://i.ibb.co/10s02rV/f5e9cb80-3fbe-486a-8288-d77b29f151dc.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
@@ -330,7 +330,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center">
+                        <div className="h-[180px] lg:h-[130px] object-center">
                             <img src="https://i.ibb.co/qJLhyt2/455f0dde-4f3f-4367-a957-5d346022fa52.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
@@ -362,7 +362,7 @@ const Section2 = () => {
 
                 <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
                     <figure className="px-5 pt-6 ">
-                        <div className="h-[130px] object-center">
+                        <div className="h-[180px] lg:h-[130px] object-center">
                             <img src="https://i.ibb.co/1KGGzhC/c67f6053-1347-4099-b479-d0353d959967.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
                         </div>
                     </figure>
