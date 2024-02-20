@@ -1,9 +1,17 @@
-import { Link, NavLink } from "react-router-dom";
+/* eslint-disable react/prop-types */
+import { NavLink } from "react-router-dom";
 import img from "../../public/395030218_354819416996869_7748260630163794940_n.jpg"
-import { Children } from "react";
+import { useState } from "react";
+import { RxCross2 } from "react-icons/rx";
+
 
 const Navber = ({ children }) => {
 
+
+    const [isSidebarOpen, setSidebarOpen] = useState(false);
+    const toggleSidebar = () => {
+        setSidebarOpen(!isSidebarOpen);
+    };
 
     const Navlink = <>
 
@@ -24,9 +32,9 @@ const Navber = ({ children }) => {
         </NavLink>
     </>
 
-
     return (
         <div>
+
             {/* <div className="navbar fixed z-10 rounded-md px-5  bg-gray-800 bg-opacity-80 ">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -61,14 +69,19 @@ const Navber = ({ children }) => {
                         <Link to={"/login"}> <button className="btn btn-outline  text-white btn-sm text-xs font-sans">LOGIN</button></Link>
                     </div>
                 </div>
-            </div> */}
+            </div>  */}
 
 
             <div className="drawer">
-                <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
+                <input
+                    id="my-drawer-3"
+                    type="checkbox"
+                    className="drawer-toggle"
+                    checked={isSidebarOpen}
+                    onChange={toggleSidebar} />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
-                    <div className="w-full navbar lg:fixed lg:z-10 lg:rounded-md px-5  bg-gray-800 md:bg-opacity-80">
+                    <div className="w-full navbar  lg:fixed lg:z-10 lg:rounded-md px-5  bg-gray-800 md:bg-opacity-80">
                         <div className="flex-none lg:hidden">
                             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="text-white inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -95,12 +108,23 @@ const Navber = ({ children }) => {
                     {/* Page content here */}
                     {children}
                 </div>
-                <div className="drawer-side ">
+                <div className="drawer-side lg:drawer-toggle ">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay " ></label>
-                    <ul className="menu pt-7 p-4 w-52 min-h-full bg-base-200 ">
+
+                    <div className="menu  p-4 w-52 min-h-full bg-base-200 ">
                         {/* Sidebar content here */}
-                        {Navlink}
-                    </ul>
+
+                        <div
+                            className="flex justify-end cursor-pointer"
+                            onClick={toggleSidebar}
+                        >
+                            <RxCross2 size={25}></RxCross2>
+                        </div>
+                        <ul className="pt-7">
+                            {Navlink}
+                        </ul>
+
+                    </div>
                 </div>
             </div>
 

@@ -13,6 +13,7 @@ import Section1 from './AboutPage/Section1';
 import Section2 from './AboutPage/Section2';
 import Section3 from './AboutPage/Section3';
 import Section4 from './AboutPage/Section4';
+import Section5 from './AboutPage/Section5';
 
 
 
@@ -160,12 +161,15 @@ const About = () => {
                 </div>
             </div>
 
-         
+
             <div>
                 <Section2></Section2>
             </div>
             <div>
                 <Section3></Section3>
+            </div>
+            <div>
+                <Section5></Section5>
             </div>
 
         </div>
