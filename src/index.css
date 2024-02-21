@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-#root {
+.font {
     font-family: 'Dancing Script', cursive;
 
 }

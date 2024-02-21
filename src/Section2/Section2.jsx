@@ -33,7 +33,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Split Cinnamon</h2>
-                        <p className="font-serif text-xs">Cinnamon is one of the world's most important and popular spices</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             190$ - 255$
                         </div>
@@ -65,7 +71,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Cloves</h2>
-                        <p className="font-serif text-xs">Cloves are the unopened flower buds of the clove tree. </p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             60$ - 90$
                         </div>
@@ -97,7 +109,14 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Turmeric Finger</h2>
-                        <p className="font-serif text-xs"> turmeric  offer a wide range of health benefits due to their  called curcumin.</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
+
                         <div className="card-actions">
                             160$ - 190$
                         </div>
@@ -129,7 +148,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Teja Dry Red Chilli</h2>
-                        <p className="font-serif text-xs">Guntur Teja Dry Red Chilli is most commonly used in Indian Culinary to add hot & spicy .</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             160$ - 190$
                         </div>
@@ -161,7 +186,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">cumin seeds</h2>
-                        <p className="font-serif text-xs">Ah, cumin! Called jeera  these are the seeds that my childhood food memories were built upon.</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             160$ - 190$
                         </div>
@@ -193,7 +224,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Black Pepper</h2>
-                        <p className="font-serif text-xs"> A vigorous subtropical vine from India, black pepper is one of the most popular spices.</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             160$ - 190$
                         </div>
@@ -224,7 +261,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Green Cardamom</h2>
-                        <p className="font-serif text-xs">Cardamom helps improve digestive health and prevents certain serious ailments like cancer.</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             160$ - 190$
                         </div>
@@ -256,7 +299,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Split Cinnamon</h2>
-                        <p className="font-serif text-xs">Cinnamon is one of the world's most important and popular spices</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             190$ - 255$
                         </div>
@@ -288,7 +337,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Split Cinnamon</h2>
-                        <p className="font-serif text-xs">Cinnamon is one of the world's most important and popular spices</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             190$ - 255$
                         </div>
@@ -320,7 +375,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Cloves</h2>
-                        <p className="font-serif text-xs">Cloves are the unopened flower buds of the clove tree. </p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             60$ - 90$
                         </div>
@@ -352,7 +413,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Turmeric Finger</h2>
-                        <p className="font-serif text-xs"> turmeric  offer a wide range of health benefits due to their  called curcumin.</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             160$ - 190$
                         </div>
@@ -384,7 +451,13 @@ const Section2 = () => {
                             <PiShoppingCart size={10} color="white"></PiShoppingCart>
                         </div>
                         <h2 className="card-title font-sans ">Teja Dry Red Chilli</h2>
-                        <p className="font-serif text-xs">Guntur Teja Dry Red Chilli is most commonly used in Indian Culinary to add hot & spicy .</p>
+                        <div className="rating rating-xs py-4">
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                        </div>
                         <div className="card-actions">
                             160$ - 190$
                         </div>

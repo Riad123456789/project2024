@@ -8,7 +8,7 @@ const Section4 = () => {
     return (
         <div >
             <div className=" bg h-36 lg:h-72 shadow-2xl">
-                <h1 className="text-center font-serif text-2xl lg:text-4xl flex  justify-center pt-20 lg:pt-36">ABOUT US</h1>
+                <h1 className="text-center font-serif text-2xl lg:text-4xl flex  justify-center pt-14 lg:pt-36">ABOUT US</h1>
             </div>
 
             <h1 className="text-4xl lg:text-5xl text-center font-serif mt-16">TERMS & CONDITIONS</h1>

@@ -24,7 +24,7 @@ const ContactPage = () => {
     })
 
     if (!isLoaded) {
-        return <span className="my-64 mx-96 loading loading-bars loading-lg"></span>
+        return <span className="my-64 mx-[800px] loading loading-bars loading-lg "></span>
     }
 
 

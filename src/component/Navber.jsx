@@ -93,7 +93,7 @@ const Navber = ({ children }) => {
                             </div>
                             <p
                                 style={{ textTransform: "uppercase", color: "transparent", WebkitBackgroundClip: "text" }}
-                                className="bg-gradient-to-r from-red-800 to-red-300 text-lg font-bold md:text-2xl normal-case text-white ml-2  ">
+                                className="font bg-gradient-to-r from-red-800 to-red-300 text-lg font-bold md:text-2xl normal-case text-white ml-2  ">
                                 RK  TRADING
                             </p>
 

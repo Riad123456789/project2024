@@ -5,10 +5,7 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
-
-// Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
-import TermCard from '../component/card/TermCard';
 import Section1 from './AboutPage/Section1';
 import Section2 from './AboutPage/Section2';
 import Section3 from './AboutPage/Section3';
@@ -22,7 +19,7 @@ const About = () => {
 
 
     return (
-        <div className=''>
+        <div className='overflow-hidden'>
 
             <div className=''>
                 <Section4></Section4>
