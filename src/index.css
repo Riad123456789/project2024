@@ -9,12 +9,23 @@
 }
 
 .bg {
-    background-image: url("https://i.ibb.co/1RsvcB3/riad.jpg");
+    background-image: url("https://i.ibb.co/NWN5SH8/riad1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  }
-
+.bg2 {
+    background-image: url("https://i.ibb.co/c2wqGwm/Holar-Blog-13-Common-Spices-You-Can-Cannot-Grind-in-Your-Salt-and-Pepper-Grinder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .bg3 {
+    background-image: url("https://i.ibb.co/GtNXfY4/top-view-composition-with-different-kinds-of-natural-aromatic-spices-placed-on-slate-surface-backgro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
 
 
 

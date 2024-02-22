@@ -16,7 +16,7 @@ const Section2 = () => {
                 <div className=" bg-gradient-to-r from-[#270f0f] to-[#210303] opacity-70 w-full h-full pt-8 ">
                 </div>
 
-                <div className="absolute top-0 lg:left-[200px] opacity-80 px-36">
+                <div className="absolute top-0 lg:left-[200px] opacity-90 px-36">
                     <div className="grid grid-cols-1  md:grid-cols-3 justify-center items-center gap-16 md:gap-32 lg:space-y-0  max-w-7xl mx-auto mt-16  lg:pt-14 ">
                         <div className=" space-y-2 ">
                             <h1 className=" md:text-2xl lg:text-3xl  font-serif flex gap-4 items-center text-white">

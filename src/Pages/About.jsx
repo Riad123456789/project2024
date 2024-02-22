@@ -11,6 +11,7 @@ import Section2 from './AboutPage/Section2';
 import Section3 from './AboutPage/Section3';
 import Section4 from './AboutPage/Section4';
 import Section5 from './AboutPage/Section5';
+import TermCard from '../component/card/TermCard';
 
 
 
@@ -28,6 +29,13 @@ const About = () => {
 
             <div>
                 <Section1></Section1>
+            </div>
+
+            <div>
+                <h1 className="text-4xl lg:text-5xl text-center font-serif mt-28">TERMS & CONDITIONS</h1>
+                <div className=''>
+                    <TermCard></TermCard>
+                </div>
             </div>
             <h1 className="text-4xl lg:text-5xl text-center font-serif pt-12">PRIVACY POLICY</h1>
 

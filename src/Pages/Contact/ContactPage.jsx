@@ -20,7 +20,7 @@ const ContactPage = () => {
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey:  "AIzaSyDNHJcARxRRUgIlglIDmPaS2fOseBSKdFs"
+        googleMapsApiKey: "AIzaSyDNHJcARxRRUgIlglIDmPaS2fOseBSKdFs"
     })
 
     if (!isLoaded) {
@@ -29,10 +29,17 @@ const ContactPage = () => {
 
 
     return (
-        <div className="py-20 ">
+        <div className="">
 
+            <div className=" bg3 h-36 lg:h-72 shadow-lg shadow-lime-400 ">
+                <div className='relative bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
+                </div>
+                <h1 className="font-serif text-white text-center  text-2xl lg:text-4xl flex  justify-center pt-14 lg:pt-36 absolute top-14 lg:top-0  right-[33%] lg:right-[42%]">
+                   CONTACT US
+                </h1>
+            </div>
 
-            <div className="grid  lg:grid-cols-3 gap-5 max-w-6xl mx-auto pt-7 md:px-6 lg:px-0">
+            <div className="grid  lg:grid-cols-3 gap-5 max-w-6xl mx-auto pt-16 md:px-6 lg:px-0">
 
                 <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-md  shadow-gray-700 ">
                     <figure className="pt-10   ">

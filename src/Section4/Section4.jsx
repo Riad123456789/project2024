@@ -9,8 +9,8 @@ const Section4 = () => {
 
             <div className="grid  lg:grid-cols-2 gap-5 ">
 
-                <a href="#" className="flex flex-col items-center bg-white border border-gray-200  shadow md:flex-row md:w-full hover:bg-gray-100 group ">
-                    <img className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="https://i.ibb.co/19BLvdv/Whats-App-Image-2024-02-11-at-1-58-38-PM.jpg" alt="" />
+                <a href="" className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
+                    <img className="object-cover w-full  h-[250px]  md:w-64 mx-auto lg:group-hover:scale-110 duration-500" src="https://i.ibb.co/19BLvdv/Whats-App-Image-2024-02-11-at-1-58-38-PM.jpg" alt="" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -18,8 +18,8 @@ const Section4 = () => {
                 </a>
 
 
-                <a href="#" className="flex flex-col items-center bg-white border border-gray-200  shadow md:flex-row md:w-full hover:bg-gray-100 group ">
-                    <img className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="https://i.ibb.co/D795d02/Whats-App-Image-2024-02-11-at-1-58-44-PM.jpg" alt="" />
+                <a href="" className="flex flex-col items-center bg-white  border-gray-200  shadow-xl md:flex-row md:w-full hover:bg-gray-100  group overflow-hidden ">
+                    <img className="object-cover w-full  h-[250px]  md:w-64 mx-auto lg:group-hover:scale-110 duration-500" src="https://i.ibb.co/D795d02/Whats-App-Image-2024-02-11-at-1-58-44-PM.jpg" alt="" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -27,8 +27,8 @@ const Section4 = () => {
                 </a>
 
 
-                <a href="#" className="flex flex-col items-center bg-white border border-gray-200  shadow md:flex-row md:w-full hover:bg-gray-100 group ">
-                    <img className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="https://i.ibb.co/gDZt89Z/Whats-App-Image-2024-02-11-at-1-58-53-PM.jpg" alt="" />
+                <a href="" className="flex flex-col items-center bg-white  border-gray-200  shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
+                    <img className="object-cover w-full  h-[250px]  md:w-64 mx-auto lg:group-hover:scale-110 duration-500" src="https://i.ibb.co/gDZt89Z/Whats-App-Image-2024-02-11-at-1-58-53-PM.jpg" alt="" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -36,8 +36,8 @@ const Section4 = () => {
                 </a>
 
 
-                <a href="#" className="flex flex-col items-center bg-white border border-gray-200  shadow md:flex-row md:w-full hover:bg-gray-100 group ">
-                    <img className="object-cover w-full  h-[250px]  md:w-64 mx-auto" src="https://i.ibb.co/TrwKhsR/Whats-App-Image-2024-02-11-at-1-58-26-PM.jpg" alt="" />
+                <a href="" className="flex flex-col items-center bg-white  border-gray-200  shadow-xl md:flex-row md:w-full hover:bg-gray-100 group  overflow-hidden group ">
+                    <img className="object-cover w-full  h-[250px]  md:w-64 mx-auto lg:group-hover:scale-110 duration-500" src="https://i.ibb.co/TrwKhsR/Whats-App-Image-2024-02-11-at-1-58-26-PM.jpg" alt="" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>

@@ -66,9 +66,9 @@ const Section1 = () => {
 
                     </div>
 
-                    <div className="flex-1  ">
+                    <div className="flex-1 border  ">
                         <div className="mt-4 lg:mt-0 lg:pl-14 flex justify-center ">
-                            <img className="h-[385px] md:w-full border-2 " src={img} alt="" />
+                            <img className="h-[385px] md:w-full p-1 shadow-lg shadow-slate-500" src={img} alt="" />
                         </div>
                     </div>
                 </div>

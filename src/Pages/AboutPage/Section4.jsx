@@ -1,19 +1,16 @@
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-import TermCard from '../../component/card/TermCard';
-// ..
+import 'aos/dist/aos.css';
 AOS.init();
 
 const Section4 = () => {
     return (
         <div >
-            <div className=" bg h-36 lg:h-72 shadow-2xl">
-                <h1 className="text-center font-serif text-2xl lg:text-4xl flex  justify-center pt-14 lg:pt-36">ABOUT US</h1>
-            </div>
-
-            <h1 className="text-4xl lg:text-5xl text-center font-serif mt-16">TERMS & CONDITIONS</h1>
-            <div className=''>
-                <TermCard></TermCard>
+            <div className=" bg h-36 lg:h-72 shadow-lg shadow-red-400   ">
+                <div className='relative bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
+                </div>
+                <h1 className="font-serif text-white text-center  text-2xl lg:text-4xl flex  justify-center pt-14 lg:pt-36 absolute top-14 lg:top-0  right-[38%] lg:right-[42%]">
+                    ABOUT US
+                </h1>
             </div>
 
             <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10 lg:gap-5 pt-10 overflow-hidden" >
@@ -27,9 +24,6 @@ const Section4 = () => {
                         <p className=" text-white font-sans text-sm pt-1 lg:text-base  ">CEO & PROPRIETOR</p>
                     </div>
                 </div>
-
-
-
 
                 <div className="flex-1 lg:pt-14 ">
 
