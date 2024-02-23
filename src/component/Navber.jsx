@@ -54,7 +54,7 @@ const Navber = ({ children }) => {
 
             
                          <div className=" px-2 mx-2 w-ful ">
-                            <div className=' p-1 shadow-sm shadow-red-500 rounded-full'>
+                            <div className=' p-1 shadow-sm shadow-red-500 rounded-full cursor-pointer  hover:-rotate-[360deg] duration-1000 transition-all'>
                                 <img className='w-10  rounded-full ' src={img} alt="" />
                             </div>
                             <p
@@ -64,9 +64,9 @@ const Navber = ({ children }) => {
                             </p>
 
                         </div>
-                        <div className=" md:ml-80  hidden lg:block  ">
+                        <div className=" md:ml-72  hidden lg:block  ">
 
-                            <div className="flex gap-40 items-center">
+                            <div className="flex gap-44 items-center">
                                 <div className="">
                                     <ul className="menu menu-horizontal">
                                         {/* Navbar menu content here */}
@@ -75,9 +75,9 @@ const Navber = ({ children }) => {
                                 </div>
                                 <div className="flex gap-2  items-center">
                                     <div className="flex gap-3 items-center">
-                                        <RiFacebookCircleFill className=" cursor-pointer transition hover:-rotate-180  duration-700 " size={28} color="white"></RiFacebookCircleFill>
-                                        <FaWhatsapp className=" cursor-pointer transition hover:-rotate-180  duration-700" size={25} color="white"></FaWhatsapp>
-                                        <FaFacebookMessenger className=" cursor-pointer transition hover:-rotate-180  duration-700" size={22} color="white"></FaFacebookMessenger>
+                                        <RiFacebookCircleFill className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000 " size={28} color="white"></RiFacebookCircleFill>
+                                        <FaWhatsapp className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000" size={25} color="white"></FaWhatsapp>
+                                        <FaFacebookMessenger className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000" size={22} color="white"></FaFacebookMessenger>
                                     </div>
 
                                     <Link to={"/register"}> <button className="shadow-red-400 shadow-sm btn btn-outline  text-white btn-sm ml-7 text-xs font-sans">Subscribe Now</button>

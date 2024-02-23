@@ -16,7 +16,7 @@ const Section1 = () => {
 
                 <div className="relative overflow-hidden cursor-pointer group">
                     <img src={img2} alt="" />
-                    <div className="absolute top-0 h-full w-full  -right-[570px] group-hover:right-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
+                    <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
 
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Section1 = () => {
 
                 <div className="relative overflow-hidden cursor-pointer group">
                     <img src={img} alt="" />
-                    <div className="absolute top-0 h-full w-full  -right-[570px] group-hover:right-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
+                    <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
 
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const Section1 = () => {
 
                 <div className="relative overflow-hidden cursor-pointer group">
                     <img src={img3} alt="" />
-                    <div className="absolute top-0 h-full w-full  -right-[570px] group-hover:right-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
+                    <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
 
                     </div>
                 </div>

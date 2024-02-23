@@ -8,8 +8,18 @@ import { RiSearch2Line } from "react-icons/ri";
 
 const AllProducts = () => {
     return (
-        <div className='py-16 max-w-7xl mx-auto'>
-            <div className="grid lg:grid-cols-6 gap-14 lg:gap-8 py-5 lg:py-10">
+        <div className=' '>
+
+            <div className="relative w-full bg3 h-36 lg:h-72 shadow-lg shadow-sky-600 ">
+                <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
+                </div>
+                <h1 className="h-full w-full font-serif text-white text-center  text-2xl lg:text-4xl absolute top-[48%]">
+                   ALL PRODUCTS
+                </h1>
+            </div>
+
+
+            <div className="grid lg:grid-cols-6 gap-14 lg:gap-8 py-5 lg:py-10 max-w-7xl mx-auto mt-10">
 
                 <div className=" lg:col-span-4 ">
 

@@ -22,7 +22,7 @@ const TermCard = () => {
 
 
             <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-lg  shadow-gray-700 ">
-                <figure className="pt-10   ">
+                <figure className="pt-10 ">
                     <div className=" border-4 border-green-600 flex justify-center items-center rounded-full px-2 py-[16px] w-[90px] mx-auto ">
                         <PiNotePencilBold size={45} color="green"></PiNotePencilBold>
                     </div>

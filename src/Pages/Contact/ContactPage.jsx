@@ -1,41 +1,17 @@
 import { IoMdMailUnread } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdPhoneInTalk } from "react-icons/md";
-import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
-import Form from "./Form";
-
-
-const containerStyle = {
-    width: '100%',
-    height: '400px'
-};
-
-const center = {
-    lat: 23.6850,
-    lng: 90.3563
-};
-
+import Damo from "./Damo";
 
 const ContactPage = () => {
-
-    const { isLoaded } = useJsApiLoader({
-        id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyDNHJcARxRRUgIlglIDmPaS2fOseBSKdFs"
-    })
-
-    if (!isLoaded) {
-        return <span className="my-64 mx-[800px] loading loading-bars loading-lg "></span>
-    }
-
-
     return (
         <div className="">
 
-            <div className=" bg3 h-36 lg:h-72 shadow-lg shadow-lime-400 ">
-                <div className='relative bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
+            <div className="relative w-full bg3 h-36 lg:h-72 shadow-lg shadow-lime-400 ">
+                <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
                 </div>
-                <h1 className="font-serif text-white text-center  text-2xl lg:text-4xl flex  justify-center pt-14 lg:pt-36 absolute top-14 lg:top-0  right-[33%] lg:right-[42%]">
-                   CONTACT US
+                <h1 className="h-full w-full font-serif text-white text-center  text-2xl lg:text-4xl absolute top-[48%]">
+                    CONTACT US
                 </h1>
             </div>
 
@@ -84,24 +60,10 @@ const ContactPage = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
 
-            <h1 className="text-4xl font-serif  py-16 text-center">CONTACT US</h1>
-            <div className="">
-                <Form></Form>
-            </div>
-
-            <div className=" lg:max-w-6xl mx-auto  overflow-hidden px-2 ">
-                <GoogleMap
-                    mapContainerStyle={containerStyle}
-                    center={center}
-                    zoom={5}
-                >
-                    <Marker position={center}></Marker>
-                    <Marker position={center}></Marker>
-                </GoogleMap>
+            <div>
+                <Damo></Damo>
             </div>
         </div>
     );
