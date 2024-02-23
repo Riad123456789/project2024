@@ -1,5 +1,3 @@
-import img from "../../../public/WhatsApp Image 2024-02-11 at 1.58.40 PM.jpeg"
-
 import { PiShoppingCart } from "react-icons/pi";
 import { GiSelfLove } from "react-icons/gi";
 import { RiSearch2Line } from "react-icons/ri";
@@ -10,8 +8,8 @@ const AllProducts = () => {
     return (
         <div className=' '>
 
-            <div className="relative w-full bg3 h-36 lg:h-72 shadow-lg shadow-sky-600 ">
-                <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
+            <div className="relative w-full bg3 h-36 lg:h-72 shadow-md shadow-sky-600 ">
+                <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#052f33] h-full opacity-60'>
                 </div>
                 <h1 className="h-full w-full font-serif text-white text-center  text-2xl lg:text-4xl absolute top-[48%]">
                    ALL PRODUCTS

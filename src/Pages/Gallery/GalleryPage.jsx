@@ -2,8 +2,8 @@ const GalleryPage = () => {
     return (
         <div className="">
 
-            <div className="relative w-full bg2 h-36 lg:h-72 shadow-lg shadow-amber-300 ">
-                <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
+            <div className="relative w-full bg2 h-36 lg:h-72 shadow-md shadow-amber-300 ">
+                <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#322d13] h-full opacity-60'>
                 </div>
                 <h1 className=" h-full w-full font-serif text-white text-center  text-2xl lg:text-4xl absolute top-[50%] ">
                     OUR GALLERY

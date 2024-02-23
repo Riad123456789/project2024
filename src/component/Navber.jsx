@@ -45,13 +45,12 @@ const Navber = ({ children }) => {
                     onChange={toggleSidebar} />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
-                    <div className=" w-full navbar  lg:fixed lg:z-10 lg:rounded-md px-5  bg-gray-800 md:bg-opacity-80">
+                    <div className=" w-full navbar  fixed  z-10 lg:rounded-md px-5  bg-gray-800 bg-opacity-80">
                         <div className="flex-none lg:hidden ">
                             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="text-white inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                             </label>
                         </div>
-
             
                          <div className=" px-2 mx-2 w-ful ">
                             <div className=' p-1 shadow-sm shadow-red-500 rounded-full cursor-pointer  hover:-rotate-[360deg] duration-1000 transition-all'>
@@ -66,9 +65,9 @@ const Navber = ({ children }) => {
                         </div>
                         <div className=" md:ml-72  hidden lg:block  ">
 
-                            <div className="flex gap-44 items-center">
+                            <div className="flex gap-44 items-center ">
                                 <div className="">
-                                    <ul className="menu menu-horizontal">
+                                    <ul className="menu menu-horizontal ">
                                         {/* Navbar menu content here */}
                                         {Navlink}
                                     </ul>
@@ -91,10 +90,10 @@ const Navber = ({ children }) => {
                     {/* Page content here */}
                     {children}
                 </div>
-                <div className="drawer-side lg:drawer-toggle ">
+                <div className="drawer-side lg:drawer-toggle z-20">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay " ></label>
 
-                    <div className="menu  p-4 w-52 min-h-full bg-base-200 ">
+                    <div className="menu  p-4 w-48 min-h-full bg-base-200 ">
                         {/* Sidebar content here */}
 
                         <div

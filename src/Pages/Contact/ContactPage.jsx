@@ -7,8 +7,8 @@ const ContactPage = () => {
     return (
         <div className="">
 
-            <div className="relative w-full bg3 h-36 lg:h-72 shadow-lg shadow-lime-400 ">
-                <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
+            <div className="relative w-full bg3 h-36 lg:h-72 shadow-md shadow-lime-400 ">
+                <div className=' bg-gradient-to-r from-[#291d1d] to-[#354639] h-full opacity-60'>
                 </div>
                 <h1 className="h-full w-full font-serif text-white text-center  text-2xl lg:text-4xl absolute top-[48%]">
                     CONTACT US
