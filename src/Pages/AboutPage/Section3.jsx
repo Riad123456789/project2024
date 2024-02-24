@@ -1,4 +1,3 @@
-import img from "../../../public/qqq.jpeg"
 
 const Section3 = () => {
     return (
@@ -14,7 +13,7 @@ const Section3 = () => {
                 </div>
                 <div className="flex-1">
                     <div className="mt-6 lg:mt-0 lg:pl-14 flex justify-center ">
-                        <img className="h-[350px] p-2 shadow-2xl md:w-full border-2 " src={img} alt="" />
+                        <img className="h-[350px] p-2 shadow-2xl md:w-full border-2 " src="https://i.ibb.co/sCzGYxK/ingredients-8028223-1280.webp" alt="" />
                     </div>
                 </div>
             </div>
@@ -24,7 +23,7 @@ const Section3 = () => {
             <div className=" flex flex-col-reverse lg:flex-row items-center">
                 <div className="flex-1 ">
                     <div className="mt-4 lg:mt-0 lg:pl-16 flex justify-center  ">
-                        <img className="h-[350px]  p-2 shadow-2xl md:w-full border-2 " src={img} alt="" />
+                        <img className="h-[350px]  p-2 shadow-2xl md:w-full border-2 " src="https://i.ibb.co/jRJQTdx/intro-1684366634.jpg" alt="" />
                     </div>
                 </div>
                 <div className="flex-1 space-y-5 lg:ml-32 lg:pl-2 w-[390px]  md:w-[550px] mx-auto ">
@@ -45,7 +44,7 @@ const Section3 = () => {
                 </div>
                 <div className="flex-1">
                     <div className="mt-6 lg:mt-0 lg:pl-14 flex justify-center ">
-                        <img className="h-[350px] p-2 shadow-2xl md:w-full border-2 " src={img} alt="" />
+                        <img className="h-[350px] p-2 shadow-2xl md:w-full border-2 " src="https://i.ibb.co/pjWsZNR/360-F-102589163-hk02-O92vz-EYP0r-Zb-Vyv-DTbkje1-Ga-UDk1.jpg" alt="" />
                     </div>
                 </div>
             </div>

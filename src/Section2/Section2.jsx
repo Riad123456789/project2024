@@ -1,469 +1,586 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCube } from 'swiper/modules';
+import 'swiper/css/navigation';
+import 'swiper/css/effect-cards';
+import { EffectCards } from 'swiper/modules';
+import 'swiper/css/effect-cube';
 
-import { PiShoppingCart } from "react-icons/pi";
-import { GiSelfLove } from "react-icons/gi";
-import { RiSearch2Line } from "react-icons/ri";
+
 const Section2 = () => {
     return (
-        <div className="my-14 mt-16 max-w-6xl mx-auto">
-            <h1 className="text-center text-4xl">NEW PRODUCTS</h1>
+        <div className=" md:my-14 md:mt-16 max-w-7xl mx-auto px-6 md:px-0">
+            <h1 className="text-center text-2xl md:text-4xl py-10">------- NEW PRODUCTS -------</h1>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-9 md:gap-5 lg:gap-16 mt-10  ">
+            <div className='grid grid-cols-6 md:gap-8 "'>
 
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px]">
-                            <img src="https://i.ibb.co/FYTK1NH/4a138584-3cac-4341-88b5-b05057948e85.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Split Cinnamon</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            190$ - 255$
-                        </div>
-                    </div>
+                <div className=' md:col-span-1  bg-white rounded-md shadow-sm shadow-slate-400 my-4 p-2 hidden md:block'>
+                    x
                 </div>
 
+                <div className=' md:col-span-5 py-5'>
 
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px] object-center">
-                            <img src="https://i.ibb.co/10s02rV/f5e9cb80-3fbe-486a-8288-d77b29f151dc.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Cloves</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            60$ - 90$
-                        </div>
+                    <div className="hidden md:block">
+                        <Swiper
+                            className='px-9'
+                            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCards]}
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            }}
+
+                            breakpoints={{
+                                540: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 40,
+                                },
+                                1024: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 15,
+                                },
+                            }}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            onSlideChange={() => console.log('slide change')}
+                        >
+
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
+                                    <div className="  h-[206px] " href="#">
+                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 ">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-4 py-2 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </SwiperSlide>
+
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
+                                    <div className="  h-[206px] " href="#">
+                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/zf1zFWs/Coriender-Seeds-6.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 ">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-4 py-2 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </SwiperSlide>
+
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
+                                    <div className="  h-[206px] " href="#">
+                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 ">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-4 py-2 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </SwiperSlide>
+
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
+                                    <div className="  h-[206px] " href="#">
+                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 ">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-4 py-2 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </SwiperSlide>
+
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
+                                    <div className="  h-[206px] " href="#">
+                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/zf1zFWs/Coriender-Seeds-6.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 ">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-4 py-2 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </SwiperSlide>
+
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
+                                    <div className="  h-[206px] " href="#">
+                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 ">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-4 py-2 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </SwiperSlide>
+
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
+                                    <div className="  h-[206px] " href="#">
+                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 ">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-4 py-2 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </SwiperSlide>
+                            
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
+                                    <div className="  h-[206px] " href="#">
+                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 ">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-4 py-2 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </SwiperSlide>
+                            
+
+                        </Swiper>
+                    </div>
+
+                    <div className="block md:hidden border ml-8 mx-auto">
+                        <Swiper
+                            modules={[EffectCube, Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCards]}
+                            effect={'cube'}
+                            grabCursor={true}
+                            cubeEffect={{
+                                shadow: true,
+                                slideShadows: true,
+                                shadowOffset: 40,
+                                shadowScale: 0.94,
+                            }}
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            }}
+
+                            onSwiper={(swiper) => console.log(swiper)}
+                            onSlideChange={() => console.log('slide change')}
+                        >
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto  ">
+                                    <div className="overflow-hidden  h-[214px] my-auto" href="#">
+                                        <img className="" src="https://i.ibb.co/hR2YP2w/White-Pepper-5.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 pt-1">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold  tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-5 py-2.5 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </SwiperSlide>
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto  ">
+                                    <div className="overflow-hidden  h-[214px] my-auto" href="#">
+                                        <img className="" src="https://i.ibb.co/hR2YP2w/White-Pepper-5.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 pt-1">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold  tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-5 py-2.5 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </SwiperSlide>
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto  ">
+                                    <div className="overflow-hidden  h-[214px] my-auto" href="#">
+                                        <img className="" src="https://i.ibb.co/hR2YP2w/White-Pepper-5.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 pt-1">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold  tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-5 py-2.5 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </SwiperSlide>
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto  ">
+                                    <div className="overflow-hidden  h-[214px] my-auto" href="#">
+                                        <img className="" src="https://i.ibb.co/hR2YP2w/White-Pepper-5.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 pt-1">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold  tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-5 py-2.5 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </SwiperSlide>
+                            <SwiperSlide className=''>
+                                <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto  ">
+                                    <div className="overflow-hidden  h-[214px] my-auto" href="#">
+                                        <img className="" src="https://i.ibb.co/hR2YP2w/White-Pepper-5.jpg" alt="product image" />
+                                    </div>
+
+                                    <div className="px-5 pb-5 pt-1">
+                                        <a href="#">
+                                            <h5 className="text-2xl font-semibold  tracking-tight text-gray-900 dark:text-white">Coriender Seeds</h5>
+                                        </a>
+                                        <div className="flex items-center mt-2.5 mb-5 pt-1">
+                                            <div className="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                                <svg className="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                                </svg>
+                                            </div>
+                                            <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+                                        </div>
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-xl font-medium text-gray-900 dark:text-white">120$-150$</span>
+                                            <a href="#" className="text-white bg-black hover:bg-red-500  font-medium rounded-lg text-xs px-5 py-2.5 text-center "> DETAILS</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px]  object-center">
-                            <img src="https://i.ibb.co/qJLhyt2/455f0dde-4f3f-4367-a957-5d346022fa52.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Turmeric Finger</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-
-                        <div className="card-actions">
-                            160$ - 190$
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px] object-center">
-                            <img src="https://i.ibb.co/1KGGzhC/c67f6053-1347-4099-b479-d0353d959967.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Teja Dry Red Chilli</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            160$ - 190$
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px] object-center ">
-                            <img src="https://i.ibb.co/RNWmJzL/e9d892a7-0f5d-4dfa-af47-24846a57b24f.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000 " />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">cumin seeds</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            160$ - 190$
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px] object-center ">
-                            <img src="https://i.ibb.co/ch0fw3w/ee635573-6d93-4aab-bd87-cbf8ad4e551d-1.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000 " />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Black Pepper</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            160$ - 190$
-                        </div>
-                    </div>
-                </div>
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px] object-center ">
-                            <img src="https://i.ibb.co/8mv9344/d1afbfcead46c28068bdee0955cfc5f5.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000 " />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Green Cardamom</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            160$ - 190$
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px]">
-                            <img src="https://i.ibb.co/FYTK1NH/4a138584-3cac-4341-88b5-b05057948e85.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Split Cinnamon</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            190$ - 255$
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px]">
-                            <img src="https://i.ibb.co/FYTK1NH/4a138584-3cac-4341-88b5-b05057948e85.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Split Cinnamon</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            190$ - 255$
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px] object-center">
-                            <img src="https://i.ibb.co/10s02rV/f5e9cb80-3fbe-486a-8288-d77b29f151dc.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Cloves</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            60$ - 90$
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px] object-center">
-                            <img src="https://i.ibb.co/qJLhyt2/455f0dde-4f3f-4367-a957-5d346022fa52.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Turmeric Finger</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            160$ - 190$
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="card  bg-base-100 border w-80 lg:w-60 mx-auto rounded-sm shadow-lg relative group  ">
-                    <figure className="px-5 pt-6 ">
-                        <div className="h-[180px] lg:h-[130px] object-center">
-                            <img src="https://i.ibb.co/1KGGzhC/c67f6053-1347-4099-b479-d0353d959967.jpg" alt="none" className="group-hover:scale-110 group-hover:rounded-lg duration-1000" />
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center  ">
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 top-0 opacity-0 group-hover:opacity-100  group-hover:top-24 duration-700  ">
-                            <PiShoppingCart size={25} color="white"></PiShoppingCart>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 opacity-0 group-hover:opacity-100  group-hover:bottom-36 duration-700  ">
-                            <GiSelfLove size={15} color="white"></GiSelfLove>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 left-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <RiSearch2Line size={10} color="white"></RiSearch2Line>
-                        </div>
-                        <div
-                            className="absolute border rounded-full  bg-lime-600 p-2 bottom-0 right-[70px] opacity-0 group-hover:opacity-100  group-hover:bottom-[160px] duration-700  ">
-                            <PiShoppingCart size={10} color="white"></PiShoppingCart>
-                        </div>
-                        <h2 className="card-title font-sans ">Teja Dry Red Chilli</h2>
-                        <div className="rating rating-xs py-4">
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
-                        </div>
-                        <div className="card-actions">
-                            160$ - 190$
-                        </div>
-                    </div>
-                </div>
-
 
 
             </div>

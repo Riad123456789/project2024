@@ -4,7 +4,6 @@ import { FaBirthdayCake } from "react-icons/fa";
 import { BiSolidParty } from "react-icons/bi";
 import { BsFillCalendarEventFill } from "react-icons/bs";
 import { FaPeopleGroup } from "react-icons/fa6";
-import img from "../../../public/qqq.jpeg"
 
 const Section1 = () => {
     return (
@@ -68,7 +67,7 @@ const Section1 = () => {
 
                     <div className="flex-1 border  ">
                         <div className="mt-4 lg:mt-0 lg:pl-14 flex justify-center ">
-                            <img className="h-[385px] md:w-full p-1 shadow-lg shadow-slate-500" src={img} alt="" />
+                            <img className="h-[385px] md:w-full p-1 shadow-lg shadow-slate-500" src="https://i.ibb.co/pjWsZNR/360-F-102589163-hk02-O92vz-EYP0r-Zb-Vyv-DTbkje1-Ga-UDk1.jpg" alt="" />
                         </div>
                     </div>
                 </div>
