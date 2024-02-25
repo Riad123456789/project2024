@@ -16,8 +16,8 @@ const HomePage = () => {
             <Banner></Banner>
             <Section1></Section1>
             <Section6></Section6>
-            <Section2></Section2>
             <Section3></Section3>
+            <Section2></Section2>
             <Section4></Section4>
             <Section5></Section5>
             <Section7></Section7>

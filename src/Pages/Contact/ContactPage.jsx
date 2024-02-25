@@ -5,7 +5,7 @@ import Damo from "./Damo";
 
 const ContactPage = () => {
     return (
-        <div className="">
+        <div className="pt-[64px]">
 
             <div className="relative w-full bg4 h-36 lg:h-72 shadow-md shadow-lime-400 ">
                 <div className=' bg-gradient-to-r from-[#291d1d] to-[#0a3614] h-full opacity-60'>

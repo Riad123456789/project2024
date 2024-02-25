@@ -6,7 +6,7 @@ import { RiSearch2Line } from "react-icons/ri";
 
 const AllProducts = () => {
     return (
-        <div className=' '>
+        <div className=' pt-[64px]'>
 
             <div className="relative w-full bg3 h-36 lg:h-72 shadow-md shadow-sky-600 ">
                 <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#052f33] h-full opacity-60'>

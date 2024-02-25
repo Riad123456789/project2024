@@ -5,7 +5,7 @@ AOS.init();
 const Section4 = () => {
     return (
         <div >
-            <div className="relative w-fill bg h-36 lg:h-72 shadow-lg shadow-red-400   ">
+            <div className="relative w-fill bg h-36 lg:h-72 shadow-lg shadow-red-400  ">
                 <div className='relative bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-60'>
                 </div>
                 <h1 className="h-full w-full font-serif text-white text-center  text-2xl lg:text-4xl absolute top-[48%]">

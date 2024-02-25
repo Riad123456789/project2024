@@ -5,7 +5,8 @@ import Navber from "../component/Navber";
 
 const MainLayout = () => {
     return (
-        <div className="bg-gradient-to-r from-[#f3f1f1f4] to-[#e8dbdb]">
+        // bg-gradient-to-r from-[#f3f1f1f4] to-[#e8dbdb]
+        <div className="">
             <Navber>
                 <Outlet></Outlet>
                 <Foother></Foother>
