@@ -9,7 +9,7 @@ const MainLayout = () => {
         <div className="">
             <Navber>
                 <Outlet></Outlet>
-                <Foother></Foother>
+                {/* <Foother></Foother> */}
             </Navber>
         </div>
     );

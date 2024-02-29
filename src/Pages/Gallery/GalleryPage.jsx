@@ -1,6 +1,6 @@
 const GalleryPage = () => {
     return (
-        <div className="pt-[64px]">
+        <div className="pt-[64px] lg:pt-0">
 
             <div className="relative w-full bg2 h-36 lg:h-72 shadow-md shadow-amber-300 ">
                 <div className=' bg-gradient-to-r from-[#1c1b1b] to-[#322d13] h-full opacity-60'>

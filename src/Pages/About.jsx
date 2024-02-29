@@ -20,7 +20,7 @@ const About = () => {
 
 
     return (
-        <div className='overflow-hidden pt-[64px]'>
+        <div className='overflow-hidden pt-[64px] lg:pt-0'>
 
             <div className=''>
                 <Section4></Section4>

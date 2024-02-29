@@ -32,7 +32,7 @@ const Section4 = () => {
                         className="space-y-5 pb-10 px-5 ">
                         <h1 className="font-sans text-2xl  ">OUR MISSION </h1>
                         <p className="border-b-2 border-red-600 w-40"></p>
-                        <p className="font-sans">To become the first choice of customer for dates, dry fruits, nuts and other precious items in fruits and vegetables along with imported drinks and wines by bringing the freshest and highest quality to maximum number of customers through our own shops across India. Our priority lies with consistently keeping up our customers by serving them the products without compromising the level of quality.</p>
+                        <p className="font-sans text-justify">To become the first choice of customer for dates, dry fruits, nuts and other precious items in fruits and vegetables along with imported drinks and wines by bringing the freshest and highest quality to maximum number of customers through our own shops across India. Our priority lies with consistently keeping up our customers by serving them the products without compromising the level of quality.</p>
                     </div>
 
                     <div data-aos="fade-left"
@@ -40,7 +40,7 @@ const Section4 = () => {
                         className="space-y-5 px-5">
                         <h1 className="font-sans text-2xl">OUR VISION</h1>
                         <p className="border-b-2 border-red-600 w-40"></p>
-                        <p className="font-sans">We endeavour to achieve our vision by following international standards of quality, right from selection till after sales service. For that we have our own dates farm in the Middle East and we cultivate and sale pure organic dates in 40 + varieties. On the other hand we import fine quality Nuts, dry fruits, exotic fruits, vegetables and drinks from the source from which they are available at their best.</p>
+                        <p className="font-sans text-justify">We endeavour to achieve our vision by following international standards of quality, right from selection till after sales service. For that we have our own dates farm in the Middle East and we cultivate and sale pure organic dates in 40 + varieties. On the other hand we import fine quality Nuts, dry fruits, exotic fruits, vegetables and drinks from the source from which they are available at their best.</p>
                     </div>
                 </div>
             </div>

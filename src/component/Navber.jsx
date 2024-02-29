@@ -11,6 +11,7 @@ const Navber = ({ children }) => {
 
 
     const [isSidebarOpen, setSidebarOpen] = useState(false);
+
     const toggleSidebar = () => {
         setSidebarOpen(!isSidebarOpen);
     };
@@ -18,19 +19,19 @@ const Navber = ({ children }) => {
     const Navlink = <>
 
         <NavLink to={"/"}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-orange-400 text-xs'><a>HOME</a></li>
+            <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>HOME</a></li>
         </NavLink>
         <NavLink to={'/about'}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-orange-400 text-xs'><a>ABOUT US </a></li>
+            <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>ABOUT US </a></li>
         </NavLink>
         <NavLink to={'/allProducts'}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-orange-400 text-xs'><a>SPICES & HERBS </a></li>
+            <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>SPICES & HERBS </a></li>
         </NavLink>
         <NavLink to={"/gallery"}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-orange-400 text-xs'><a>GALLERY </a></li>
+            <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>GALLERY </a></li>
         </NavLink>
         <NavLink to={"/contact"}>
-            <li className='sm:text-black lg:text-white font-serif hover:text-orange-400 text-xs'><a>CONTACT US </a></li>
+            <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>CONTACT US </a></li>
         </NavLink>
     </>
 
@@ -51,19 +52,18 @@ const Navber = ({ children }) => {
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="text-white inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                             </label>
                         </div>
-            
-                         <div className=" px-2 mx-2 w-ful ">
+
+                        <div className=" px-2 mx-2 w-ful ">
                             <div className=' p-1 shadow-sm shadow-red-500 rounded-full cursor-pointer  hover:-rotate-[360deg] duration-1000 transition-all'>
-                                <img className='w-10  rounded-full ' src={img} alt="" />
+                                <img className='w-12  rounded-full  ' src={img} alt="" />
                             </div>
                             <p
                                 style={{ textTransform: "uppercase", color: "transparent", WebkitBackgroundClip: "text" }}
-                                className="font bg-gradient-to-r from-red-800 to-red-300 text-lg font-bold md:text-2xl normal-case text-white ml-2  ">
+                                className="font bg-gradient-to-r from-orange-500 to-orange-500 text-lg font-bold md:text-2xl normal-case text-white ml-2  ">
                                 RK  TRADING
                             </p>
-
                         </div>
-                        <div className=" md:ml-72  hidden lg:block  ">
+                        <div className=" md:ml-56  hidden lg:block  ">
 
                             <div className="flex gap-44 items-center ">
                                 <div className="">
@@ -84,8 +84,8 @@ const Navber = ({ children }) => {
                                 </div>
                             </div>
 
-                       
-                   </div>
+
+                        </div>
                     </div>
                     {/* Page content here */}
                     {children}
@@ -102,9 +102,10 @@ const Navber = ({ children }) => {
                         >
                             <RxCross2 size={25}></RxCross2>
                         </div>
-                        <ul className="pt-7">
+                        <ul onClick={toggleSidebar} className="pt-7">
                             {Navlink}
                         </ul>
+
 
                     </div>
                 </div>

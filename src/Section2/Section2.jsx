@@ -15,10 +15,10 @@ const Section2 = () => {
 
 
     return (
-        <div className=" md:my-14 md:mt-16 max-w-7xl mx-auto px-2 md:px-0 ">
-            <h1 className="text-center text-3xl md:text-4xl py-6 md:py-12 md:pb-20">------ POPULAR SPICES ------</h1>
+        <div className=" md:my-14 md:mt-16  px-2 md:px-0 ">
+            <h1 className="text-center text-3xl md:text-4xl py-6 md:py-12 md:pb-20 ">------ POPULAR SPICES ------</h1>
 
-            <div className=' md:grid  grid-cols-7 md:grid-cols-7  md:gap-10 '>
+            <div className='max-w-7xl mx-auto  md:grid  grid-cols-7 md:grid-cols-7  md:gap-10 '>
 
                 <div className=' md:col-span-1 '>
                     <div className='h-8 md:h-10 bg-[#0ba360] rounded-md shadow-md   shadow-slate-500  pt-2 mt-5 md:mt-8 '>
@@ -32,7 +32,7 @@ const Section2 = () => {
 
                     {
                         IsOpen &&
-                        <div className=' md:col-span-1 rounded-b-md   shadow-lg shadow-slate-500   hidden md:block'>
+                        <div className='  rounded-b-md   shadow-lg shadow-slate-500  '>
                             <ul className=''>
 
                                 <li className='border-b-2 font-medium text-xs px-3 py-[5px] hover:bg-slate-200 cursor-pointer pt-3'>
