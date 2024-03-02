@@ -5,17 +5,16 @@ import Modal from "../component/Modal/Modal";
 
 const Section6 = () => {
 
-    const [data, setData] = useState([])
+    const [Data, setData] = useState([])
 
     useEffect(() => {
-        fetch("../../public/Json/Fackdata.json")
+        fetch("./Fackdata.json")
             .then((res) => res.json())
             .then(data => setData(data))
-
     }, [])
 
 
-    // console.log(data)
+    
 
     return (
         <div className="py-10 max-w-7xl mx-auto mt-10">
@@ -32,7 +31,7 @@ const Section6 = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center ">
 
                 {
-                    data.map((item) => <div key={item.id} className="relative   transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-xl bg-gradient-to-r from-[#dbdddc] to-[#b8b8b8] hover:from-[#0ba360] hover:to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto ">
+                    Data.map((item) => <div key={item.id} className="relative   transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-xl bg-gradient-to-r from-[#dbdddc] to-[#b8b8b8] hover:from-[#0ba360] hover:to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto ">
                         <div className="overflow-hidden h-[214px]  " href="#">
                             <img className="h-full w-full rounded-t-xl" src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg" alt="product image" />
                         </div>
