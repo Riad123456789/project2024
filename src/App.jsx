@@ -1,4 +1,4 @@
-import img from "../public/395030218_354819416996869_7748260630163794940_n.jpg"
+
 import Banner from "./Banner/Banner"
 import Foother from "./Foother/Foother"
 import Section1 from "./Section1/Section1"
@@ -15,9 +15,6 @@ function App() {
   return (
     <>
       <div className=" ">
-     
-
-
         <Banner></Banner>
         <div className="mt-8">
           <Section1></Section1>

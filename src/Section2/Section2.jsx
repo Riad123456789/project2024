@@ -16,8 +16,13 @@ const Section2 = () => {
 
     return (
         <div className=" md:my-14 md:mt-16  px-2 md:px-0 ">
-            <h1 className="text-center text-3xl md:text-4xl py-6 md:py-12 md:pb-20 ">------ POPULAR SPICES ------</h1>
-
+            <div data-aos="zoom-out-up" data-aos-duration="1500" className="text-center ">
+                <h1
+                    style={{ textTransform: "uppercase", color: "transparent", WebkitBackgroundClip: "text" }}
+                    className="text-4xl px-2   md:text-4xl lg:text-5xl font-semibold font-serif pt-2 pb-16 md:pb-20 md:pt-6  my-3 bg-gradient-to-r from-red-700 to-amber-500  ">
+                    ------ POPULAR  SPICES ------
+                </h1>
+            </div>
             <div className='max-w-7xl mx-auto  md:grid  grid-cols-7 md:grid-cols-7  md:gap-10 '>
 
                 <div className=' md:col-span-1 '>
@@ -91,7 +96,7 @@ const Section2 = () => {
                             <SwiperSlide className=''>
                                 <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
                                     <div className="  h-[206px] " href="#">
-                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/zf1zFWs/Coriender-Seeds-6.jpg" alt="product image" />
+                                        <img className=" h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/zf1zFWs/Coriender-Seeds-6.jpg" alt="product image" />
                                     </div>
 
                                     <div className="px-5 pb-5 ">
@@ -130,7 +135,7 @@ const Section2 = () => {
                             <SwiperSlide className=''>
                                 <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
                                     <div className="  h-[206px] " href="#">
-                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
+                                        <img className=" h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
                                     </div>
 
                                     <div className="px-5 pb-5 ">
@@ -169,7 +174,7 @@ const Section2 = () => {
                             <SwiperSlide className=''>
                                 <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
                                     <div className="  h-[206px] " href="#">
-                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg" alt="product image" />
+                                        <img className=" h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg" alt="product image" />
                                     </div>
 
                                     <div className="px-5 pb-5 ">
@@ -208,7 +213,7 @@ const Section2 = () => {
                             <SwiperSlide className=''>
                                 <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
                                     <div className="  h-[206px] " href="#">
-                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/zf1zFWs/Coriender-Seeds-6.jpg" alt="product image" />
+                                        <img className=" h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/zf1zFWs/Coriender-Seeds-6.jpg" alt="product image" />
                                     </div>
 
                                     <div className="px-5 pb-5 ">
@@ -247,7 +252,7 @@ const Section2 = () => {
                             <SwiperSlide className=''>
                                 <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
                                     <div className="  h-[206px] " href="#">
-                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
+                                        <img className=" h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
                                     </div>
 
                                     <div className="px-5 pb-5 ">
@@ -286,7 +291,7 @@ const Section2 = () => {
                             <SwiperSlide className=''>
                                 <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
                                     <div className="  h-[206px] " href="#">
-                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg" alt="product image" />
+                                        <img className=" h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg" alt="product image" />
                                     </div>
 
                                     <div className="px-5 pb-5 ">
@@ -325,7 +330,7 @@ const Section2 = () => {
                             <SwiperSlide className=''>
                                 <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[345px] w-64 mx-auto  ">
                                     <div className="  h-[206px] " href="#">
-                                        <img className=" h-[187px] w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
+                                        <img className=" h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/K6Z1zXZ/Black-Pepper-2.jpg" alt="product image" />
                                     </div>
 
                                     <div className="px-5 pb-5 ">

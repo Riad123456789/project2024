@@ -6,8 +6,8 @@ const Banner = () => {
 
     return (
         <div className="pt-[72px] md:pt-0">
-            <Carousel 
-                className=" text-center  "
+            <Carousel
+                className=" text-center shadow-lg shadow-zinc-300  "
                 showStatus={false}
                 emulateTouch={true}
                 stopOnHover={false}
@@ -15,11 +15,11 @@ const Banner = () => {
                 autoPlay={true}
                 interval={2500}
                 infiniteLoop={true}
-            // dynamicHeight={true}
+                dynamicHeight={true}
             >
 
-                <div className=" w-full h-[40vh] md:h-[88vh] ">
-                    <img className="h-full" src="https://i.ibb.co/VSN0wrX/vibes-1.png" alt="" />
+                <div className=" w-full h-[40vh] md:h-[88vh] shadow-2xl">
+                    <img className="h-full " src="https://i.ibb.co/VSN0wrX/vibes-1.png" alt="" />
                 </div>
                 <div className=" w-full h-[40vh] md:h-[88vh] ">
                     <img className="h-full" src="https://i.ibb.co/mz1fD4K/vibes-2.png" alt="" />

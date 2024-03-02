@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Lion",
+        "id": 1,
+        "description": "The lion is a large felid species and a member of the genus Panthera.",
+        "etymology": "The word 'lion' comes from the Latin word 'leo'.",
+        "history": "Lions have been symbols of strength and courage in various cultures throughout history.",
+        "kingdom": "Animalia",
+        "clade": "Felidae",
+        "order": "Carnivora",
+        "family": "Felidae",
+        "genus": "Panthera",
+        "image": "url_to_lion_image.jpg"
+    },
+    {
+        "name": "Rose",
+        "id": 2,
+        "description": "The rose is a woody perennial flowering plant with thorny stems.",
+        "etymology": "The name 'rose' comes from the Latin word 'rosa'.",
+        "history": "Roses have been cultivated for centuries and are often associated with love and beauty.",
+        "kingdom": "Plantae",
+        "clade": "Angiosperms",
+        "order": "Rosales",
+        "family": "Rosaceae",
+        "genus": "Rosa",
+        "image": "url_to_rose_image.jpg"
+    },
+    {
+        "name": "Tyrannosaurus rex",
+        "id": 3,
+        "description": "The rose is a woody perennial flowering plant with thorny stems.",
+        "etymology": "The name 'rose' comes from the Latin word 'rosa'.",
+        "history": "Roses have been cultivated for centuries and are often associated with love and beauty.",
+        "kingdom": "Plantae",
+        "clade": "Angiosperms",
+        "order": "Rosales",
+        "family": "Rosaceae",
+        "genus": "Rosa",
+        "image": "url_to_rose_image.jpg"
+    }
+]  

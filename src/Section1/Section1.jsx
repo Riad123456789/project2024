@@ -11,14 +11,14 @@ const Section1 = () => {
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#a32b97] to-[#d2156a] ">
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
-                       <div className="mt-10">
-                         <h1 className="text-3xl text-white w-[80%] mx-auto ">Best Products</h1>
-                        <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
-                      
-                        </p>
-                       </div>
+                        <div className="mt-10">
+                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <p className="text-white text-justify   text-xs w-[80%] mx-auto py-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
+
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -27,13 +27,13 @@ const Section1 = () => {
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#a32b91] to-[#d2156a] ">
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
-                       <div className="mt-10">
-                         <h1 className="text-3xl text-white w-[80%] mx-auto ">Best Products</h1>
-                        <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
-                        </p>
-                       </div>
+                        <div className="mt-10">
+                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -42,13 +42,13 @@ const Section1 = () => {
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#a32b97] to-[#d2156a] ">
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
-                       <div className="mt-10">
-                         <h1 className="text-3xl text-white w-[80%] mx-auto ">Best Products</h1>
-                        <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam.......
-                        </p>
-                       </div>
+                        <div className="mt-10">
+                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam.......
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -57,13 +57,13 @@ const Section1 = () => {
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#a32b97] to-[#d2156a] ">
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
-                       <div className="mt-10">
-                         <h1 className="text-3xl text-white w-[80%] mx-auto ">Best Products</h1>
-                        <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam.......
-                        </p>
-                       </div>
+                        <div className="mt-10">
+                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam.......
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -72,13 +72,13 @@ const Section1 = () => {
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#a32b97] to-[#d2156a] ">
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
-                       <div className="mt-10">
-                         <h1 className="text-3xl text-white w-[80%] mx-auto ">Best Products</h1>
-                        <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
-                        </p>
-                       </div>
+                        <div className="mt-10">
+                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -87,13 +87,13 @@ const Section1 = () => {
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#a32b97] to-[#d2156a] ">
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
-                       <div className="mt-10">
-                         <h1 className="text-3xl text-white w-[80%] mx-auto ">Best Products</h1>
-                        <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
-                        </p>
-                       </div>
+                        <div className="mt-10">
+                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
+                            </p>
+                        </div>
                     </div>
                 </div>
 
