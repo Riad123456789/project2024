@@ -10,7 +10,8 @@
         "order": "Carnivora",
         "family": "Felidae",
         "genus": "Panthera",
-        "image": "url_to_lion_image.jpg"
+        "image": "url_to_lion_image.jpg",
+        "category": "spices"
     },
     {
         "name": "Rose",
@@ -23,7 +24,8 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -36,7 +38,8 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -49,7 +52,8 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -62,7 +66,8 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -75,7 +80,8 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -88,7 +94,8 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "DryFood"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -101,7 +108,8 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "DryFood"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -114,7 +122,8 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "DryFood"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -127,6 +136,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg"
+        "image": "url_to_rose_image.jpg",
+        "category": "DryFood"
     }
 ]  

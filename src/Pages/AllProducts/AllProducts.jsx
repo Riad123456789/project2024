@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { LuSearch } from "react-icons/lu";
-import Modal from "../../component/Modal/Modal";
+
 
 
 
@@ -54,8 +54,8 @@ const AllProducts = () => {
             </div>
 
             <div className="  mt-10 px-1 ">
-                <div className="flex justify-between items-center bg-gradient-to-r  from-[#5d7a2e] to-[#4a7668]  rounded-md shadow-lg shadow-slate-500   px-3 md:px-20 py-1">
-                    <p className="font-sans text-sm  text-center py-4 font-semibold uppercase text-slate-200 ">
+                <div className="flex justify-between items-center bg-gradient-to-r   from-[#d1d6c9] to-[#8cada2]  rounded-md shadow-lg shadow-slate-500   px-3 md:px-20 py-1">
+                    <p className="font-sans text-base  text-center py-4 font-semibold uppercase text-orange-500 ">
                         Showing all {filteredData.length} results
                     </p>
                     <div className="flex items-center ">
@@ -84,7 +84,7 @@ const AllProducts = () => {
                 <div className="pt-12 grid grid-cols-1 lg:grid-cols-4 gap-8 max-w-7xl mx-auto my-3 mb-10 ">
                     {filteredData.slice(0, 8).map((item) => (
                         <div
-                            key={item.id}
+                            key={item?.id}
                             className="relative transition-all duration-300 cursor-pointer rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-72 mx-auto "
                         >
                             <div className="overflow-hidden h-[214px]" href="#">
@@ -98,7 +98,7 @@ const AllProducts = () => {
                             <div className="px-5 pb-5 pt-1">
                                 <a href="#">
                                     <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                                        {item.name}
+                                        {item?.name}
                                     </h5>
                                 </a>
                                 <div className="flex items-center mt-2.5 mb-5 pt-1">
@@ -112,9 +112,9 @@ const AllProducts = () => {
                                 </div>
                                 <div className="flex items-center justify-between">
                                     <span className="text-xl font-medium text-gray-900 dark:text-white">
-                                        {item.id}
+                                        {item?.id}
                                     </span>
-                                    <Modal></Modal>
+                                 
                                 </div>
                             </div>
                         </div>

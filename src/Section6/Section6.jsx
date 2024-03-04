@@ -43,7 +43,7 @@ const Section6 = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center ">
                 {currentProducts.map((item) => (
                     <div
-                        key={item.id}
+                        key={item?.id}
                         className="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-xl bg-gradient-to-r from-[#dbdddc] to-[#b8b8b8] hover:from-[#0ba360] hover:to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto "
                     >
                         <div className="overflow-hidden h-[214px]" href="#">
@@ -57,7 +57,7 @@ const Section6 = () => {
                         <div className="px-5 pb-5 pt-1">
                             <a href="#">
                                 <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                                    {item.name}
+                                    {item?.name}
                                 </h5>
                             </a>
                             <div className="flex items-center mt-2.5 mb-5 pt-1">
@@ -71,12 +71,12 @@ const Section6 = () => {
                             </div>
                             <div className="flex items-center justify-between">
                                 <span className="text-xl font-medium text-gray-900 dark:text-white">
-                                    {item.id}
+                                    {item?.id}
                                 </span>
 
                                 <button
                                     className="text-white bg-black hover:bg-red-500 font-medium rounded-lg text-xs px-5 py-2.5 text-center"
-                                    onClick={() => handleClick(item.id)}
+                                    onClick={() => handleClick(item?.id)}
                                 >
                                     DETAILS
                                 </button>
@@ -86,7 +86,7 @@ const Section6 = () => {
 
                                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                                         </form>
-                                        <h3 className="font-semibold font-sans text-xl border-b-2 border-black uppercase pb-2">{selectedProduct.name}</h3>
+                                        <h3 className="font-semibold font-sans text-xl border-b-2 border-black uppercase pb-2">{selectedProduct?.name}</h3>
                                         <div className='md:flex '>
                                             <div className=' md:w-[78%]'>
                                                 <p className='text-justify text-xs font-medium pt-1'> <span className='font-bold text-black'> Black pepper </span> (Piper nigrum) is a flowering vine in the family Piperaceae, cultivated for its fruit (the peppercorn), which is usually dried and used as a spice and seasoning. The fruit is a drupe (stonefruit) which is about 5 mm (0.20 in) in diameter (fresh and fully mature), dark red, and contains a stone which encloses a single pepper seed. Peppercorns and the ground pepper derived from them may be described simply as pepper, or more precisely as black pepper (cooked and dried unripe fruit), green pepper (dried unripe fruit), or white pepper (ripe fruit seeds).[2]</p>
@@ -96,11 +96,11 @@ const Section6 = () => {
                                                 <h3 className="font-medium  text-lg border-b-2 border-black uppercase pb-1 pt-4 font-serif">Etymology</h3>
                                                 <p className='text-justify text-xs font-medium pt-4'>The word pepper derives from Old English pipor, Latin piper, and Greek: πέπερι.[6] The Greek likely derives from Dravidian pippali, meaning "long pepper".[7] Sanskrit pippali shares the same meaning.[6]</p>
                                                 <h3 className="font-medium  text-lg border-b-2 border-black uppercase pb-1 pt-4 font-serif">History</h3>
-                                                <p className='text-justify text-xs font-medium pt-2'>Black pepper is native to South Asia and Southeast Asia, and has been known to Indian cooking since at least 2000 BCE.[20][how?] J. Innes Miller notes that while pepper was grown in southern Thailand and in Malaysia,[when?] its most important source was India, particularly the Malabar Coast, in what is now the state of Kerala.[21] The lost ancient port city of Muziris in Kerala, famous for exporting black pepper and various other spices, gets mentioned in a number of classical historical sources for its trade with Roman Empire, Egypt, Mesopotamia, Levant, and Yemen.[22][23][24][25] Peppercorns were a much-prized trade good, often referred to as "black gold" and used as a form of commodity money. The legacy of this trade remains in some Western legal systems that recognize the term "peppercorn rent" as a token payment for something that is, essentially, a gift.</p>
+                                                <p className='text-justify text-xs font-medium pt-2'>Black pepper is native to South Asia and Southeast Asia, and has been known to Indian cooking since at least 2000 BCE.[20][how?] J. Innes Miller notes that while pepper was grown in southern Thailand and in Malaysia,[when?] its most important source was India, particularly the Malabar Coast, in what is now the state of Kerala.[21] The lost ancient port city of Muziris in Kerala, famous for exporting black pepper and various other spices, gets mentioned in a number of classical historical sources for its trade with Roman Empire, Egypt, Mesopotamia, Levant, and Yemen.[22][23][24][25] Peppercorns were a much-prized trade good, often referred term "peppercorn rent" as a token payment for something that is, essentially, a gift.</p>
                                             </div>
                                             <div className=' mt-2 md:m-2'>
                                                 <div className='border-[1px] border-black'>
-                                                    <h1 className='bg-green-400 text-center text-sm font-bold m-2'>{selectedProduct.name}</h1>
+                                                    <h1 className='bg-green-400 text-center text-sm font-bold m-2'>{selectedProduct?.name}</h1>
                                                     <img className='  md:w-52 h-60 p-2 mx-auto' src="https://i.ibb.co/3F4mpW5/Piper-nigrum-K-hler-s-Medizinal-Pflanzen-107.jpg" alt="" />
                                                     <h1 className='bg-green-400 text-center text-sm font-bold m-2'>Scientific classification</h1>
                                                     <div className='py-1 space-y-1'>
