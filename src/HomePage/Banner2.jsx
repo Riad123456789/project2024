@@ -1,6 +1,6 @@
 
 
-const Section1 = () => {
+const Banner2 = () => {
     return (
         <div className="max-w-7xl mx-auto mt-8">
             <div className="grid  grid-cols-1 gap-2 px-5  md:grid-cols-2 lg:grid-cols-3 md:px-3 md:gap-4  ">
@@ -16,7 +16,6 @@ const Section1 = () => {
                             <p className="text-white text-justify   text-xs w-[80%] mx-auto py-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
-
                             </p>
                         </div>
                     </div>
@@ -43,10 +42,8 @@ const Section1 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-10">
-                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
-                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam.......
+                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">CARDAMOM</h1>
+                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Green cardamom is one of the most expensive spices but a little is needed to impart flavour. It is best stored in the pod, as exposed or ground seeds quickly lose their flavour. the quality and the price........
                             </p>
                         </div>
                     </div>
@@ -73,10 +70,8 @@ const Section1 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-10">
-                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
-                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam saepe deleniti ab error tenetur nam......
+                            <h1 className="text-3xl text-white w-[80%] mx-auto uppercase">CLOVES</h1>
+                            <p className="text-white text-justify  text-xs w-[80%] mx-auto py-3">The use of clove for any medicinal purpose has not been approved by the US Food and Drug Administration, and its use may cause adverse effects if taken orally by people with liver disease, blood clotting and immune system disorders, or food allergies.[5]......
                             </p>
                         </div>
                     </div>
@@ -96,49 +91,9 @@ const Section1 = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     );
 };
 
-export default Section1;
-
-
-
-{/* <div className="relative overflow-hidden cursor-pointer group border-4">
-<img className="h-44 w-full" src="https://i.ibb.co/0jrs2ZP/Dry-Fruits-9.jpg" alt="" />
-<div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
-</div>
-
-</div>
-
-<div className="relative overflow-hidden cursor-pointer group">
-<img src={img2} alt="" />
-<div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
-
-</div>
-</div>
-<div className="relative overflow-hidden cursor-pointer group">
-<img src={img3} alt="" />
-<div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
-</div>
-</div>
-
-<div className="relative overflow-hidden cursor-pointer group">
-<img src={img} alt="" />
-<div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
-</div>
-</div>
-<div className="relative overflow-hidden cursor-pointer group">
-<img src={img} alt="" />
-<div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
-</div>
-</div>
-
-<div className="relative overflow-hidden cursor-pointer group">
-<img src={img3} alt="" />
-<div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] opacity-40  bg-gradient-to-r from-[#000000] to-[#080000] ">
-</div>
-</div> */}
+export default Banner2;

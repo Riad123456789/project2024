@@ -10,7 +10,7 @@ import { AiFillYoutube } from "react-icons/ai";
 const Foother = () => {
     return (
         <div>
-            <footer className="bg h-[590px] md:h-96 lg:h-96 relative overflow-hidden ">
+            <footer className="bg h-[590px] md:h-96 lg:h-80 relative overflow-hidden ">
                 <div className=' relative bg-gradient-to-r from-[#2f1212] to-[#000000] h-full opacity-80   '>
                 </div>
 
@@ -69,12 +69,10 @@ const Foother = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" flex items-center justify-center px-6 pt-5 text-sm  ">
-                        <span className=" text-white font-semibold ">© Copyright 2024. All Rights Reserved.</span>
+                    <div className=" flex items-center justify-center px-6  text-sm  ">
+                        <span className=" text-white font-semibold ">© Copyright 2024. All Rights Reserved by ( Riad jowarder )</span>
                     </div>
                 </div>
-
-
             </footer>
         </div>
     );

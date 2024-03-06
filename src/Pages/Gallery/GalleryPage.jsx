@@ -42,7 +42,8 @@ const GalleryPage = () => {
 
                     <button
                         onClick={() => filterByCategory("all")}
-                        className={`text-gray-900 border bg-white rounded-md text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800  ${selectedCategory === "all" && "bg-orange-400 text-black"
+
+                        className={` uppercase rounded-md text-base font-medium px-5 py-2.5 text-center me-3 mb-3 ${selectedCategory === "all" ? " bg-orange-500 text-black" :"bg-white text-gray-900"
                             }`}
                     >
                         All categories
@@ -50,14 +51,14 @@ const GalleryPage = () => {
                     <div className="">
                         <button
                             onClick={() => filterByCategory("spices")}
-                            className={`text-gray-900 border   bg-white rounded-md text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800  ${selectedCategory === "spices" && "bg-orange-400 text-white"
+                            className={`uppercase  rounded-md text-base font-medium px-5 py-2.5 text-center me-3 mb-3  ${selectedCategory === "spices" ? "bg-orange-500 text-black " : "bg-white text-gray-900 "
                                 }`}
                         >
                             Spices
                         </button>
                         <button
                             onClick={() => filterByCategory("DryFood")}
-                            className={`text-gray-900 border   bg-white rounded-md text-base font-medium px-5 py-2.5 text-center me-3 mb-3 dark:text-white dark:focus:ring-gray-800  ${selectedCategory === "DryFood" && "bg-orange-400 text-white"
+                            className={` uppercase  rounded-md text-base font-medium px-5 py-2.5 text-center me-3 mb-3 ${selectedCategory === "DryFood" ? "bg-orange-500 text-black" : "bg-white text-gray-900"
                                 }`}
                         >
                             DryFood
@@ -66,11 +67,21 @@ const GalleryPage = () => {
                 </div>
 
 
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 px-20 py-10">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-5 px-6 md:px-28 py-10 md:py-20  ">
                     {filteredData.map((item) => (
-                        <div key={item.id}>
-                            <img className="h-auto w-96 mx-auto rounded-lg" src="https://i.ibb.co/M8tRbyk/Sliding-Image-2.jpg" alt="" />
-
+                        <div key={item?.id} className="relative group overflow-hidden h-full md:w-72 mx-auto rounded-sm bg-white">
+                            <img
+                                className="h-[280px] md:h-72 md:w-72 mx-auto shadow-xl shadow-orange-100 duration-1000 cursor-pointer"
+                                src={item?.image}
+                                alt=""
+                            />
+                            <div className="absolute right-0 h-full w-full -bottom-[400px] group-hover:-bottom-56 transition-all duration-[1s] bg-gradient-to-r from-[#a32b97] to-[#d2156a] opacity-40">
+                            </div>
+                            <div className="absolute right-0 h-full w-full -bottom-[400px] group-hover:-bottom-56 transition-all duration-[1s]">
+                                <div className="mt-4">
+                                    <h1 className="text-lg md:text-xl text-white text-center mx-auto uppercase">{item?.name}</h1>
+                                </div>
+                            </div>
                         </div>
                     ))}
                 </div>

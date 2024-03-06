@@ -39,9 +39,7 @@ const Banner = () => {
                 <div className=" w-full h-[40vh] md:h-[88vh] ">
                     <img className="h-full" src="https://i.ibb.co/SP0djz3/vibes-10.png" alt="" />
                 </div>
-                <div className=" w-full h-[40vh] md:h-[88vh] ">
-                    <img className="h-full" src="https://i.ibb.co/FznfLBr/vibes-8.png" alt="" />
-                </div>
+               
 
             </Carousel>
 

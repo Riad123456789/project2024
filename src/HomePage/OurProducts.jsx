@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
 
-const Section6 = () => {
+const OurProducts = () => {
     const [Data, setData] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const productsPerPage = 6; // Number of products to show per page
-    const [selectedProduct, setSelectedProduct] = useState(null); 
+    const [selectedProduct, setSelectedProduct] = useState(null);
 
     useEffect(() => {
         fetch("./Fackdata.json")
@@ -20,31 +20,32 @@ const Section6 = () => {
     const handleClick = (id) => {
         const selectedProduct = Data.find((item) => item.id === id);
         setSelectedProduct(selectedProduct);
-        document.getElementById('my_modal_4').showModal();  
+        document.getElementById('my_modal_4').showModal();
     };
-    
-   
+
+
 
     return (
-        <div className="py-10 max-w-7xl mx-auto mt-10">
-            <div data-aos="zoom-out-up" data-aos-duration="1500" className="text-center ">
+        <div className=" max-w-7xl mx-auto mt-20 md:mt-32 pb-8">
+            <div  className="text-center ">
                 <h1
                     style={{
                         textTransform: "uppercase",
                         color: "transparent",
                         WebkitBackgroundClip: "text",
                     }}
-                    className="text-4xl px-2 md:text-4xl lg:text-5xl font-semibold font-serif pt-2 pb-16 md:pb-20 md:pt-6 my-3 bg-gradient-to-r from-red-700 to-amber-500  "
+                    className="text-4xl px-2 md:text-4xl lg:text-5xl font-semibold font-serif pb-7 md:pt-2 md:pb-16  bg-gradient-to-r from-red-700 to-amber-500  "
                 >
                     OUR PRODUCTS
                 </h1>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center ">
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-16 items-center px-4">
                 {currentProducts.map((item) => (
                     <div
                         key={item?.id}
-                        className="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-xl bg-gradient-to-r from-[#dbdddc] to-[#b8b8b8] hover:from-[#0ba360] hover:to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-96 w-80 mx-auto "
+                        className="relative transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-xl bg-gradient-to-r from-[#dbdddc] to-[#b8b8b8] hover:from-[#0ba360] hover:to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg 
+                        w-full  md:h-96 md:w-80 mx-auto "
                     >
                         <div className="overflow-hidden h-[214px]" href="#">
                             <img
@@ -56,29 +57,42 @@ const Section6 = () => {
 
                         <div className="px-5 pb-5 pt-1">
                             <a href="#">
-                                <h5 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                <h5 className="text-lg md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                                     {item?.name}
                                 </h5>
                             </a>
                             <div className="flex items-center mt-2.5 mb-5 pt-1">
                                 <div className="flex items-center space-x-1 rtl:space-x-reverse">
                                     {/* Rating stars SVGs */}
-
+                                    <span className="  text-xs font-medium md:font-semibold text-justify  ">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore non nam dolore odit tenetur porro  Tempore non nam !
+                                    </span>
                                 </div>
-                                <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">
-                                    5.0
-                                </span>
                             </div>
                             <div className="flex items-center justify-between">
-                                <span className="text-xl font-medium text-gray-900 dark:text-white">
-                                    {item?.id}
-                                </span>
 
+                                <div className="hidden md:flex items-center">
+                                    <svg className="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                    </svg>
+                                    <svg className="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                    </svg>
+                                    <svg className="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                    </svg>
+                                    <svg className="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                    </svg>
+                                    <svg className="w-4 h-4 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                                    </svg>
+                                </div>
                                 <button
-                                    className="text-white bg-black hover:bg-red-500 font-medium rounded-lg text-xs px-5 py-2.5 text-center"
+                                    className="text-white bg-black hover:bg-red-500 font-medium rounded-lg text-xs   text-center btn-xs px-3 shadow-md shadow-slate-400 md:btn-sm"
                                     onClick={() => handleClick(item?.id)}
                                 >
-                                    DETAILS
+                                    MORE  DETAILS
                                 </button>
                                 <dialog id="my_modal_4" className="modal">
                                     <div className="modal-box  w-11/12 max-w-5xl rounded-none">
@@ -140,12 +154,12 @@ const Section6 = () => {
             </div>
 
 
-            <div className="pt-20 flex justify-end mr-7 cursor-pointer">
+            <div className="pt-20 flex justify-center cursor-pointer">
                 <nav aria-label="Page navigation example">
-                    <ul className="inline-flex -space-x-px text-base h-10">
+                    <ul className="inline-flex gap-2 -space-x-px text-base h-10">
                         <li>
                             <a
-                                className="flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                                className="flex items-center justify-center px-4 h-10 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-2xl hover:bg-gray-100 hover:text-gray-700 "
                                 onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
                             >
                                 Previous
@@ -154,9 +168,9 @@ const Section6 = () => {
                         {Array.from({ length: Math.ceil(Data.length / productsPerPage) }, (_, i) => i + 1).map((page) => (
                             <li key={page}>
                                 <a
-                                    className={`flex items-center justify-center px-4 h-10 leading-tight ${page === currentPage
-                                        ? 'text-blue-600 border bg-blue-50'
-                                        : 'text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white'
+                                    className={`flex border rounded-2xl items-center justify-center px-4 h-10 leading-tight ${page === currentPage
+                                        ? 'text-black border bg-orange-400'
+                                        : 'text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 '
                                         }`}
                                     onClick={() => setCurrentPage(page)}
                                 >
@@ -166,7 +180,7 @@ const Section6 = () => {
                         ))}
                         <li>
                             <a
-                                className="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+                                className="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 rounded-2xl hover:bg-gray-100 hover:text-gray-700 "
                                 onClick={() =>
                                     setCurrentPage((prev) => Math.min(prev + 1, Math.ceil(Data.length / productsPerPage)))
                                 }
@@ -181,4 +195,4 @@ const Section6 = () => {
     );
 };
 
-export default Section6;
+export default OurProducts;

@@ -19,7 +19,7 @@ const Section9 = () => {
                 <h1
                     style={{ textTransform: "uppercase", color: "transparent", WebkitBackgroundClip: "text" }}
                     className="text-4xl px-2   md:text-4xl lg:text-5xl font-semibold font-serif pt-2 pb-16 md:pb-20 md:pt-6  my-3 bg-gradient-to-r from-red-700 to-amber-500  ">
-                    ------ POPULAR DRY SPICES ------
+                   POPULAR DRY SPICES 
                 </h1>
             </div>
 

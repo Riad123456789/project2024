@@ -10,7 +10,7 @@
         "order": "Carnivora",
         "family": "Felidae",
         "genus": "Panthera",
-        "image": "url_to_lion_image.jpg",
+        "image": "https://i.ibb.co/M8tRbyk/Sliding-Image-2.jpg",
         "category": "spices"
     },
     {
@@ -24,7 +24,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
         "category": "spices"
     },
     {
@@ -38,7 +38,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
         "category": "spices"
     },
     {
@@ -52,7 +52,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/SRx15RS/Green-Cardamom-1.jpg",
         "category": "spices"
     },
     {
@@ -66,7 +66,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
         "category": "spices"
     },
     {
@@ -80,7 +80,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
         "category": "spices"
     },
     {
@@ -94,7 +94,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/SRx15RS/Green-Cardamom-1.jpg",
         "category": "DryFood"
     },
     {
@@ -108,7 +108,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
         "category": "DryFood"
     },
     {
@@ -122,7 +122,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
         "category": "DryFood"
     },
     {
@@ -136,7 +136,7 @@
         "order": "Rosales",
         "family": "Rosaceae",
         "genus": "Rosa",
-        "image": "url_to_rose_image.jpg",
+        "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
         "category": "DryFood"
     }
 ]  

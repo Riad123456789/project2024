@@ -76,7 +76,7 @@ const AllProducts = () => {
 
                             </div>
                         </form>
-                        <div className="ml-[-26px] border z-30"><LuSearch ></LuSearch></div>
+                        <div className="ml-[-26px]  z-30"><LuSearch ></LuSearch></div>
                     </div>
                 </div>
 
