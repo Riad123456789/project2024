@@ -3,7 +3,7 @@ const News = () => {
     return (
         <div className="pb-3 md:my-16">
             <div className="relative overflow-hidden cursor-pointer group">
-                <img className=" h-[250px] md:h-[400px] w-full" src="https://i.ibb.co/1RsvcB3/riad.jpg" alt="" />
+                <img className=" h-[250px] md:h-[410px] w-full" src="https://i.ibb.co/1RsvcB3/riad.jpg" alt="" />
                 <div className="absolute top-0 h-full w-full  opacity-60  bg-gradient-to-r from-[#292629] to-[#1b020e] ">
                 </div>
                 <div className="absolute top-0 h-full w-full  ">

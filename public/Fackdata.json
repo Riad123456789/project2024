@@ -11,7 +11,8 @@
         "family": "Felidae",
         "genus": "Panthera",
         "image": "https://i.ibb.co/M8tRbyk/Sliding-Image-2.jpg",
-        "category": "spices"
+        "category": "spices",
+        "status":"spices"
     },
     {
         "name": "Rose",
@@ -25,7 +26,8 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
-        "category": "spices"
+        "category": "spices",
+        "status":"spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -39,7 +41,8 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
-        "category": "spices"
+        "category": "spices",
+        "status":"spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -53,7 +56,8 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/SRx15RS/Green-Cardamom-1.jpg",
-        "category": "spices"
+        "category": "spices",
+        "status":"spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -67,7 +71,8 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
-        "category": "spices"
+        "category": "spices",
+        "status":"spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -81,7 +86,8 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
-        "category": "spices"
+        "category": "spices",
+        "status":"seeds"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -95,7 +101,8 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/SRx15RS/Green-Cardamom-1.jpg",
-        "category": "DryFood"
+        "category": "DryFood",
+        "status":"spices"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -109,7 +116,8 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
-        "category": "DryFood"
+        "category": "DryFood",
+        "status":"seeds"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -123,7 +131,8 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
-        "category": "DryFood"
+        "category": "DryFood",
+        "status":"seeds"
     },
     {
         "name": "Tyrannosaurus rex",
@@ -137,6 +146,7 @@
         "family": "Rosaceae",
         "genus": "Rosa",
         "image": "https://i.ibb.co/7nV7ysC/Dry-Fruits-4.jpg",
-        "category": "DryFood"
+        "category": "DryFood",
+        "status":"seeds"
     }
 ]  

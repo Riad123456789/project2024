@@ -10,7 +10,7 @@ const Section4 = () => {
             <div className="grid  lg:grid-cols-2 gap-5 ">
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
-                    <video controls className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="../../public/Video/10000000_7285433644825476_2841910340063935254_n.mp4"></video>
+                    <video controls className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="../../public/10000000_7285433644825476_2841910340063935254_n.mp4"></video>
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -18,7 +18,7 @@ const Section4 = () => {
                 </div>
                 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
-                    <video controls className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="../../public/Video/10000000_7285433644825476_2841910340063935254_n.mp4"></video>
+                    <video controls className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="../../public/10000000_7285433644825476_2841910340063935254_n.mp4"></video>
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -26,7 +26,7 @@ const Section4 = () => {
                 </div>
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
-                    <video controls className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="../../public/Video/10000000_7285433644825476_2841910340063935254_n.mp4"></video>
+                    <video controls className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="../../public/10000000_7285433644825476_2841910340063935254_n.mp4"></video>
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -34,7 +34,7 @@ const Section4 = () => {
                 </div>
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
-                    <video controls className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="../../public/Video/10000000_7285433644825476_2841910340063935254_n.mp4"></video>
+                    <video controls className="object-cover w-full  h-[250px]  md:w-64 mx-auto " src="../../public/10000000_7285433644825476_2841910340063935254_n.mp4"></video>
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>

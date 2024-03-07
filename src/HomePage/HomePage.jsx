@@ -3,9 +3,6 @@ import Section2 from "../Section2/Section2";
 
 import Section4 from "../Section4/Section4";
 import Section5 from "../Section5/Section5";
-import Section7 from "../Section7/Section7";
-import Section8 from "../Section8/Section8";
-import Section9 from "../Section9/Section9";
 import Banner2 from "./Banner2";
 import News from "./News";
 import OurProducts from "./OurProducts";
@@ -17,10 +14,12 @@ const HomePage = () => {
             <Banner2></Banner2>
             <OurProducts></OurProducts>
             <News></News>
-            
-            <Section2></Section2>
+
+            <div className="mt-6">
+                <Section2></Section2>
+            </div>
             <div className="py-20">
-            <Section2></Section2>
+                <Section2></Section2>
             </div>
             <Section2></Section2>
             {/* <Section7></Section7>
