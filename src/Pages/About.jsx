@@ -1,17 +1,11 @@
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-} from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import Section1 from './AboutPage/Section1';
 import Section2 from './AboutPage/Section2';
 import Section3 from './AboutPage/Section3';
-import Section4 from './AboutPage/Section4';
 import Section5 from './AboutPage/Section5';
 import TermCard from '../component/card/TermCard';
+import AboutUs from './AboutPage/AboutUs';
+import OurMission from './AboutPage/OurMission';
 
 
 
@@ -20,11 +14,17 @@ const About = () => {
 
 
     return (
-        <div className='overflow-hidden pt-[64px] lg:pt-0'>
-
-            <div className=''>
-                <Section4></Section4>
+        <div className='overflow-hidden pt-[72px] lg:pt-0'>
+            <div className="relative w-fill bg h-36 lg:h-72 shadow-lg shadow-red-400  ">
+                <div className='relative bg-gradient-to-r from-[#1c1b1b] to-[#210d0d] h-full opacity-50'>
+                </div>
+                <h1 className="h-full w-full font-serif text-white text-center  text-2xl lg:text-4xl absolute top-[48%]">
+                    ABOUT US
+                </h1>
             </div>
+            <AboutUs></AboutUs>
+            <OurMission></OurMission>
+
 
 
             <div>
@@ -37,135 +37,6 @@ const About = () => {
                     <TermCard></TermCard>
                 </div>
             </div>
-            <h1 className="text-4xl lg:text-5xl text-center font-serif pt-12">PRIVACY POLICY</h1>
-
-            <div className="grid lg:grid-cols-2 mt-12 gap-5 px-2 max-w-6xl mx-auto">
-                <div>
-                    <div className="">
-                        <Accordion allowZeroExpanded={true} >
-                            <AccordionItem className='font-sans border'>
-                                <AccordionItemHeading >
-                                    <AccordionItemButton >
-                                        What harsh truths do you prefer to ignore?
-                                    </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-                                    <p>
-                                        Exercitation in fugiat est ut ad ea cupidatat ut in
-                                        cupidatat occaecat ut occaecat consequat est minim minim
-                                        esse tempor laborum consequat esse adipisicing eu
-                                        reprehenderit enim.
-                                    </p>
-                                </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem className='font-sans border '>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-                                        Is free will real or just an illusion?
-                                    </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-                                    <p>
-                                        In ad velit in ex nostrud dolore cupidatat consectetur
-                                        ea in ut nostrud velit in irure cillum tempor laboris
-                                        sed adipisicing eu esse duis nulla non.
-                                    </p>
-                                </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem className='font-sans border'>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-                                        Is free will real or just an illusion?
-                                    </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-                                    <p>
-                                        In ad velit in ex nostrud dolore cupidatat consectetur
-                                        ea in ut nostrud velit in irure cillum tempor laboris
-                                        sed adipisicing eu esse duis nulla non.
-                                    </p>
-                                </AccordionItemPanel>
-                            </AccordionItem>
-                            <AccordionItem className='font-sans border'>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-                                        Is free will real or just an illusion?
-                                    </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-                                    <p>
-                                        In ad velit in ex nostrud dolore cupidatat consectetur
-                                        ea in ut nostrud velit in irure cillum tempor laboris
-                                        sed adipisicing eu esse duis nulla non.
-                                    </p>
-                                </AccordionItemPanel>
-                            </AccordionItem>
-                        </Accordion>
-                    </div>
-                </div>
-                <div>
-                    <Accordion allowZeroExpanded={true} >
-                        <AccordionItem className='font-sans border'>
-                            <AccordionItemHeading>
-                                <AccordionItemButton>
-                                    What harsh truths do you prefer to ignore?
-                                </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                <p>
-                                    Exercitation in fugiat est ut ad ea cupidatat ut in
-                                    cupidatat occaecat ut occaecat consequat est minim minim
-                                    esse tempor laborum consequat esse adipisicing eu
-                                    reprehenderit enim.
-                                </p>
-                            </AccordionItemPanel>
-                        </AccordionItem>
-                        <AccordionItem className='font-sans border'>
-                            <AccordionItemHeading>
-                                <AccordionItemButton>
-                                    Is free will real or just an illusion?
-                                </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                <p>
-                                    In ad velit in ex nostrud dolore cupidatat consectetur
-                                    ea in ut nostrud velit in irure cillum tempor laboris
-                                    sed adipisicing eu esse duis nulla non.
-                                </p>
-                            </AccordionItemPanel>
-                        </AccordionItem>
-                        <AccordionItem className='font-sans border'>
-                            <AccordionItemHeading>
-                                <AccordionItemButton>
-                                    Is free will real or just an illusion?
-                                </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                <p>
-                                    In ad velit in ex nostrud dolore cupidatat consectetur
-                                    ea in ut nostrud velit in irure cillum tempor laboris
-                                    sed adipisicing eu esse duis nulla non.
-                                </p>
-                            </AccordionItemPanel>
-                        </AccordionItem>
-                        <AccordionItem className='font-sans border'>
-                            <AccordionItemHeading>
-                                <AccordionItemButton>
-                                    Is free will real or just an illusion?
-                                </AccordionItemButton>
-                            </AccordionItemHeading>
-                            <AccordionItemPanel>
-                                <p>
-                                    In ad velit in ex nostrud dolore cupidatat consectetur
-                                    ea in ut nostrud velit in irure cillum tempor laboris
-                                    sed adipisicing eu esse duis nulla non.
-                                </p>
-                            </AccordionItemPanel>
-                        </AccordionItem>
-                    </Accordion>
-                </div>
-            </div>
-
 
             <div>
                 <Section2></Section2>

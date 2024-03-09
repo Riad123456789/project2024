@@ -6,7 +6,7 @@ const Banner2 = () => {
         <div className="max-w-7xl mx-auto mt-8">
 
 
-            <div className=" h-[85px] bg-amber-500 flex justify-between items-center px-5 md:px-9 ">
+            <div className=" h-[85px] bg-amber-400 flex justify-between items-center px-5 md:px-9 ">
                 <div className="px-4 py-2 ">
                     <h1 className="text-white  md:text-2xl  font-serif">Explore the best spices products <br /> Available here !!!
                     </h1>

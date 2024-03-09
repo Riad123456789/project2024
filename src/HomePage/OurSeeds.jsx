@@ -9,7 +9,7 @@ import 'swiper/css/effect-cube';
 import { useEffect, useState } from 'react';
 
 
-const Section2 = () => {
+const OurSeeds = () => {
 
     const [Data, setData] = useState([]);
 
@@ -49,7 +49,7 @@ const Section2 = () => {
                         breakpoints={{
                             425: {
                                 slidesPerView: 3,
-                                spaceBetween: 3,
+                                spaceBetween: 0,
                             },
                             768: {
                                 slidesPerView: 3,
@@ -63,9 +63,9 @@ const Section2 = () => {
                     >
 
                         {Data?.map((item) => <SwiperSlide key={item.id} className='border-black'>
-                            <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[270px] md:h-[335px] w-[133px] md:w-56 mx-auto  ">
-                                <div className=" h-[145px] md:h-[206px] " >
-                                    <img className="h-[150px] md:h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/zf1zFWs/Coriender-Seeds-6.jpg" alt="product image" />
+                            <div className="relative   transition-all duration-300 cursor-pointer filter  rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg h-[265px] md:h-[335px] w-[138px] md:w-56 mx-auto  ">
+                                <div className=" h-[140px] md:h-[206px] " >
+                                    <img className="h-[145px] md:h-[187px] rounded-t-xl w-full" src="https://i.ibb.co/zf1zFWs/Coriender-Seeds-6.jpg" alt="product image" />
                                 </div>
                                 <div className=" pt-4 px-1 md:pt-0 md:px-2 md:pb-5 ">
                                     <a >
@@ -101,4 +101,4 @@ const Section2 = () => {
 
 
 
-export default Section2;
+export default OurSeeds;

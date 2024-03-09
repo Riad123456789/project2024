@@ -61,7 +61,7 @@ const GalleryPage = () => {
                             className={` uppercase  rounded-md text-base font-medium px-5 py-2.5 text-center me-3 mb-3 ${selectedCategory === "DryFood" ? "bg-orange-500 text-black" : "bg-white text-gray-900"
                                 }`}
                         >
-                            DryFood
+                            Dry Food
                         </button>
                     </div>
                 </div>

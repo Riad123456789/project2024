@@ -18,25 +18,25 @@ const Banner = () => {
                 dynamicHeight={true}
             >
 
-                <div className=" w-full h-[30vh] md:h-[88vh] shadow-2xl">
+                <div className=" w-full h-[25vh] md:h-[88vh] shadow-2xl">
                     <img className="h-full " src="https://i.ibb.co/VSN0wrX/vibes-1.png" alt="" />
                 </div>
-                <div className=" w-full h-[30vh] md:h-[88vh] ">
+                <div className=" w-full h-[25vh] md:h-[88vh] ">
                     <img className="h-full" src="https://i.ibb.co/mz1fD4K/vibes-2.png" alt="" />
                 </div>
-                <div className=" w-full h-[30vh] md:h-[88vh] ">
+                <div className=" w-full h-[25vh] md:h-[88vh] ">
                     <img className="h-full" src="https://i.ibb.co/6gdzyMp/vibes-6.png" alt="" />
                 </div>
-                <div className=" w-full h-[30vh] md:h-[88vh] ">
+                <div className=" w-full h-[25vh] md:h-[88vh] ">
                     <img className="h-full" src="https://i.ibb.co/bHgwCN1/vibes-5.png" alt="" />
                 </div>
-                <div className=" w-full h-[30vh] md:h-[88vh] ">
+                <div className=" w-full h-[25vh] md:h-[88vh] ">
                     <img className="h-full" src="https://i.ibb.co/mtKWHgJ/vibes-4.png" alt="" />
                 </div>
-                <div className=" w-full h-[30vh] md:h-[88vh] ">
+                <div className=" w-full h-[25vh] md:h-[88vh] ">
                     <img className="h-full" src="https://i.ibb.co/NKCWSH7/vibes-7.png" alt="" />
                 </div>
-                <div className=" w-full h-[30vh] md:h-[88vh] shadow-2xl">
+                <div className=" w-full h-[25vh] md:h-[88vh] ">
                     <img className="h-full " src="https://i.ibb.co/VSN0wrX/vibes-1.png" alt="" />
                 </div>
 

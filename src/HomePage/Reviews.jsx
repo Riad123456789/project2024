@@ -7,16 +7,15 @@ import 'swiper/css/navigation';
 
 
 
-const Section5 = () => {
+const Reviews = () => {
     return (
 
         <div className='pt-8'>
             <div className="  overflow-x-hidden ">
                 {/* heading  */}
                 <div data-aos="zoom-out-up" data-aos-duration="1500" className="text-center">
-                    <h3 className="text-5xl text-center font-bold">Customers Love Our Spices & Service</h3>
+                    <h3 className="text-5xl text-center font-bold text-orange-600">Customers Love Our Spices</h3>
                 </div>
-
 
                 <div className='max-w-7xl mx-auto pt-24'>
                     <Swiper
@@ -54,7 +53,7 @@ const Section5 = () => {
                                         <p className="my-4">If you care for your time, I hands down would go with this."</p>
                                     </blockquote>
                                     <figcaption className="flex items-center justify-center ">
-                                        <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                                             <div>Bonnie Green</div>
                                             <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
@@ -71,7 +70,7 @@ const Section5 = () => {
                                         <p className="my-4">If you care for your time, I hands down would go with this."</p>
                                     </blockquote>
                                     <figcaption className="flex items-center justify-center ">
-                                        <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/vZYmG3v/istockphoto-694054978-612x612.jpg" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                                             <div>Bonnie Green</div>
                                             <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
@@ -88,7 +87,7 @@ const Section5 = () => {
                                         <p className="my-4">If you care for your time, I hands down would go with this."</p>
                                     </blockquote>
                                     <figcaption className="flex items-center justify-center ">
-                                        <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/zR39ctJ/elegant-businessman-office-155003-9641.jpg" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                                             <div>Bonnie Green</div>
                                             <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
@@ -105,7 +104,7 @@ const Section5 = () => {
                                         <p className="my-4">If you care for your time, I hands down would go with this."</p>
                                     </blockquote>
                                     <figcaption className="flex items-center justify-center ">
-                                        <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/7t2zYJY/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-sm.jpg" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                                             <div>Bonnie Green</div>
                                             <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
@@ -189,4 +188,4 @@ const Section5 = () => {
     );
 };
 
-export default Section5;
+export default Reviews;

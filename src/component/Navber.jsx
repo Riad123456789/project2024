@@ -25,8 +25,11 @@ const Navber = ({ children }) => {
             <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>ABOUT US </a></li>
         </NavLink>
         <NavLink to={'/allProducts'}>
-            <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>SPICES & HERBS </a></li>
+
+        <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>ALL PRODUCTS</a></li>
+
         </NavLink>
+
         <NavLink to={"/gallery"}>
             <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>GALLERY </a></li>
         </NavLink>
