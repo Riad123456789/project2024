@@ -1,11 +1,12 @@
 import 'react-accessible-accordion/dist/fancy-example.css';
 import Section1 from './AboutPage/Section1';
 import Section2 from './AboutPage/Section2';
-import Section3 from './AboutPage/Section3';
-import Section5 from './AboutPage/Section5';
-import TermCard from '../component/card/TermCard';
+
 import AboutUs from './AboutPage/AboutUs';
 import OurMission from './AboutPage/OurMission';
+import WhyChoose from './AboutPage/WhyChoose';
+import TimeLine from './AboutPage/TimeLine';
+import Section3 from './AboutPage/Section3';
 
 
 
@@ -24,29 +25,21 @@ const About = () => {
             </div>
             <AboutUs></AboutUs>
             <OurMission></OurMission>
+            <WhyChoose></WhyChoose>
+            <TimeLine></TimeLine>
 
 
-
-            <div>
+            {/*         <div>
                 <Section1></Section1>
-            </div>
-
-            <div>
-                <h1 className="text-4xl lg:text-5xl text-center font-serif mt-28">TERMS & CONDITIONS</h1>
-                <div className=''>
-                    <TermCard></TermCard>
-                </div>
-            </div>
+            </div> */}
 
             <div>
                 <Section2></Section2>
             </div>
             <div>
-                <Section3></Section3>
+               <Section3></Section3>
             </div>
-            <div>
-                <Section5></Section5>
-            </div>
+           
 
         </div>
     );

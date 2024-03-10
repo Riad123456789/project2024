@@ -3,7 +3,7 @@ import { MdPayment } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
 const Section2 = () => {
     return (
-        <div className="my-16 overflow-hidden">
+        <div className=" overflow-hidden">
             <div style={{
                 backgroundImage: `url("https://i.ibb.co/NWN5SH8/riad1.jpg")`,
                 backgroundRepeat: "no-repeat",
@@ -12,8 +12,8 @@ const Section2 = () => {
                 backgroundAttachment: "fixed",
 
             }}
-                className="w-full h-[500px] md:h-[340px] relative ">
-                <div className=" bg-gradient-to-r from-[#372727] to-[#210303] opacity-70 w-full h-full pt-8 ">
+                className="w-full h-[230px] md:h-[340px] relative ">
+                <div className=" bg-gradient-to-r from-[#372727] to-[#210303] opacity-35 w-full h-full pt-8 ">
                 </div>
 
                 <div className="absolute top-10 lg:left-[20px] opacity-90 px-4">

@@ -10,7 +10,7 @@ import { AiFillYoutube } from "react-icons/ai";
 const Foother = () => {
     return (
         <div>
-            <footer className="bg h-[590px] md:h-96 lg:h-80 relative overflow-hidden ">
+            <footer className="bg h-[590px] md:h-96 lg:h-[360px] relative overflow-hidden ">
                 <div className=' relative bg-gradient-to-r from-[#2f1212] to-[#000000] h-full opacity-80   '>
                 </div>
 
