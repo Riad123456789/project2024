@@ -15,9 +15,9 @@ const WhyChoose = () => {
                 </p>
             </div>
 
-            <div className="grid  md:grid-cols-3 max-w-6xl mx-auto gap-4 md:gap-24 mt-12 px-2">
+            <div className="grid  md:grid-cols-3 max-w-6xl mx-auto gap-5 md:gap-24 mt-12 px-2">
 
-                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-4  space-y-3 rounded-md shadow-lg">
+                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg">
                     <div className="flex justify-center items-center mx-auto">
                         <FcImport className="border-4 border-pink-500 rounded-full p-3  mx-3" size={80} color="green"></FcImport>
                     </div>
@@ -26,7 +26,7 @@ const WhyChoose = () => {
                         <span className="md:flex justify-center">to excellence  satisfaction.</span> </p>
                 </div>
 
-                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-4  space-y-3 rounded-md shadow-lg">
+                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg">
                     <div className="flex justify-center items-center mx-auto">
                         <FcExport className="border-4 border-orange-400 rounded-full p-3 mx-3" size={80} color="green"></FcExport>
                     </div>
@@ -36,7 +36,7 @@ const WhyChoose = () => {
                     </p>
                 </div>
 
-                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-4  space-y-3 rounded-md shadow-lg">
+                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg">
                     <div className="flex justify-center items-center mx-auto">
                         <FcShipped className="border-4 border-lime-600 rounded-full p-3  mx-3" size={80} color="green"></FcShipped>
                     </div>

@@ -7,6 +7,7 @@ import OurMission from './AboutPage/OurMission';
 import WhyChoose from './AboutPage/WhyChoose';
 import TimeLine from './AboutPage/TimeLine';
 import Section3 from './AboutPage/Section3';
+import Recognition from './AboutPage/Recognition';
 
 
 
@@ -36,10 +37,11 @@ const About = () => {
             <div>
                 <Section2></Section2>
             </div>
-            <div>
+            <Recognition></Recognition>
+            {/* <div>
                <Section3></Section3>
             </div>
-           
+            */}
 
         </div>
     );

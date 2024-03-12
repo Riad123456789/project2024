@@ -1,3 +1,5 @@
+import { BigPlayButton, Player } from "video-react";
+import video from "../../public/New folder/10000000_7285433644825476_2841910340063935254_n.mp4"
 
 
 const Blog = () => {
@@ -21,44 +23,60 @@ const Blog = () => {
             <div className="grid  lg:grid-cols-2 gap-5 ">
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
-                    <video controls className="object-cover w-full  h-[250px]  md:w-80 mx-auto " src="../../public/10000000_7285433644825476_2841910340063935254_n.mp4">
-                    </video>
-                    <div className="flex flex-col justify-between p-3 leading-normal">
+
+                    <div   className="w-full">
+                        <Player
+                           
+                          >
+                            <source src={video} />
+                            <BigPlayButton position="center" />
+                        </Player>
+                    </div>
+
+                    {/* <div className="flex flex-col justify-between p-3 leading-normal">
                         <h5 className="mb-2 text-lg font-bold  text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-sm text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
-                    <video controls className="object-cover w-full  h-[250px]  md:w-80 mx-auto " src="../../public/10000000_7285433644825476_2841910340063935254_n.mp4">
-                    </video>
-                    <div className="flex flex-col justify-between p-3 leading-normal">
+                    <Player
+                        className="object-cover w-full  h-[250px]  md:w-96 mx-auto">
+                        <source src={video} />
+                        <BigPlayButton position="center" />
+
+                    </Player>
+                    {/* <div className="flex flex-col justify-between p-3 leading-normal">
                         <h5 className="mb-2 text-lg font-bold  text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-sm text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
-                    <video controls className="object-cover w-full  h-[250px]  md:w-80 mx-auto " src="../../public/10000000_7285433644825476_2841910340063935254_n.mp4">
-                    </video>
-                    <div className="flex flex-col justify-between p-3 leading-normal">
+                    <Player
+                        className="object-cover w-full  h-[250px]  md:w-96 mx-auto">
+                        <source src={video} />
+                        <BigPlayButton position="center" />
+
+                    </Player>
+                    {/* <div className="flex flex-col justify-between p-3 leading-normal">
                         <h5 className="mb-2 text-lg font-bold  text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-sm text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
-                    <video controls className="object-cover w-full  h-[250px]  md:w-80 mx-auto " src="../../public/10000000_7285433644825476_2841910340063935254_n.mp4">
-                    </video>
-                    <div className="flex flex-col justify-between p-3 leading-normal">
+                    <Player
+                        className="object-cover w-full  h-[250px]  md:w-96 mx-auto">
+                        <source src={video} />
+                        <BigPlayButton position="center" />
+
+                    </Player>
+                    {/* <div className="flex flex-col justify-between p-3 leading-normal">
                         <h5 className="mb-2 text-lg font-bold  text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
                         <p className="mb-3 font-normal text-sm text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div>
+                    </div> */}
                 </div>
-
-
-
-
             </div>
         </div>
     );

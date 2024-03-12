@@ -10,7 +10,7 @@ const OurMission = () => {
             <div className="max-w-7xl mx-auto  md:flex gap-10  pt-10 overflow-hidden " >
                 <div className="flex-1 md:pl-16 pb-9 ">
                     <div className='relative h-96 w-96 md:h-[520px] md:w-[520px] mx-auto'>
-                        <img className="" src="https://i.ibb.co/zP7DhsY/423422654-6984580211654130-6927551126586771729-n-1.jpg" alt="" />
+                        <img className="shadow-lg md:shadow-xl shadow-slate-400" src="https://i.ibb.co/zP7DhsY/423422654-6984580211654130-6927551126586771729-n-1.jpg" alt="" />
                         <div className="absolute h-[70px] md:h-20 w-full bg-red-600 opacity-45 top-[315px] md:top-[440px]">
                         </div>
                         <div className="absolute  w-full pl-8 top-[315px] md:top-[440px]">

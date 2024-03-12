@@ -70,7 +70,7 @@ const Foother = () => {
                         </div>
                     </div>
                     <div className=" flex items-center justify-center px-6  text-sm  ">
-                        <span className=" text-white font-semibold ">© Copyright 2024. All Rights Reserved by ( Riad jowarder )</span>
+                        <span className=" text-white font-semibold ">© Copyright 2024. All Rights Reserved by Riad</span>
                     </div>
                 </div>
             </footer>
