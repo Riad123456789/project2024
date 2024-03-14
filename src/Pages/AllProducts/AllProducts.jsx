@@ -76,8 +76,8 @@ const AllProducts = () => {
                 </div>
 
 
-                <div className="pt-12 grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto my-3 mb-10 ">
-                    {filteredData.slice(0, 10).map((item) => (
+                <div className="pt-12 grid grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto my-3 mb-10 ">
+                    {filteredData?.map((item) => (
                         <div
                             key={item?.id}
                             className="relative transition-all duration-300 cursor-pointer filter hover:grayscale-0 rounded-xl bg-gradient-to-r  from-[#0ba360] to-[#3cba92] bg-clip-border text-gray-700 shadow-xl group-hover:shadow-lg 
@@ -86,7 +86,7 @@ const AllProducts = () => {
                             <div className="overflow-hidden h-[214px]" href="#">
                                 <img
                                     className="h-full w-full rounded-t-xl"
-                                    src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg"
+                                    src={item?.image}
                                     alt="product image"
                                 />
                             </div>

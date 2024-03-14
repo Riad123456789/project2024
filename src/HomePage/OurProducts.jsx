@@ -50,7 +50,7 @@ const OurProducts = () => {
                         <div className="overflow-hidden h-[214px]" href="#">
                             <img
                                 className="h-full w-full rounded-t-xl"
-                                src="https://i.ibb.co/2sVJtqr/White-Pepper-2.jpg"
+                                src={item?.image}
                                 alt="product image"
                             />
                         </div>

@@ -1,6 +1,6 @@
 import { IoMdMailUnread } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
-import { MdPhoneInTalk } from "react-icons/md";
+import { FcCellPhone } from "react-icons/fc";
 import Damo from "./Damo";
 
 const ContactPage = () => {
@@ -15,51 +15,39 @@ const ContactPage = () => {
                 </h1>
             </div>
 
-            <div className="grid  lg:grid-cols-3 gap-5 max-w-6xl mx-auto pt-16 md:px-6 lg:px-0">
+            <div className="grid  md:grid-cols-3 max-w-6xl mx-auto gap-5 md:gap-24 mt-12 px-2">
 
-                <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-md  shadow-gray-700 ">
-                    <figure className="pt-10   ">
-                        <div className=" border-4 border-green-600 flex justify-center items-center rounded-full px-2 py-[16px] w-[90px] mx-auto ">
-                            <IoLocationSharp size={45} color="green"></IoLocationSharp>
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center">
-                        <h2 className="card-title font-serif">ADDRESS</h2>
-                        <p className="font-sans">Dakhshin Mollartek,Uttara Dhaka-1230</p>
-                        <div className="card-actions">
-                        </div>
+                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg">
+                    <div className="flex justify-center items-center mx-auto">
+                        <IoLocationSharp className="border-4 border-red-600 rounded-full p-3  mx-3" size={80} color="red"></IoLocationSharp>
                     </div>
+                    <h2 className=" font-serif text-lg md:text-2xl font-semibold text-center">ADDRESS</h2>
+
+                    <p className="font-sans   text-center md:text-center text-sm md:text-base font-semibold ">
+                        Wapda Road,Ullahpara,Sirajgonj
+
+                    </p>
+
                 </div>
 
-
-                <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-md shadow-gray-700 ">
-                    <figure className="pt-10   ">
-                        <div className=" border-4 border-green-600 flex justify-center items-center rounded-full px-2 py-[16px] w-[90px] mx-auto ">
-                            <MdPhoneInTalk size={45} color="green"></MdPhoneInTalk>
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center">
-                        <h2 className="card-title font-serif">PHONE</h2>
-                        <p className="font-sans">+8801919509903</p>
-                        <div className="card-actions">
-                        </div>
+                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg">
+                    <div className="flex justify-center items-center mx-auto">
+                        <IoMdMailUnread className="border-4 border-[#2c88de] rounded-full p-3 mx-3" size={80} color="#2c88de"></IoMdMailUnread>
                     </div>
+                    <h2 className=" font-serif text-lg md:text-2xl font-semibold text-center">E-MAIL</h2>
+                    <p className="font-sans  text-center md:text-center text-base md:text-base font-semibold">
+                        rktradindbd777@gmail.com
+                    </p>
                 </div>
 
-
-                <div className=" w-[350px] md:w-full lg:w-[350px] mx-auto bg-base-100 shadow-md  shadow-gray-700 ">
-                    <figure className="pt-10   ">
-                        <div className=" border-4 border-green-600 flex justify-center items-center rounded-full px-2 py-[16px] w-[90px] mx-auto ">
-                            <IoMdMailUnread size={45} color="green"></IoMdMailUnread>
-                        </div>
-                    </figure>
-                    <div className="card-body items-center text-center">
-                        <h2 className="card-title font-serif">E-MAIL</h2>
-                        <p className="font-sans">rktradingbd777@gmail.com</p>
-                        <div className="card-actions">
-                        </div>
+                <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg">
+                    <div className="flex justify-center items-center mx-auto">
+                        <FcCellPhone className="border-4 border-[#55779e] rounded-full p-3  mx-3" size={80} color="green"></FcCellPhone>
                     </div>
+                    <h2 className=" font-serif text-lg md:text-2xl font-semibold text-center uppercase">PHONE</h2>
+                    <p className="font-sans  text-center md:text-center text-base md:text-lg font-semibold">+8801795579568</p>
                 </div>
+
             </div>
 
             <div>

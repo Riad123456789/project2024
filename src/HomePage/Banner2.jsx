@@ -29,7 +29,7 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Cumin Seeds</h1>
                             <p className="text-[7px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. ab error tenetur nam......
@@ -44,7 +44,7 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Dry Red Chili</h1>
                             <p className="text-[7px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. ab error tenetur nam......
@@ -59,7 +59,7 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Green Cardamom</h1>
                             <p className="text-[7px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. ab error tenetur nam......
@@ -74,7 +74,7 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Turmeric</h1>
                             <p className="text-[7px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. ab error tenetur nam......
@@ -89,7 +89,7 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Cloves</h1>
                             <p className="text-[7px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. ab error tenetur nam......
@@ -104,7 +104,7 @@ const Banner2 = () => {
                     </div>
                     <div className="absolute top-0 h-full w-full  -left-[570px] group-hover:left-0 transition-all duration-[1s] ">
                         <div className="mt-3 md:mt-10">
-                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Best Products</h1>
+                            <h1 className="text-xl md:text-3xl text-white w-[80%] mx-auto uppercase">Black Cardamom</h1>
                             <p className="text-[7px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. ab error tenetur nam......

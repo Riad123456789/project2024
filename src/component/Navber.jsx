@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 import img from "../../public/395030218_354819416996869_7748260630163794940_n.jpg"
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
-import { RiFacebookCircleFill } from "react-icons/ri";
-import { FaWhatsapp } from "react-icons/fa6";
-import { FaFacebookMessenger } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { TbBrandYoutubeFilled } from "react-icons/tb";
 
 const Navber = ({ children }) => {
 
@@ -26,7 +26,7 @@ const Navber = ({ children }) => {
         </NavLink>
         <NavLink to={'/allProducts'}>
 
-        <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>ALL PRODUCTS</a></li>
+            <li className='sm:text-black lg:text-white hover:text-orange-500 text-sm font-semibold '><a>ALL PRODUCTS</a></li>
 
         </NavLink>
 
@@ -77,9 +77,16 @@ const Navber = ({ children }) => {
                                 </div>
                                 <div className="flex gap-2  items-center">
                                     <div className="flex gap-3 items-center">
-                                        <RiFacebookCircleFill className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000 " size={28} color="white"></RiFacebookCircleFill>
-                                        <FaWhatsapp className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000" size={25} color="white"></FaWhatsapp>
-                                        <FaFacebookMessenger className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000" size={22} color="white"></FaFacebookMessenger>
+                                        <Link to={'https://www.facebook.com/rktrading.com.bd'}>
+                                            <FaFacebookSquare className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000 " size={25} color="white"></FaFacebookSquare>
+                                        </Link>
+
+                                        <Link to={"https://www.linkedin.com/in/rk-trading-bd"}>
+                                            <FaLinkedin className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000" size={24} color="white"></FaLinkedin>
+                                        </Link>
+                                        <Link to={"https://www.youtube.com/@rktrading873"}>
+                                            <TbBrandYoutubeFilled className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000" size={29} color="white"></TbBrandYoutubeFilled>
+                                        </Link>
                                     </div>
 
                                     <Link to={"/register"}> <button className="shadow-red-400 shadow-sm btn btn-outline  text-white btn-sm ml-7 text-xs font-sans">Subscribe Now</button>

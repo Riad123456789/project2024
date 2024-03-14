@@ -24,10 +24,10 @@ const Blog = () => {
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
 
-                    <div   className="w-full">
+                    <div className="w-full">
                         <Player
-                           
-                          >
+                            poster="https://i.ibb.co/8MLXy0k/395030218-354819416996869-7748260630163794940-n.jpg"
+                        >
                             <source src={video} />
                             <BigPlayButton position="center" />
                         </Player>
@@ -41,7 +41,8 @@ const Blog = () => {
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
                     <Player
-                        className="object-cover w-full  h-[250px]  md:w-96 mx-auto">
+                        poster="https://i.ibb.co/8MLXy0k/395030218-354819416996869-7748260630163794940-n.jpg"
+                    >
                         <source src={video} />
                         <BigPlayButton position="center" />
 
@@ -54,7 +55,8 @@ const Blog = () => {
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
                     <Player
-                        className="object-cover w-full  h-[250px]  md:w-96 mx-auto">
+                        poster="https://i.ibb.co/8MLXy0k/395030218-354819416996869-7748260630163794940-n.jpg"
+                    >
                         <source src={video} />
                         <BigPlayButton position="center" />
 
@@ -67,7 +69,8 @@ const Blog = () => {
 
                 <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
                     <Player
-                        className="object-cover w-full  h-[250px]  md:w-96 mx-auto">
+                        poster="https://i.ibb.co/8MLXy0k/395030218-354819416996869-7748260630163794940-n.jpg"
+                    >
                         <source src={video} />
                         <BigPlayButton position="center" />
 
