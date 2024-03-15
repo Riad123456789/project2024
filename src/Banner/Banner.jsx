@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Banner = () => {
 
     return (
-        <div className="pt-[72px] md:pt-0">
+        <div className="pt-[64px] md:pt-0">
             <Carousel
                 className=" text-center shadow-lg shadow-zinc-300  "
                 showStatus={false}
