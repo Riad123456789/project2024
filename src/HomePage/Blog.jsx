@@ -5,7 +5,7 @@ import video from "../../public/New folder/10000000_7285433644825476_28419103400
 const Blog = () => {
     return (
         <div className="bg-zinc-300 md:pt-1  pb-10">
-            <div className="my-14 mt-16 max-w-6xl mx-auto px-2 pt-2 md:pt-0">
+            <div className=" max-w-6xl mx-auto px-2 pt-2 md:pt-0">
                 <img className='h-14 w-80  md:h-16 md:w-[470px] mx-auto mb-2 mt-8 md:mt-12' src="https://i.ibb.co/tPyyKhT/e51ab9683522f0c3f68c8308fb8b161d-1-removebg-preview.png" alt="" />
                 <div className="text-center ">
                     <h1

@@ -4,6 +4,7 @@ import Blog from "./Blog";
 import News from "./News";
 import OurProducts from "./OurProducts";
 import OurSeeds from "./OurSeeds";
+import OurSpices from "./OurSpices";
 import Reviews from "./Reviews";
 
 const HomePage = () => {
@@ -13,14 +14,8 @@ const HomePage = () => {
             <Banner2></Banner2>
             <OurProducts></OurProducts>
             <News></News>
-
-            <div className="mt-6">
-                <OurSeeds></OurSeeds>
-            </div>
-            <div className="py-20">
-                <OurSeeds></OurSeeds>
-            </div>
             <OurSeeds></OurSeeds>
+            <OurSpices></OurSpices>
             <Blog></Blog>
             <Reviews></Reviews>
         </div>

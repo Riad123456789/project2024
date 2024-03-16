@@ -28,9 +28,9 @@ const OurProducts = () => {
     return (
         <div className="relative">
 
-            <img className=" absolute -top-12 -left-10  md:-top-[80px]  w-32 md:w-[250px] " src="https://i.ibb.co/BLmqgvj/garam-masala-whole-2-removebg-preview.png" alt="" />
+            <img className=" absolute -top-12 -left-10  md:-top-[80px]  w-32 md:w-[200px] xl:w-[250px] " src="https://i.ibb.co/BLmqgvj/garam-masala-whole-2-removebg-preview.png" alt="" />
 
-            <img className=" absolute -top-12 right-0 md:-top-[110px] md:right-0 w-44 md:w-[480px] " src="https://i.ibb.co/5GcKD9L/various-spices-isolated-on-white-background-top-view-photo-removebg.png" alt="" />
+            <img className=" absolute -top-12 right-0 md:-top-[110px]  md:right-0 w-44 md:w-[330px] lg:w-[370px] xl:w-[480px]" src="https://i.ibb.co/5GcKD9L/various-spices-isolated-on-white-background-top-view-photo-removebg.png" alt="" />
 
 
             <div className="  mt-20 md:mt-32 pb-14 md:pb-24 pt-10 bg-[#d6d5d0]">
@@ -125,7 +125,7 @@ const OurProducts = () => {
                                                 <div className=' mt-2 md:m-2'>
                                                     <div className='border-[1px] border-black'>
                                                         <h1 className='bg-green-400 text-center text-sm font-bold m-2'>{selectedProduct?.name}</h1>
-                                                        <img className='  md:w-52 h-60 p-2 mx-auto' src="https://i.ibb.co/3F4mpW5/Piper-nigrum-K-hler-s-Medizinal-Pflanzen-107.jpg" alt="" />
+                                                        <img className='  md:w-52 h-60 p-2 mx-auto' src={selectedProduct?.image1} alt="" />
                                                         <h1 className='bg-green-400 text-center text-sm font-bold m-2'>Scientific classification</h1>
                                                         <div className='py-1 space-y-1'>
 
