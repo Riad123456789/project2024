@@ -67,15 +67,18 @@ const OurProducts = () => {
 
                             <div className="px-3 pb-5 pt-1">
                                 <a >
-                                    <h5 className="text-sm md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                                    <h5 className="text-[110%] md:text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                                         {item?.name}
                                     </h5>
                                 </a>
                                 <div className="flex items-center mt-2.5 mb-5 pt-1">
                                     <div className="flex items-center space-x-1 rtl:space-x-reverse">
                                         {/* Rating stars SVGs */}
-                                        <span className="  text-xs font-medium md:font-semibold text-justify  ">
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore non nam dolore odit tenetur porro  Tempore non nam !
+                                        <span className="block md:hidden text-[55%] font-medium md:font-semibold text-justify  ">
+                                            {item?.history.slice(0, 90)}....
+                                        </span>
+                                        <span className="hidden md:block text-xs font-medium md:font-semibold text-justify  ">
+                                            {item?.history.slice(0, 140)}....
                                         </span>
                                     </div>
                                 </div>
@@ -113,14 +116,14 @@ const OurProducts = () => {
                                             <h3 className="font-semibold font-sans text-xl border-b-2 border-black uppercase pb-2">{selectedProduct?.name}</h3>
                                             <div className='md:flex '>
                                                 <div className=' md:w-[78%]'>
-                                                    <p className='text-justify text-xs font-medium pt-1'> <span className='font-bold text-black'> Black pepper </span> (Piper nigrum) is a flowering vine in the family Piperaceae, cultivated for its fruit (the peppercorn), which is usually dried and used as a spice and seasoning. The fruit is a drupe (stonefruit) which is about 5 mm (0.20 in) in diameter (fresh and fully mature), dark red, and contains a stone which encloses a single pepper seed. Peppercorns and the ground pepper derived from them may be described simply as pepper, or more precisely as black pepper (cooked and dried unripe fruit), green pepper (dried unripe fruit), or white pepper (ripe fruit seeds).[2]</p>
+                                                    <p className='text-justify text-xs font-medium pt-1'> <span className='font-bold text-black'> {selectedProduct?.name}</span> {selectedProduct?.description.slice(0, 500)}</p>
 
-                                                    <p className='text-justify text-xs font-medium pt-4'>Black pepper is native to the Malabar Coast of India,[3][4] and the Malabar pepper is extensively cultivated there and in other tropical regions. Ground, dried, and cooked peppercorns have been used since antiquity, both for flavour and as a traditional medicine. Black pepper is the world's most traded spice,[5] and is one of the most common spices added to cuisines around the world. Its spiciness is due to the chemical compound piperine, which is a different kind of spiciness from that of capsaicin characteristic of chili peppers. It is ubiquitous in the Western world as a seasoning, and is often paired with salt and available on dining tables in shakers or mills.</p>
+                                                    <p className='text-justify text-xs font-medium pt-4'>{selectedProduct?.description.slice(500, 1200)}</p>
 
                                                     <h3 className="font-medium  text-lg border-b-2 border-black uppercase pb-1 pt-4 font-serif">Etymology</h3>
-                                                    <p className='text-justify text-xs font-medium pt-4'>The word pepper derives from Old English pipor, Latin piper, and Greek: πέπερι.[6] The Greek likely derives from Dravidian pippali, meaning "long pepper".[7] Sanskrit pippali shares the same meaning.[6]</p>
+                                                    <p className='text-justify text-xs font-medium pt-4'>{selectedProduct?.etymology}</p>
                                                     <h3 className="font-medium  text-lg border-b-2 border-black uppercase pb-1 pt-4 font-serif">History</h3>
-                                                    <p className='text-justify text-xs font-medium pt-2'>Black pepper is native to South Asia and Southeast Asia, and has been known to Indian cooking since at least 2000 BCE.[20][how?] J. Innes Miller notes that while pepper was grown in southern Thailand and in Malaysia,[when?] its most important source was India, particularly the Malabar Coast, in what is now the state of Kerala.[21] The lost ancient port city of Muziris in Kerala, famous for exporting black pepper and various other spices, gets mentioned in a number of classical historical sources for its trade with Roman Empire, Egypt, Mesopotamia, Levant, and Yemen.[22][23][24][25] Peppercorns were a much-prized trade good, often referred term "peppercorn rent" as a token payment for something that is, essentially, a gift.</p>
+                                                    <p className='text-justify text-xs font-medium pt-2'>{selectedProduct?.history}</p>
                                                 </div>
                                                 <div className=' mt-2 md:m-2'>
                                                     <div className='border-[1px] border-black'>
@@ -131,23 +134,23 @@ const OurProducts = () => {
 
                                                             <div className='flex  items-center gap-5'>
                                                                 <p className='text-xs font-semibold pl-2 '>Kingdom :</p>
-                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>Plantae</p>
+                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>{selectedProduct?.kingdom}</p>
                                                             </div>
                                                             <div className='flex  items-center gap-10'>
                                                                 <p className='text-xs font-semibold pl-2 '>Clade :</p>
-                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>Tracheophytes</p>
+                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>{selectedProduct?.clade}</p>
                                                             </div>
                                                             <div className='flex  items-center gap-10'>
                                                                 <p className='text-xs font-semibold pl-2 '>Order :</p>
-                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>Angiosperms</p>
+                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>{selectedProduct?.order}</p>
                                                             </div>
                                                             <div className='flex  items-center gap-9'>
                                                                 <p className='text-xs font-semibold pl-2 '>Family :</p>
-                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>Piperaceae</p>
+                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>{selectedProduct?.family}</p>
                                                             </div>
                                                             <div className='flex  items-center gap-9'>
                                                                 <p className='text-xs font-semibold pl-2 '>Genus :</p>
-                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>Piper</p>
+                                                                <p className='text-xs font-semibold pl-2 text-blue-700'>{selectedProduct?.genus}</p>
                                                             </div>
 
                                                         </div>

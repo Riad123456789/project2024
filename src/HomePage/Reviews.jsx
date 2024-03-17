@@ -10,14 +10,25 @@ import 'swiper/css/navigation';
 const Reviews = () => {
     return (
 
-        <div className='pt-8'>
+        <div className='pt-2 bg-[#d3e8d8] '>
             <div className="  overflow-x-hidden ">
                 {/* heading  */}
-                <div data-aos="zoom-out-up" data-aos-duration="1500" className="text-center">
-                    <h3 className="text-5xl text-center font-bold text-orange-600">Customers Love Our Spices</h3>
+                <img className='h-14 w-80  md:h-16 md:w-[490px] mx-auto mb-2 mt-8 md:mt-12' src="https://i.ibb.co/tPyyKhT/e51ab9683522f0c3f68c8308fb8b161d-1-removebg-preview.png" alt="" />
+
+                <div className="text-center ">
+                    <h1
+                        style={{
+                            textTransform: "uppercase",
+                            color: "transparent",
+                            WebkitBackgroundClip: "text",
+                        }}
+                        className="text-3xl px-2 md:text-4xl lg:text-5xl font-semibold font-serif pb-7 md:pt-2 md:pb-16  bg-gradient-to-r from-red-700 to-amber-500  "
+                    >
+                        customer reviews
+                    </h1>
                 </div>
 
-                <div className='max-w-7xl mx-auto pt-24'>
+                <div className='max-w-7xl mx-auto pt-12 px-3'>
                     <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                         autoplay={{
@@ -46,7 +57,7 @@ const Reviews = () => {
                     >
 
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto border shadow-xl rounded-md'>
+                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
                                 <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
                                     <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
@@ -63,7 +74,7 @@ const Reviews = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto border shadow-xl rounded-md'>
+                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
                                 <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
                                     <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
@@ -80,7 +91,7 @@ const Reviews = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto border shadow-xl rounded-md'>
+                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
                                 <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
                                     <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
@@ -97,7 +108,7 @@ const Reviews = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto border shadow-xl rounded-md'>
+                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
                                 <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
                                     <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
@@ -114,7 +125,7 @@ const Reviews = () => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto border shadow-xl rounded-md'>
+                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
                                 <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
                                     <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
                                         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>

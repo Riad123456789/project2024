@@ -40,7 +40,7 @@ const AllProducts = () => {
 
 
     return (
-        <div className='pt-[70px] lg:pt-0'>
+        <div className='pt-[64px] lg:pt-0'>
             <div className="relative w-full bg3 h-36 lg:h-72 shadow-md shadow-sky-600">
                 <div className='bg-gradient-to-r from-[#1c1b1b] to-[#052f33] h-full opacity-60'></div>
                 <h1 className="h-full w-full font-serif text-white text-center  text-2xl lg:text-4xl absolute top-[48%]">

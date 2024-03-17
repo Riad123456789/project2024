@@ -53,7 +53,7 @@ const Foother = () => {
                                         <BiLogoFacebookSquare size={20}></BiLogoFacebookSquare>  FACEBOOK
                                     </p>
                                 </Link>
-                                <Link to={"www.gmail.com"}>
+                                <Link to={"https://www.instagram.com/rktradingbd"}>
                                     <p className='  text-white font-semibold flex items-center gap-2 ml-[1px]' >
                                         <FaInstagramSquare size={20}></FaInstagramSquare>Instagram
                                     </p>

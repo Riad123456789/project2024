@@ -50,7 +50,7 @@ const Navber = ({ children }) => {
                     onChange={toggleSidebar} />
                 <div className="drawer-content ">
 
-                    <div className=" w-full navbar  fixed  z-10 lg:rounded-md px-5  bg-gray-800 bg-opacity-80">
+                    <div className=" lg:px-2 xl:px-12 flex  lg:justify-between   w-full navbar  fixed  z-10 lg:rounded-md  bg-gray-800 bg-opacity-80">
 
                         <div className=" lg:hidden ">
                             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
@@ -58,10 +58,8 @@ const Navber = ({ children }) => {
                             </label>
                         </div>
 
-
-                        <div className="flex lg:gap-16  xl:gap-72 2xl:mx-a">
-
-                            <div className="flex items-center gap-1  ">
+                      
+                            <div className=" flex  ">
                                 <div className=' p-1 shadow-sm shadow-red-500 rounded-full cursor-pointer  hover:-rotate-[360deg] duration-1000 transition-all '>
                                     <img className='w-10 md:w-12  rounded-full  ' src={img} alt="" />
                                 </div>
@@ -72,14 +70,15 @@ const Navber = ({ children }) => {
                                 </p>
                             </div>
 
-                            <div className="hidden lg:flex items-center lg:gap-16 xl:gap-40  justify-end">
-                                <div className="">
-                                    <ul className=" flex lg:gap-5 xl:gap-7">
-                                        {Navlink}
-                                    </ul>
-                                </div>
 
-                                <div className="flex gap-3 xl:gap-7  items-center ">
+
+                            <div className=" hidden lg:flex lg:gap-9  xl:gap-32 ">
+                                <ul className="  flex lg:gap-10  ">
+                                    {Navlink}
+                                </ul>
+
+
+                                <div className="flex gap-3 xl:gap-7  items-center justify-end s">
                                     <div className="flex gap-3 items-center">
                                         <Link to={'https://www.facebook.com/rktrading.com.bd'}>
                                             <FaFacebookSquare className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000 " size={25} color="white"></FaFacebookSquare>
@@ -94,9 +93,9 @@ const Navber = ({ children }) => {
                                     </div>
                                     <a className='flex justify-start items-center gap-1 py-2 pl-2 text-white font-semibold' ><MdOutlinePhoneInTalk size={25} /> +8801795579568</a>
                                 </div>
+
                             </div>
 
-                        </div>
 
                     </div>
 

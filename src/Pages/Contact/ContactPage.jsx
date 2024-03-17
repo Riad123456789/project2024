@@ -5,7 +5,7 @@ import Damo from "./Damo";
 
 const ContactPage = () => {
     return (
-        <div className="pt-[72px] lg:pt-0">
+        <div className="pt-[64px] lg:pt-0">
 
             <div className="relative w-full bg4 h-36 lg:h-72 shadow-md shadow-lime-400 ">
                 <div className=' bg-gradient-to-r from-[#291d1d] to-[#0a3614] h-full opacity-60'>
@@ -15,7 +15,7 @@ const ContactPage = () => {
                 </h1>
             </div>
 
-            <div className="grid  md:grid-cols-3 max-w-6xl mx-auto gap-5 md:gap-24 mt-12 px-2">
+            <div className="grid  md:grid-cols-3 max-w-6xl mx-auto gap-5 md:gap-24 mt-12 px-4">
 
                 <div className="border bg-white md:h-64 md:w-[325px] py-4 px-5 md:px-4  space-y-3 rounded-md shadow-lg">
                     <div className="flex justify-center items-center mx-auto">
@@ -23,9 +23,11 @@ const ContactPage = () => {
                     </div>
                     <h2 className=" font-serif text-lg md:text-2xl font-semibold text-center">ADDRESS</h2>
 
+                    <p className="font-sans   text-center md:text-center text-sm md:text-sm font-semibold ">
+                     Swan Garments Road,Uttara,Dhaka-1230
+                    </p>
                     <p className="font-sans   text-center md:text-center text-sm md:text-base font-semibold ">
                         Wapda Road,Ullahpara,Sirajgonj
-
                     </p>
 
                 </div>
@@ -36,7 +38,7 @@ const ContactPage = () => {
                     </div>
                     <h2 className=" font-serif text-lg md:text-2xl font-semibold text-center">E-MAIL</h2>
                     <p className="font-sans  text-center md:text-center text-base md:text-base font-semibold">
-                        rktradindbd777@gmail.com
+                        rktradingbd777@gmail.com
                     </p>
                 </div>
 

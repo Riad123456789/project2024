@@ -83,20 +83,20 @@ const OurSeeds = () => {
                                         </a>
                                         <div className=' pt-1 space-y-[1px] '>
                                             <div className='flex  items-center md:gap-5'>
-                                                <p className='text-xs md:text-sm md:font-semibold  md:pl-1 '>Kingdom :</p>
-                                                <p className='text-xs md:text-sm md:font-semibold pl-[10px] md:pl-2 text-blue-700'>Plantae</p>
+                                                <p className='text-xs md:text-sm md:font-semibold  md:pl-1 '>Genus :</p>
+                                                <p className='text-xs md:text-sm md:font-semibold pl-[10px] md:pl-6 text-blue-700'>{item?.genus}</p>
                                             </div>
                                             <div className='flex  items-center md:gap-10'>
                                                 <p className='text-xs md:text-sm md:font-semibold md:pl-1 '>Clade :</p>
-                                                <p className='text-xs md:text-sm md:font-semibold pl-[6px] md:pl-2 text-blue-700'>Tracheophytes</p>
+                                                <p className='text-xs md:text-sm md:font-semibold pl-[10px] md:pl-2 text-blue-700'>{item?.clade}</p>
                                             </div>
                                             <div className='flex  items-center md:gap-10'>
                                                 <p className='text-xs md:text-sm md:font-semibold md:pl-1 '>Order :</p>
-                                                <p className='text-xs md:text-sm md:font-semibold pl-[6px] md:pl-2 text-blue-700'>Angiosperms</p>
+                                                <p className='text-xs md:text-sm md:font-semibold pl-[6px] md:pl-2 text-blue-700'>{item?.order}</p>
                                             </div>
                                             <div className=' flex  items-center md:gap-9'>
                                                 <p className='text-xs md:text-sm md:font-semibold md:pl-1 '>Family :</p>
-                                                <p className='text-xs md:text-sm md:font-semibold pl-[6px] md:pl-2 text-blue-700'>Piperaceae</p>
+                                                <p className='text-xs md:text-sm md:font-semibold pl-[6px] md:pl-2 text-blue-700'>{item?.family}</p>
                                             </div>
                                         </div>
                                     </div>

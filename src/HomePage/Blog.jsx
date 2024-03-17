@@ -2,9 +2,10 @@ import { BigPlayButton, Player } from "video-react";
 import video from "../../public/New folder/10000000_7285433644825476_2841910340063935254_n.mp4"
 
 
+
 const Blog = () => {
     return (
-        <div className="bg-zinc-300 md:pt-1  pb-10">
+        <div className="bg-zinc-300 md:pt-1  pb-16">
             <div className=" max-w-6xl mx-auto px-2 pt-2 md:pt-0">
                 <img className='h-14 w-80  md:h-16 md:w-[470px] mx-auto mb-2 mt-8 md:mt-12' src="https://i.ibb.co/tPyyKhT/e51ab9683522f0c3f68c8308fb8b161d-1-removebg-preview.png" alt="" />
                 <div className="text-center ">
@@ -28,59 +29,51 @@ const Blog = () => {
 
                         <div className="w-full">
                             <Player
+                                playsInline
                                 poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
                             >
-                                <source src={video} />
+                                <source src={video} type="video/mp4" />
                                 <BigPlayButton position="center" />
                             </Player>
                         </div>
 
-                        {/* <div className="flex flex-col justify-between p-3 leading-normal">
-                        <h5 className="mb-2 text-lg font-bold  text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
-                        <p className="mb-3 font-normal text-sm text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div> */}
+
                     </div>
 
                     <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
                         <Player
+                            playsInline
                             poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
                         >
-                            <source src={video} />
+                            <source src={video} type="video/mp4" />
                             <BigPlayButton position="center" />
 
                         </Player>
-                        {/* <div className="flex flex-col justify-between p-3 leading-normal">
-                        <h5 className="mb-2 text-lg font-bold  text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
-                        <p className="mb-3 font-normal text-sm text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div> */}
+
                     </div>
 
                     <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
                         <Player
+                            playsInline
                             poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
                         >
-                            <source src={video} />
+                            <source src={video} type="video/mp4" />
                             <BigPlayButton position="center" />
 
                         </Player>
-                        {/* <div className="flex flex-col justify-between p-3 leading-normal">
-                        <h5 className="mb-2 text-lg font-bold  text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
-                        <p className="mb-3 font-normal text-sm text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div> */}
+
                     </div>
 
                     <div className="flex flex-col items-center bg-white shadow-xl md:flex-row md:w-full hover:bg-gray-100 group overflow-hidden ">
                         <Player
+                            playsInline
                             poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
                         >
-                            <source src={video} />
+                            <source src={video} type="video/mp4" />
                             <BigPlayButton position="center" />
 
                         </Player>
-                        {/* <div className="flex flex-col justify-between p-3 leading-normal">
-                        <h5 className="mb-2 text-lg font-bold  text-gray-900 ">Noteworthy technology acquisitions 2024</h5>
-                        <p className="mb-3 font-normal text-sm text-gray-700 ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    </div> */}
+
                     </div>
 
                 </div>

@@ -76,8 +76,7 @@ const Banner2 = () => {
                         <div className="mt-3 md:mt-10">
                             <h1 className="text-base md:text-3xl text-white w-[80%] mx-auto uppercase">Turmeric</h1>
                             <p className="text-[6px]  text-white text-justify md:text-xs w-[80%] mx-auto py-3 ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, rerum.
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem ullam eum neque Lorem ipsum, dolor sit amet consectetur adipisicing elit. ab error tenetur nam......
+                            Turmeric and curcumin have been studied in numerous clinical trials for various human diseases and conditions, with no high-quality evidence of any anti-disease effect or health benefit. There is no scientific evidence that curcumin reduces inflammation, as of 2020......
                             </p>
                         </div>
                     </div>
