@@ -61,7 +61,7 @@ const Reviews = () => {
                                 <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
 
                                     <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
+                                        <img className="rounded-full w-10 h-10" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
                                             <div>Bonnie Green</div>
                                             <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
@@ -77,7 +77,7 @@ const Reviews = () => {
                                     </figcaption>
                                     <blockquote className=" mt-4 text-gray-500  ">
                                         <h3 className="text-sm font-medium text-gray-500 ">
-                                            I stumbled upon this website while looking for some unique spices to spice up my cooking, and I must say I was blown away by the variety they offer. From exotic blends to everyday staples, they have it all!
+                                       I stumbled upon this website while looking for some unique spices to spice up my cooking, and I must say I was blown away by the variety they offer. From exotic blends to everyday staples, they have it all!
                                         </h3>
                                     </blockquote>
                                 </div>
@@ -89,9 +89,9 @@ const Reviews = () => {
                                 <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
 
                                     <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
+                                        <img className="rounded-full w-10 h-10" src="https://i.ibb.co/JrR0zQD/enjoy-doing-what-seems-impossible-260nw-2137554453.webp" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Bonnie Green</div>
+                                            <div>Robert</div>
                                             <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
                                                 <div className="rating rating-xs">
                                                     <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
@@ -117,9 +117,9 @@ const Reviews = () => {
                                 <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
 
                                     <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/rQVHCJP/isolated-shot-young-handsome-male-260nw-2157606039.webp" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Bonnie Green</div>
+                                            <div>Ryan</div>
                                             <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
                                                 <div className="rating rating-xs">
                                                     <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
@@ -146,9 +146,9 @@ const Reviews = () => {
                                 <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
 
                                     <figcaption className="flex items-center   ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/nRSRSzX/images-2.jpg" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Bonnie Green</div>
+                                            <div>Nathan</div>
                                             <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
                                                 <div className="rating rating-xs">
                                                     <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
@@ -175,7 +175,7 @@ const Reviews = () => {
                                     <figcaption className="flex items-center   ">
                                         <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
                                         <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
-                                            <div>Bonnie Green</div>
+                                            <div>Albert</div>
                                             <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
                                                 <div className="rating rating-xs">
                                                     <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />

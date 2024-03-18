@@ -101,7 +101,7 @@ const AllProducts = () => {
                                     <div className="flex items-center space-x-1 rtl:space-x-reverse">
                                         {/* Rating stars SVGs */}
                                         <span className="  text-xs font-medium md:font-semibold text-justify  ">
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore non nam dolore odit tenetur porro  Tempore non nam !
+                                        {item?.description.slice(0,210)}
                                         </span>
                                     </div>
                                 </div>
