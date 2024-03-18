@@ -1,7 +1,5 @@
 import 'react-accessible-accordion/dist/fancy-example.css';
-import Section1 from './AboutPage/Section1';
 import Section2 from './AboutPage/Section2';
-
 import AboutUs from './AboutPage/AboutUs';
 import OurMission from './AboutPage/OurMission';
 import WhyChoose from './AboutPage/WhyChoose';

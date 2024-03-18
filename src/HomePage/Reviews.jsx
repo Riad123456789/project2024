@@ -41,15 +41,15 @@ const Reviews = () => {
                         breakpoints={{
                             540: {
                                 slidesPerView: 1,
-                                spaceBetween: 20,
+                                spaceBetween: 10,
                             },
                             768: {
                                 slidesPerView: 2,
-                                spaceBetween: 40,
+                                spaceBetween: 10,
                             },
                             1024: {
                                 slidesPerView: 3,
-                                spaceBetween: 60,
+                                spaceBetween: 20,
                             },
                         }}
                         onSwiper={(swiper) => console.log(swiper)}
@@ -57,90 +57,147 @@ const Reviews = () => {
                     >
 
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
-                                <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-                                    <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
-                                        <p className="my-4">If you care for your time, I hands down would go with this."</p>
-                                    </blockquote>
-                                    <figcaption className="flex items-center justify-center ">
+                            <div className='w-[95%] h-[50%] mx-auto  shadow-xl rounded-md'>
+                                <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
+
+                                    <figcaption className="flex items-center   ">
                                         <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
                                             <div>Bonnie Green</div>
-                                            <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
+                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
+                                                <div className="rating rating-xs">
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                </div>
+                                            </div>
                                         </div>
                                     </figcaption>
-                                </figure>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className=''>
-                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
-                                <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-                                    <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
-                                        <p className="my-4">If you care for your time, I hands down would go with this."</p>
+                                    <blockquote className=" mt-4 text-gray-500  ">
+                                        <h3 className="text-sm font-medium text-gray-500 ">
+                                            I stumbled upon this website while looking for some unique spices to spice up my cooking, and I must say I was blown away by the variety they offer. From exotic blends to everyday staples, they have it all!
+                                        </h3>
                                     </blockquote>
-                                    <figcaption className="flex items-center justify-center ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/vZYmG3v/istockphoto-694054978-612x612.jpg" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                                            <div>Bonnie Green</div>
-                                            <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
+                                </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
-                                <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-                                    <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
-                                        <p className="my-4">If you care for your time, I hands down would go with this."</p>
-                                    </blockquote>
-                                    <figcaption className="flex items-center justify-center ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/zR39ctJ/elegant-businessman-office-155003-9641.jpg" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                            <div className='w-[95%] h-[50%] mx-auto  shadow-xl rounded-md'>
+                                <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
+
+                                    <figcaption className="flex items-center   ">
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
+                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
                                             <div>Bonnie Green</div>
-                                            <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
+                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
+                                                <div className="rating rating-xs">
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                </div>
+                                            </div>
                                         </div>
                                     </figcaption>
-                                </figure>
+                                    <blockquote className=" mt-4 text-gray-500  ">
+                                        <h3 className="text-sm font-medium text-gray-500 pb-10">
+                                            Impressed by their quality control. Freshness and flavor are always on point.
+                                        </h3>
+                                    </blockquote>
+                                </div>
                             </div>
                         </SwiperSlide>
+
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
-                                <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-                                    <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
-                                        <p className="my-4">If you care for your time, I hands down would go with this."</p>
-                                    </blockquote>
-                                    <figcaption className="flex items-center justify-center ">
-                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/7t2zYJY/handsome-corporate-man-real-estate-agent-assistant-smiling-hold-hands-together-how-may-i-help-you-sm.jpg" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                            <div className='w-[95%] h-[50%] mx-auto  shadow-xl rounded-md'>
+                                <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
+
+                                    <figcaption className="flex items-center   ">
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
+                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
                                             <div>Bonnie Green</div>
-                                            <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
+                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
+                                                <div className="rating rating-xs">
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                </div>
+                                            </div>
                                         </div>
                                     </figcaption>
-                                </figure>
+                                    <blockquote className=" mt-4 text-gray-500  ">
+                                        <h3 className="text-sm font-medium text-gray-500 ">
+                                            The quality of the spices is top-notch, and the packaging ensures that they retain their freshness. I highly recommend this website to any home cook or chef looking to elevate their dishes.
+                                        </h3>
+                                    </blockquote>
+                                </div>
                             </div>
                         </SwiperSlide>
+
+
                         <SwiperSlide className=''>
-                            <div className='w-96 mx-auto  shadow-xl rounded-md'>
-                                <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
-                                    <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
-                                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Very easy this was to integrate</h3>
-                                        <p className="my-4">If you care for your time, I hands down would go with this."</p>
-                                    </blockquote>
-                                    <figcaption className="flex items-center justify-center ">
-                                        <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
-                                        <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
+                            <div className='w-[95%] h-[50%] mx-auto  shadow-xl rounded-md'>
+                                <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
+
+                                    <figcaption className="flex items-center   ">
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
+                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
                                             <div>Bonnie Green</div>
-                                            <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
+                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
+                                                <div className="rating rating-xs">
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                </div>
+                                            </div>
                                         </div>
                                     </figcaption>
-                                </figure>
+                                    <blockquote className=" mt-4 text-gray-500  ">
+                                        <h3 className="text-sm font-medium text-gray-500 pb-10">
+                                            The quality of the spices is top-notch, and the packaging ensures that they retain their freshness.                                         </h3>
+                                    </blockquote>
+                                </div>
                             </div>
                         </SwiperSlide>
+
+                        <SwiperSlide className=''>
+                            <div className='w-[95%] h-[50%] mx-auto  shadow-xl rounded-md'>
+                                <div className="px-6 p-8 text-justify bg-white border-b border-gray-200 rounded-md shadow-md shadow-slate-400  ">
+
+                                    <figcaption className="flex items-center   ">
+                                        <img className="rounded-full w-9 h-9" src="https://i.ibb.co/MDd8QB7/images.jpg" alt="profile picture" />
+                                        <div className="space-y-0.5 font-medium dark:text-white text-left  ms-3">
+                                            <div>Bonnie Green</div>
+                                            <div className="ml-1 text-sm text-gray-500 dark:text-gray-400 ">
+                                                <div className="rating rating-xs">
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" checked />
+                                                    <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                    <blockquote className=" mt-4 text-gray-500  ">
+                                        <h3 className="text-sm font-medium text-gray-500 ">
+                                            I've been a loyal customer of this spices website for several years now, and one thing that has always stood out to me is their commitment to quality control.
+                                        </h3>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+
+
+
                     </Swiper>
                 </div>
                 <section className="relative h-[18vh] lg:h-[10vh]">

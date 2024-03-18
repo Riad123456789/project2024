@@ -7,7 +7,6 @@ import About from "../Pages/About";
 import ContactPage from "../Pages/Contact/ContactPage";
 import GalleryPage from "../Pages/Gallery/GalleryPage";
 import AllProducts from "../Pages/AllProducts/AllProducts";
-import Register from "../RegisterPage/Register";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 
@@ -37,11 +36,7 @@ const Router = createBrowserRouter([
                 path: '/allProducts',
                 element: <AllProducts></AllProducts>,
             },
-           
-            {
-                path: '/register',
-                element: <Register></Register>,
-            },
+                      
         ]
     },
 ]);
