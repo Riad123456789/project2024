@@ -14,6 +14,7 @@
     "@react-google-maps/api": "^2.19.3",
     "aos": "^3.0.0-beta.6",
     "localforage": "^1.10.0",
+    "lottie-react": "^2.4.0",
     "mapbox-gl": "^3.1.2",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",

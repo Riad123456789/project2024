@@ -1,45 +1,77 @@
-/* eslint-disable react/prop-types */
-import { Link, NavLink } from "react-router-dom";
-import img from "../../public/395030218_354819416996869_7748260630163794940_n.jpg"
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { TbBrandYoutubeFilled } from "react-icons/tb";
-import { MdOutlinePhoneInTalk } from "react-icons/md";
+import { BiLogoFacebook } from "react-icons/bi";
+import { SlSocialTwitter } from "react-icons/sl";
+import { CiYoutube } from "react-icons/ci";
+import { MdOutlineEmail } from "react-icons/md";
+import { IoLogoInstagram } from "react-icons/io";
+import { FcGallery } from "react-icons/fc";
+import { FcContacts } from "react-icons/fc";
+import img1 from "../../public/o6e5X8Ct60.json"
+import img2 from "../../public/Animation - 1714759766848 (1).json"
+import img3 from "../../public/New folder/marriage.gif"
+import img4 from "../../public/New folder/list.png"
+import Lottie from "lottie-react";
+import Banner from "../Banner/Banner";
+
+
+
+
 
 const Navber = ({ children }) => {
 
 
     const [isSidebarOpen, setSidebarOpen] = useState(false);
 
+
     const toggleSidebar = () => {
         setSidebarOpen(!isSidebarOpen);
     };
 
-    const Navlink = <>
+    const [isHovered, setIsHovered] = useState(false);
 
-        <NavLink to={"/"}>
-            <li className='sm:text-black lg:text-white hover:text-orange-500 md:text-sm lg:text-xs xl:text-sm  font-semibold '><a>HOME</a></li>
-        </NavLink>
-        <NavLink to={'/about'}>
-            <li className='sm:text-black lg:text-white hover:text-orange-500 md:text-sm lg:text-xs xl:text-sm  font-semibold '><a>ABOUT US </a></li>
-        </NavLink>
-        <NavLink to={'/allProducts'}>
+    const handleMouseEnter = () => {
+        setIsHovered(true);
+    };
 
-            <li className='sm:text-black lg:text-white hover:text-orange-500 md:text-sm lg:text-xs xl:text-sm  font-semibold '><a>ALL PRODUCTS</a></li>
+    const handleMouseLeave = () => {
+        setIsHovered(false);
+    };
 
-        </NavLink>
 
-        <NavLink to={"/gallery"}>
-            <li className='sm:text-black lg:text-white hover:text-orange-500 md:text-sm lg:text-xs xl:text-sm  font-semibold '><a>GALLERY </a></li>
-        </NavLink>
-        <NavLink to={"/contact"}>
-            <li className='sm:text-black lg:text-white hover:text-orange-500 md:text-sm lg:text-xs xl:text-sm  font-semibold '><a>CONTACT US </a></li>
-        </NavLink>
+
+
+    const NavLink = <>
+        <li
+            onMouseMove={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            className="hover:text-orange-600 tracking-wide" >
+            <a >EXPLORE</a>
+        </li>
+
+        <li className="hover:text-orange-600 tracking-wide"><a>ALL PAGES</a></li>
+        <li className="hover:text-orange-600 tracking-wide"><a>PLANS </a></li>
+        <li className="hover:text-orange-600 tracking-wide"><a>REGISTER</a></li>
+        <li className="hover:text-orange-600 tracking-wide"><a>DASHBOARD</a></li>
+
+    </>
+
+    const NavLink2 = <>
+        <li className="cursor-pointer"><a>
+            <img className="w-5 h-5" src="https://i.ibb.co/wsZnB3C/home.png" alt="" />
+            HOME</a></li>
+        <li className="cursor-pointer"><a>
+            <img className="w-5 h-5" src="https://i.ibb.co/804wK7F/people.png" alt="" />
+            ABOUT US</a></li>
+        <li className="cursor-pointer"><a>
+            <img className="w-5 h-5" src="https://i.ibb.co/T82QKmV/received.png" alt="" />
+            PRODUCTS</a></li>
+        <li className="cursor-pointer"><a><FcGallery size={20}></FcGallery>GALLERY</a></li>
+        <li className="cursor-pointer"><a><FcContacts size={20}></FcContacts>CONTACT</a></li>
     </>
 
     return (
+
         <div>
             <div className="drawer">
                 <input
@@ -50,82 +82,121 @@ const Navber = ({ children }) => {
                     onChange={toggleSidebar} />
                 <div className="drawer-content ">
 
-                    <div className=" lg:px-2 xl:px-12 flex  lg:justify-between   w-full navbar  fixed  z-10 lg:rounded-md  bg-gray-800 bg-opacity-80">
+                    <div className=" md:flex md:items-center  md:justify-between px-0 md:px-16 lg:px-16 xl:px-28 bg-gradient-to-r from-[#573926] to-[#663b1f] overflow-hidden ">
 
-                        <div className=" lg:hidden ">
-                            <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="text-white inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                            </label>
+                        <div className=" md:flex items-center justify-center text-white text-xs font-semibold  hidden pl-10">
+                            {/* <img className="w-4 h-4 " src="https://i.ibb.co/q7vRfmL/placeholder.png" alt="image" /> */}
+                            <p className=" hover:bg-[#f5e1c9] hover:text-[#754021] p-2 px-4  border-x-[1px] tracking-normal cursor-pointer">ABOUT</p>
+                            <p className=" hover:bg-[#f5e1c9] hover:text-[#754021] p-2 px-4 tracking-normal cursor-pointer">FAQ</p>
+                            <p className=" hover:bg-[#f5e1c9] hover:text-[#754021] p-2 px-4  border-x-[1px] tracking-normal cursor-pointer">CONTACT</p>
                         </div>
 
-                      
-                            <div className=" flex  ">
-                                <div className=' p-1 shadow-sm shadow-red-500 rounded-full cursor-pointer  hover:-rotate-[360deg] duration-1000 transition-all '>
-                                    <img className='w-10 md:w-12  rounded-full  ' src={img} alt="" />
-                                </div>
-                                <p
-                                    style={{ textTransform: "uppercase", color: "transparent", WebkitBackgroundClip: "text" }}
-                                    className="font bg-gradient-to-r from-orange-500 to-orange-500 text-lg font-bold md:text-2xl lg:text-xl normal-case text-white ml-1 md:ml-2  ">
-                                    RK  TRADING
+                        <div className=" flex items-center justify-around gap-10 text-white text-xs font-semibold ">
+
+                            <div className=" p-2 md:flex items-center px-1 gap-1 hidden">
+                                <MdOutlineEmail size={15}></MdOutlineEmail>
+                                riad80717@gmail.com
+                            </div>
+
+                            <div className="relative flex items-center md:hidden ml-3">
+                                <Lottie className="absolute -ml-11 w-16 md:w-20 " animationData={img1}></Lottie>
+                                <p className="font-medium md:font-semibold -mt-[1px]"> +8801795579568</p>
+                            </div>
+                            <div className="flex">
+                                <p className="hover:bg-[#f5e1c9] hover:text-[#754021] p-2 md:border-x-2 cursor-pointer">
+                                    <BiLogoFacebook size={14}></BiLogoFacebook>
+                                </p>
+                                <p className="hover:bg-[#f5e1c9] hover:text-[#754021] p-2 cursor-pointer">
+                                    <SlSocialTwitter size={14}></SlSocialTwitter >
+                                </p>
+                                <p className="hover:bg-[#f5e1c9] hover:text-[#754021] p-2 md:border-x-2 cursor-pointer">
+                                    <CiYoutube size={16}></CiYoutube>
+                                </p>
+                                <p className="hover:bg-[#f5e1c9] hover:text-[#754021] p-2 md:border-r-2 cursor-pointer">
+                                    <IoLogoInstagram size={15}></IoLogoInstagram>
                                 </p>
                             </div>
-
-
-
-                            <div className=" hidden lg:flex lg:gap-9  xl:gap-32 ">
-                                <ul className="  flex lg:gap-10  ">
-                                    {Navlink}
-                                </ul>
-
-
-                                <div className="flex gap-3 xl:gap-7  items-center justify-end s">
-                                    <div className="flex gap-3 items-center">
-                                        <Link to={'https://www.facebook.com/rktrading.com.bd'}>
-                                            <FaFacebookSquare className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000 " size={25} color="white"></FaFacebookSquare>
-                                        </Link>
-
-                                        <Link to={"https://www.linkedin.com/in/rk-trading-bd"}>
-                                            <FaLinkedin className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000" size={24} color="white"></FaLinkedin>
-                                        </Link>
-                                        <Link to={"https://www.youtube.com/@rktrading873"}>
-                                            <TbBrandYoutubeFilled className=" cursor-pointer transition hover:-rotate-[360deg]  duration-1000" size={29} color="white"></TbBrandYoutubeFilled>
-                                        </Link>
-                                    </div>
-                                    <a className='flex justify-start items-center gap-1 py-2 pl-2 text-white font-semibold' ><MdOutlinePhoneInTalk size={25} /> +8801795579568</a>
-                                </div>
-
-                            </div>
-
+                        </div>
 
                     </div>
 
 
 
-                    {/* Page content here */}
+
+                    <div className="  navbar  bg-white    md:pr-16 md:px-8 lg:px-16 xl:px-32 z-30 sticky top-0 ">
+                        <div className="navbar-start w-full md:navbar-start ">
+
+                            <div className=" lg:hidden ">
+                                <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost text-white">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className=" inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                                </label>
+                            </div>
+
+
+                            <div className=" ">
+                                {/* <img className="rounded-full w-2 h-2" src={img4} alt="" /> */}
+                                <img className=" -mb-[21%] rounded-full w-14 h-14  ml-2 cursor-pointer" src={img4} alt="" />
+                            </div>
+
+
+                            <img className="rounded-full w-12 h-12" src={img3} alt="" />
+                            <a className="pl-2  md:text-xl font-semibold uppercase pt-1 tracking-[2px]">
+                                <span className="text-[#573926] text-sm">Wedding </span><span className="text-amber-600 text-sm pl-1" >matrimony</span></a>
+                        </div>
+                        <div className="navbar-center hidden lg:flex lg:pt-[5px] xl:pt-[7px]">
+                            <ul className="menu menu-horizontal px-1 font-serif font-medium text-[#573926]">
+                                {NavLink}
+                            </ul>
+                        </div>
+                        <div className=" navbar-end ">
+
+                            <div className="relative md:flex items-center hidden">
+                                <div className="avatar">
+                                    <div className="w-12 rounded-full ">
+                                        <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                    </div>
+                                </div>
+                                <p className="pl-2 md:font-semibold -mt-[1px] "> Riad jowarder</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div
+
+                    >
+                        {
+                            isHovered ? <Banner></Banner> : ""
+                        }
+                    </div>
+
+
+
                     {children}
                 </div>
-                <div className="drawer-side lg:drawer-toggle z-20">
+
+                <div className="drawer-side lg:drawer-toggle z-50">
                     <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay " ></label>
 
-                    <div className="menu  p-4 w-48 min-h-full bg-base-200 ">
-                        {/* Sidebar content here */}
-
+                    <div className="menu py-3  px-1 w-48 min-h-full bg-gradient-to-r from-[#f5f3f2] to-[#f6f2ef]  ">
                         <div
                             className="flex justify-end cursor-pointer"
                             onClick={toggleSidebar}
                         >
-                            <RxCross2 size={25}></RxCross2>
+                            < RxCross2 color="#ef9565" size={25}></ RxCross2>
                         </div>
-                        <ul onClick={toggleSidebar} className="pt-7">
-                            {Navlink}
+                        <ul onClick={toggleSidebar} className="pt-7 font-bold text-[#ef9565] ">
+                            {NavLink2}
                         </ul>
 
 
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
+
+
     );
 };
 

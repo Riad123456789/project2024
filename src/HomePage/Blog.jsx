@@ -32,7 +32,7 @@ const Blog = () => {
                                 playsInline
                                 poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
                             >
-                                <source src={video} type="video/mp4" />
+                                <source src='../../public/New folder/10000000_7285433644825476_2841910340063935254_n.mp4' type="video/mp4" />
                                 <BigPlayButton position="center" />
                             </Player>
                         </div>
@@ -45,7 +45,7 @@ const Blog = () => {
                             playsInline
                             poster="https://i.ibb.co/92m1W17/transparent-turmeric-detailed-image-of-various-spices-on-black-backgrou656ba84caee087-04923026170155.png"
                         >
-                            <source src={video} type="video/mp4" />
+                            <source src='../../public/New folder/10000000_7285433644825476_2841910340063935254_n.mp4' type="video/mp4" />
                             <BigPlayButton position="center" />
 
                         </Player>
