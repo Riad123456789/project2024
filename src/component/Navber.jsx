@@ -45,14 +45,14 @@ const Navber = ({ children }) => {
         <li
             onMouseMove={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            className="hover:text-orange-600 tracking-wide" >
-            <a >EXPLORE</a>
+            className="hover:text-orange-600 tracking-wide cursor-pointer py-6  absolute left-0" >
+           EXPLORE
         </li>
 
-        <li className="hover:text-orange-600 tracking-wide"><a>ALL PAGES</a></li>
-        <li className="hover:text-orange-600 tracking-wide"><a>PLANS </a></li>
-        <li className="hover:text-orange-600 tracking-wide"><a>REGISTER</a></li>
-        <li className="hover:text-orange-600 tracking-wide"><a>DASHBOARD</a></li>
+        <li  className="hover:text-orange-600 tracking-wide py-2">ALL PAGES</li>
+        <li  className="hover:text-orange-600 tracking-wide py-2">PLANS </li>
+        <li  className="hover:text-orange-600 tracking-wide py-2">REGISTER</li>
+        <li  className="hover:text-orange-600 tracking-wide py-2">DASHBOARD</li>
 
     </>
 
@@ -123,7 +123,7 @@ const Navber = ({ children }) => {
 
 
 
-                    <div className="  navbar  bg-white    md:pr-16 md:px-8 lg:px-16 xl:px-32 z-30 sticky top-0 ">
+                    <div className="  navbar  bg-slate-100  md:pr-16 md:px-8 lg:px-16 xl:px-32 z-30 sticky top-0  ">
                         <div className="navbar-start w-full md:navbar-start ">
 
                             <div className=" lg:hidden ">
@@ -143,8 +143,8 @@ const Navber = ({ children }) => {
                             <a className="pl-2  md:text-xl font-semibold uppercase pt-1 tracking-[2px]">
                                 <span className="text-[#573926] text-sm">Wedding </span><span className="text-amber-600 text-sm pl-1" >matrimony</span></a>
                         </div>
-                        <div className="navbar-center hidden lg:flex lg:pt-[5px] xl:pt-[7px]">
-                            <ul className="menu menu-horizontal px-1 font-serif font-medium text-[#573926]">
+                        <div className="navbar-center hidden lg:block">
+                            <ul className="menu menu-horizontal   font-medium text-[#573926] flex items-center gap-7 mt-2 ml-8  pl-[86px] relative">
                                 {NavLink}
                             </ul>
                         </div>
@@ -152,8 +152,8 @@ const Navber = ({ children }) => {
 
                             <div className="relative md:flex items-center hidden">
                                 <div className="avatar">
-                                    <div className="w-12 rounded-full ">
-                                        <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                    <div className="w-12 border p-1 rounded-full ">
+                                        <img className="rounded-full" src="https://i.ibb.co/rZbDBvB/Adobe-Stock-650211873-Preview.jpg" />
                                     </div>
                                 </div>
                                 <p className="pl-2 md:font-semibold -mt-[1px] "> Riad jowarder</p>
@@ -162,9 +162,7 @@ const Navber = ({ children }) => {
                     </div>
 
 
-                    <div
-
-                    >
+                    <div onMouseMove={handleMouseEnter} onMouseLeave={handleMouseLeave} className="absolute z-50" >
                         {
                             isHovered ? <Banner></Banner> : ""
                         }
