@@ -8,19 +8,7 @@
 
 } */
 
-.bg {
-   background-image: url("https://i.ibb.co/NWN5SH8/riad1.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-}
 
-.bg2 {
-   background-image: url("https://i.ibb.co/c2wqGwm/Holar-Blog-13-Common-Spices-You-Can-Cannot-Grind-in-Your-Salt-and-Pepper-Grinder.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-}
 
 .bg3 {
    background-image: url("https://i.ibb.co/GtNXfY4/top-view-composition-with-different-kinds-of-natural-aromatic-spices-placed-on-slate-surface-backgro.jpg");
@@ -56,16 +44,55 @@
    background-size: cover;
    background-position: center;
 }
+
 .bg8 {
    background-image: url("https://i.ibb.co/rZbDBvB/Adobe-Stock-650211873-Preview.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-  
+
 }
-.bg9 {
-   background-image: url("https://i.ibb.co/ChKzv4T/wedding-dreamz-k-Thpa-ZCb-JGA-unsplash.jpg");
+
+
+
+
+.test {
+
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: center;
-  
+   background-position: left;
+   animation: spin 30s linear infinite;
+}
+
+
+@keyframes spin {
+   0% {
+      background-image: url("https://i.ibb.co/ChKzv4T/wedding-dreamz-k-Thpa-ZCb-JGA-unsplash.jpg");
+
+   }
+
+   30% {
+      background-image: url("https://i.ibb.co/ChKzv4T/wedding-dreamz-k-Thpa-ZCb-JGA-unsplash.jpg");
+
+   }
+
+   50% {
+      background-image: url("https://i.ibb.co/HC3j8cD/oziel-gomez-L8-0-SAy-ao-Q-unsplash.jpg");
+
+
+   }
+
+   60% {
+      background-image: url("https://i.ibb.co/HC3j8cD/oziel-gomez-L8-0-SAy-ao-Q-unsplash.jpg");
+
+   }
+
+   80% {
+      background-image: url("https://i.ibb.co/7SPTRMq/jonathan-borba-Owvh-G-6-GTQ-unsplash.jpg");
+     
+   }
+
+   100% {
+      background-image: url("https://i.ibb.co/7SPTRMq/jonathan-borba-Owvh-G-6-GTQ-unsplash.jpg");
+      
+   }
 }

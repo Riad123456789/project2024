@@ -8,12 +8,10 @@ import { IoLogoInstagram } from "react-icons/io";
 import { FcGallery } from "react-icons/fc";
 import { FcContacts } from "react-icons/fc";
 import img1 from "../../public/o6e5X8Ct60.json"
-import img2 from "../../public/Animation - 1714759766848 (1).json"
-import img3 from "../../public/New folder/marriage.gif"
-import img4 from "../../public/New folder/list.png"
+import img2 from "../../public/Animation - 1715280317714.json"
 import Lottie from "lottie-react";
 import Banner from "../Banner/Banner";
-
+import Banner3 from "../Banner/Banner3";
 
 
 
@@ -39,20 +37,33 @@ const Navber = ({ children }) => {
     };
 
 
+    const [isHovered1, setIsHovered1] = useState(false);
+
+    const handleMouseEnter1 = () => {
+        setIsHovered1(true);
+    };
+
+    const handleMouseLeave1 = () => {
+        setIsHovered1(false);
+    };
+
+
 
 
     const NavLink = <>
         <li
             onMouseMove={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            className="hover:text-orange-600 tracking-wide cursor-pointer py-6  absolute left-0" >
-           EXPLORE
+            className="hover:text-orange-600 tracking-wide cursor-pointer py-6 absolute  -left-20 " >
+            EXPLOR
         </li>
 
-        <li  className="hover:text-orange-600 tracking-wide py-2">ALL PAGES</li>
-        <li  className="hover:text-orange-600 tracking-wide py-2">PLANS </li>
-        <li  className="hover:text-orange-600 tracking-wide py-2">REGISTER</li>
-        <li  className="hover:text-orange-600 tracking-wide py-2">DASHBOARD</li>
+        <li onMouseMove={handleMouseEnter1}
+            onMouseLeave={handleMouseLeave1}
+            className="hover:text-orange-600 tracking-wide  cursor-pointer py-6 absolute -left-2">ALL PAGES</li>
+        <li className="hover:text-orange-600 tracking-wide py-2">PLANS </li>
+        <li className="hover:text-orange-600 tracking-wide py-2">REGISTER</li>
+        <li className="hover:text-orange-600 tracking-wide py-2">DASHBOARD</li>
 
     </>
 
@@ -135,16 +146,16 @@ const Navber = ({ children }) => {
 
                             <div className=" ">
                                 {/* <img className="rounded-full w-2 h-2" src={img4} alt="" /> */}
-                                <img className=" -mb-[21%] rounded-full w-14 h-14  ml-2 cursor-pointer" src={img4} alt="" />
+
                             </div>
 
-
-                            <img className="rounded-full w-12 h-12" src={img3} alt="" />
+                            <Lottie className="w-14 h-14  " animationData={img2}></Lottie>
+                            {/* <img className="rounded-full w-12 h-12" src={img3} alt="" /> */}
                             <a className="pl-2  md:text-xl font-semibold uppercase pt-1 tracking-[2px]">
-                                <span className="text-[#573926] text-sm">Wedding </span><span className="text-amber-600 text-sm pl-1" >matrimony</span></a>
+                                <span className="text-[#573926] text-sm ">Wedding </span><span className="text-amber-600 text-sm pl-1" >matrimony</span></a>
                         </div>
                         <div className="navbar-center hidden lg:block">
-                            <ul className="menu menu-horizontal   font-medium text-[#573926] flex items-center gap-7 mt-2 ml-8  pl-[86px] relative">
+                            <ul className="absolute menu menu-horizontal   font-medium text-[#573926] flex items-center gap-7 mt-2 ml-8  pl-[86px] relative">
                                 {NavLink}
                             </ul>
                         </div>
@@ -167,7 +178,12 @@ const Navber = ({ children }) => {
                             isHovered ? <Banner></Banner> : ""
                         }
                     </div>
-
+                    <div onMouseMove={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className="" >
+                        {
+                            isHovered1 ? <Banner3></Banner3>: ""
+                        }
+                    </div>
+                   
 
 
                     {children}
