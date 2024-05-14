@@ -83,8 +83,8 @@ const Navber = ({ children }) => {
 
     return (
 
-        <div>
-            <div className="drawer">
+        <div className="">
+            <div className="drawer ">
                 <input
                     id="my-drawer-3"
                     type="checkbox"
@@ -134,7 +134,7 @@ const Navber = ({ children }) => {
 
 
 
-                    <div className="  navbar  bg-slate-100  md:pr-16 md:px-8 lg:px-16 xl:px-32 z-30 sticky top-0  ">
+                    <div className=" navbar  bg-slate-100  md:pr-16 md:px-8 lg:px-16 xl:px-32 z-30  ">
                         <div className="navbar-start w-full md:navbar-start ">
 
                             <div className=" lg:hidden ">
@@ -155,7 +155,7 @@ const Navber = ({ children }) => {
                                 <span className="text-[#573926] text-sm ">Wedding </span><span className="text-amber-600 text-sm pl-1" >matrimony</span></a>
                         </div>
                         <div className="navbar-center hidden lg:block">
-                            <ul className="absolute menu menu-horizontal   font-medium text-[#573926] flex items-center gap-7 mt-2 ml-8  pl-[86px] relative">
+                            <ul className=" menu menu-horizontal   font-medium text-[#573926] flex items-center gap-7 mt-2 ml-8  pl-[86px] relative">
                                 {NavLink}
                             </ul>
                         </div>
@@ -173,17 +173,19 @@ const Navber = ({ children }) => {
                     </div>
 
 
+                    <div onMouseMove={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className="absolute z-50" >
+                        {
+                            isHovered1 ? <Banner3></Banner3> : ""
+                        }
+                    </div>
+
                     <div onMouseMove={handleMouseEnter} onMouseLeave={handleMouseLeave} className="absolute z-50" >
                         {
                             isHovered ? <Banner></Banner> : ""
                         }
                     </div>
-                    <div onMouseMove={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className="" >
-                        {
-                            isHovered1 ? <Banner3></Banner3>: ""
-                        }
-                    </div>
-                   
+
+
 
 
                     {children}

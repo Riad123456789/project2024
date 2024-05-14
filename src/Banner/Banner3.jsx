@@ -2,8 +2,10 @@
 
 const Banner3 = () => {
     return (
-        <div className="  w-full bg-slate-100  ">
-            <div className="grid grid-cols-4 gap-16 px-44 pt-16 ml-14 ">
+        <div className="   bg-slate-100 ">
+
+
+          <div className="grid grid-cols-4 gap-16 px-44 pt-16 ml-14  ">
 
                 <div>
                     <ul className="space-y-6">
@@ -12,10 +14,22 @@ const Banner3 = () => {
                             ALL PROFILES
                             <span className="bg-sky-600 w-0 h-[3px] block mt-[7px] duration-500 group-hover:w-[35%]"></span>
                         </li>
-                        <li className="font-semibold cursor-pointer text-amber-700 text-sm">PROFILE DETAILS</li>
-                        <li className="font-semibold cursor-pointer text-amber-700 text-sm">WEDDING</li>
-                        <li className="font-semibold cursor-pointer text-amber-700 text-sm">WEDDING VIDEO</li>
-                        <li className="font-semibold cursor-pointer text-amber-700 text-sm">OUR SERVICES</li>
+                        <li className="font-semibold cursor-pointer text-amber-700 text-sm hover:text-sky-600 group">
+                            PROFILE DETAILS
+                            <span className="bg-sky-600 w-0 h-[3px] block mt-[7px] duration-500 group-hover:w-[40%]"></span>
+                        </li>
+                        <li className="font-semibold cursor-pointer text-amber-700 text-sm hover:text-sky-600 group">
+                            WEDDING
+                            <span className="bg-sky-600 w-0 h-[3px] block mt-[7px] duration-500 group-hover:w-[26%]"></span>
+                        </li>
+                        <li className="font-semibold cursor-pointer text-amber-700 text-sm hover:text-sky-600 group">
+                            WEDDING VIDEO
+                            <span className="bg-sky-600 w-0 h-[3px] block mt-[7px] duration-500 group-hover:w-[40%]"></span>
+                        </li>
+                        <li className="font-semibold cursor-pointer text-amber-700 text-sm hover:text-sky-600 group">
+                            OUR SERVICES
+                            <span className="bg-sky-600 w-0 h-[3px] block mt-[7px] duration-500 group-hover:w-[35%]"></span>
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -49,6 +63,7 @@ const Banner3 = () => {
                     </ul>
                 </div>
             </div>
+
             <div className="w-[74%] h-[1px] mt-10 mx-auto bg-stone-700"></div>
 
             <div className="grid grid-cols-4 gap-16 px-44 pt-10 ml-14 pb-8 ">

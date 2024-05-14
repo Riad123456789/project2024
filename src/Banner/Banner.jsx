@@ -4,7 +4,7 @@
 const Banner = () => {
 
     return (
-        <div className=" bg-slate-100  px-40 pt-9  z-50">
+        <div className=" bg-slate-100  px-40 pt-9  z-50 ">
             <p className="ml-10 font-medium text-yellow-800">WEDDING MATRIMONY</p>
 
             <div className="grid grid-cols-4 pb-8 pt-6 px-6 ml-9 gap-20">

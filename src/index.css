@@ -2,97 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* .font {
-    font-family: 'Dancing Script', cursive;
-
-} */
-
-
-
-.bg3 {
-   background-image: url("https://i.ibb.co/GtNXfY4/top-view-composition-with-different-kinds-of-natural-aromatic-spices-placed-on-slate-surface-backgro.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-}
-
-.bg4 {
-   background-image: url("https://i.ibb.co/sCzGYxK/ingredients-8028223-1280.webp");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-}
-
-.bg5 {
-   background-image: url("https://i.ibb.co/FXFRJWT/chili-3117498-640-removebg-preview.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-}
-
-.bg6 {
-   background-image: url("https://i.ibb.co/n30mtc4/Whole-Cardamom-PNG-Picture-removebg-preview.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-}
-
-.bg7 {
-   background-image: url("https://i.ibb.co/NZkFQKf/18005393-various-spices-and-herbs-on-white-background-removebg-preview.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-}
-
-.bg8 {
-   background-image: url("https://i.ibb.co/rZbDBvB/Adobe-Stock-650211873-Preview.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-
-}
-
-
-
-
 .test {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-image: url("https://i.ibb.co/ChKzv4T/wedding-dreamz-k-Thpa-ZCb-JGA-unsplash.jpg");
+   animation: smooth-zoom 15s infinite alternate;
+
+   overflow: hidden;
+}
+
+.test1 {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-image: url("https://i.ibb.co/HC3j8cD/oziel-gomez-L8-0-SAy-ao-Q-unsplash.jpg");
+   animation: smooth-zoom 15s infinite alternate;
+   overflow: hidden;
+}
+
+.test2 {
 
    background-repeat: no-repeat;
    background-size: cover;
-   background-position: left;
-   animation: spin 30s linear infinite;
+   background-position: center;
+   background-image: url("https://i.ibb.co/7SPTRMq/jonathan-borba-Owvh-G-6-GTQ-unsplash.jpg");
+   animation: smooth-zoom 10s infinite alternate-reverse;
+   overflow: hidden;
 }
 
 
-@keyframes spin {
-   0% {
-      background-image: url("https://i.ibb.co/ChKzv4T/wedding-dreamz-k-Thpa-ZCb-JGA-unsplash.jpg");
+@keyframes smooth-zoom {
 
+   from {
+      transform: scale(1);
    }
 
-   30% {
-      background-image: url("https://i.ibb.co/ChKzv4T/wedding-dreamz-k-Thpa-ZCb-JGA-unsplash.jpg");
-
+   to {
+      transform: scale(1.3);
    }
 
-   50% {
-      background-image: url("https://i.ibb.co/HC3j8cD/oziel-gomez-L8-0-SAy-ao-Q-unsplash.jpg");
-
-
-   }
-
-   60% {
-      background-image: url("https://i.ibb.co/HC3j8cD/oziel-gomez-L8-0-SAy-ao-Q-unsplash.jpg");
-
-   }
-
-   80% {
-      background-image: url("https://i.ibb.co/7SPTRMq/jonathan-borba-Owvh-G-6-GTQ-unsplash.jpg");
-     
-   }
-
-   100% {
-      background-image: url("https://i.ibb.co/7SPTRMq/jonathan-borba-Owvh-G-6-GTQ-unsplash.jpg");
-      
-   }
 }

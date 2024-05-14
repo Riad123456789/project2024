@@ -8,8 +8,10 @@ const HomePage = () => {
 
     return (
         <div className="h-[1300px] ">
-            <Banner2></Banner2>
 
+
+            <Banner2></Banner2>
+           
 
         </div>
     );
